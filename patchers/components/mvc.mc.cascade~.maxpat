@@ -135,7 +135,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-19",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -275,7 +274,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -1052,8 +1050,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 105.0, 136.14285714285711, 419.0, 35.0 ],
-					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default \"Mono\" @min 1 @max 64"
+					"patching_rect" : [ 105.0, 136.14285714285711, 359.0, 35.0 ],
+					"text" : "mvc.parameter.channel-layout #0 channelcount @description \"Number of channels\" @default \"Mono\" @min 1 @max 64"
 				}
 
 			}
@@ -1130,7 +1128,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 56.0, 30.0, 30.0 ]
 				}
 

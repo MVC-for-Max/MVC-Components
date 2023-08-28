@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 748.0, 626.0, 615.0, 348.0 ],
+		"rect" : [ 454.0, 590.0, 615.0, 348.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,8 +59,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -540,9 +540,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "initialized" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 157.5, 143.5, 293.0, 49.0 ],
-					"text" : "mvc.parameter #0 frequency @type decimal @range 20. 22000. @clip both @description \"Cutoff frequency\" @unit Hz @default 1000"
+					"text" : "mvc.parameter.decimal #0 frequency @range 20. 22000. @clip both @description \"Cutoff frequency\" @unit Hz @default 1000"
 				}
 
 			}
