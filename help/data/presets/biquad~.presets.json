@@ -2,5 +2,15 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"bar" : 	{
+		"gain" : 19.081680270559879,
+		"Q" : 1.0,
+		"filtermode" : "peaknotch",
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "bar",
+		"frequency" : 184.397247987604743
+	}
 
 }

@@ -4,9 +4,23 @@
 	}
 ,
 	"Devil's frequency" : 	{
-		"preset-description" : "undefined",
+		"preset-description" : "ha ha ha ha ha ha!",
 		"ON" : 1,
 		"preset-name" : "Devil's frequency",
+		"frequency" : 666.0
+	}
+,
+	"test" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test",
+		"frequency" : 666.0
+	}
+,
+	"foo" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "foo",
 		"frequency" : 666.0
 	}
 
