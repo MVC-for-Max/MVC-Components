@@ -1710,8 +1710,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 262.333333333333314, 298.0, 249.0, 62.0 ],
-					"text" : "mvc.parameter #1 frequency @description \"filter frequency\" @unit Hz @type decimal @default 1000. @min 0.001 @max 20000 @clip both"
+					"patching_rect" : [ 262.333333333333314, 298.0, 248.499999999999943, 62.0 ],
+					"text" : "mvc.parameter.decimal #1 frequency @description \"filter frequency\" @unit Hz @default 1000. @min 0.001 @max 20000 @clip both"
 				}
 
 			}
@@ -1739,7 +1739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 225.416666666666629, 183.0, 269.166666666666742, 76.0 ],
-					"text" : "mvc.parameter #1 filtermode @description \"filter mode\" @type symbol @options lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass @default peaknotch "
+					"text" : "mvc.parameter.string #1 filtermode @description \"filter mode\" @options lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass @default peaknotch "
 				}
 
 			}
@@ -1752,8 +1752,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 551.5, 298.0, 237.0, 62.0 ],
-					"text" : "mvc.parameter #1 Q @description \"filter resonance\" @unit none @type decimal @default 1. @min 0.001 @max 100 @clip both"
+					"patching_rect" : [ 551.5, 298.0, 231.5, 62.0 ],
+					"text" : "mvc.parameter.decimal #1 Q @description \"filter resonance\" @unit none @default 1. @min 0.001 @max 100 @clip both"
 				}
 
 			}
@@ -1767,7 +1767,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 521.083333333333371, 190.0, 234.5, 62.0 ],
-					"text" : "mvc.parameter #1 gain @description \"filter gain\" @unit dB @type decimal @default 0. @min -24 @max 24 @clip both"
+					"text" : "mvc.parameter.decimal #1 gain @description \"filter gain\" @unit dB @default 0. @min -24 @max 24 @clip both"
 				}
 
 			}
@@ -1964,7 +1964,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 776.5, 175.5, 501.833333333333314, 175.5 ],
+					"midpoints" : [ 776.5, 175.5, 501.333333333333258, 175.5 ],
 					"order" : 2,
 					"source" : [ "obj-45", 1 ]
 				}

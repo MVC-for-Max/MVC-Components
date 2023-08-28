@@ -5026,13 +5026,13 @@
 				"box" : 				{
 					"color" : [ 0.407843137254902, 0.529411764705882, 0.36078431372549, 1.0 ],
 					"id" : "obj-24",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 405.0, 118.5, 265.0, 49.0 ],
-					"text" : "mvc.parameter #1 nfilters @description \"Number of filters\" @type integer @default 1 @min 1 @max 24 @clip both"
+					"patching_rect" : [ 405.0, 118.5, 189.666666666666629, 76.0 ],
+					"text" : "mvc.parameter.integer #1 nfilters @description \"Number of filters\" @default 1 @min 1 @max 24 @clip both"
 				}
 
 			}
@@ -5076,7 +5076,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
-					"midpoints" : [ 690.5, 203.0, 705.5, 203.0, 705.5, 106.5, 660.5, 106.5 ],
+					"midpoints" : [ 690.5, 203.0, 705.5, 203.0, 705.5, 106.5, 585.166666666666629, 106.5 ],
 					"source" : [ "obj-22", 2 ]
 				}
 
