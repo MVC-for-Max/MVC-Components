@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -52,18 +52,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 134.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -95,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 168.0, 75.0, 389.0, 24.0 ],
+					"patching_rect" : [ 168.0, 75.0, 391.0, 24.0 ],
 					"text" : "mvc.onepole~.model #1 #2 @autoinit 1",
 					"varname" : "mvc.onepole~.model"
 				}
@@ -146,7 +134,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 33.0, 39.0, 30.0, 30.0 ]
 				}
 
