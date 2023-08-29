@@ -302,13 +302,14 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 248.0, 458.0, 215.0, 22.0 ],
-									"text" : "mvc.biquad~ onepoleHelper myBiquad",
+									"patching_rect" : [ 151.0, 458.0, 243.0, 22.0 ],
+									"text" : "mvc.mc.cascade~ onepoleHelper myBiquad",
 									"varname" : "mvc.biquad~"
 								}
 
