@@ -510,7 +510,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 101.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -674,7 +674,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 105.0, 71.0, 30.0, 30.0 ]
 								}
 
@@ -953,7 +953,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 91.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -1112,7 +1112,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 88.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -1193,7 +1193,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "init" ],
 					"patching_rect" : [ 792.5, 46.0, 30.0, 30.0 ]
 				}
 
@@ -1206,7 +1206,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 262.333333333333314, 298.0, 247.999999999999943, 62.0 ],
 					"text" : "mvc.parameter.decimal #1 frequency @description \"filter frequency\" @unit Hz @default 1000. @min 0.001 @max 20000 @clip both"
 				}
@@ -1234,7 +1234,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 225.416666666666629, 176.0, 269.166666666666742, 76.0 ],
 					"text" : "mvc.parameter.string #1 filtermode @description \"filter mode\" @options lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass @default peaknotch "
 				}
@@ -1248,7 +1248,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 540.5, 298.0, 237.0, 62.0 ],
 					"text" : "mvc.parameter.decimal #1 Q @description \"filter resonance\" @unit none @default 1. @min 0.001 @max 100 @clip both"
 				}
@@ -1262,7 +1262,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 514.5, 190.0, 237.0, 62.0 ],
 					"text" : "mvc.parameter.decimal #1 gain @description \"filter gain\" @unit dB @default 0. @min -24 @max 24 @clip both"
 				}
@@ -1313,6 +1313,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
