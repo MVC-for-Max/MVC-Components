@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 175.0, 136.0, 22.0 ],
+					"patching_rect" : [ 285.0, 175.0, 138.0, 22.0 ],
 					"text" : "jsargs mvc.mixermatrix~"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 171.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 176.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.mixermatrix~"
 				}
 
@@ -104,8 +104,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -229,6 +229,7 @@
 							}
 , 							{
 								"box" : 								{
+									"displaychan" : 7,
 									"id" : "obj-2",
 									"logfreq" : 1,
 									"maxclass" : "spectroscope~",
@@ -523,8 +524,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -821,17 +822,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 726.5, 218.0, 32.0, 22.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -879,7 +869,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 437.5, 182.0, 308.0, 29.0 ],
+									"patching_rect" : [ 437.5, 182.0, 312.0, 29.0 ],
 									"text" : "mvc.device mixerMatrixHelperContext",
 									"varname" : "mvc.device"
 								}
@@ -1044,13 +1034,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-37", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-5", 0 ]
 								}
@@ -1185,14 +1168,13 @@
 		"parameters" : 		{
 			"obj-51::obj-1" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-51::obj-20::obj-13::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[9]"
+				"obj-51::obj-20::obj-13::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[1]"
 				}
 
 			}

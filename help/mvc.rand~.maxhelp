@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -105,8 +105,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -167,8 +167,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -238,8 +238,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -544,8 +544,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -893,35 +893,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 706.5, 255.5, 32.0, 22.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 544.950000000000045, 183.5, 71.0, 22.0 ],
-									"text" : "namespace"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 508.5, 183.5, 30.0, 22.0 ],
+									"patching_rect" : [ 706.5, 183.5, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -1044,7 +1021,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 381.5, 367.016890080428993, 305.0, 22.0 ],
 									"text" : "mvc.remote randHelper/myFunkyrand/frequency"
 								}
@@ -1067,14 +1044,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 554.450000000000045, 212.5, 518.0, 212.5 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -1089,8 +1058,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 630.0, 213.5, 518.0, 213.5 ],
+									"destination" : [ "obj-37", 1 ],
+									"midpoints" : [ 630.0, 213.5, 716.0, 213.5 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -1118,14 +1087,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-37", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1265,7 +1227,7 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1273,10 +1235,6 @@
 			"parameter_overrides" : 			{
 				"obj-51::obj-21::obj-12::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[5]"
-				}
-,
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[8]"
 				}
 
 			}
