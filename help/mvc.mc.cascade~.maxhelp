@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 171.0, 198.0, 828.0, 671.0 ],
+		"rect" : [ 522.0, 154.0, 837.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,7 +112,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 828.0, 645.0 ],
+						"rect" : [ 0.0, 26.0, 837.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -174,7 +174,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 171.0, 224.0, 828.0, 645.0 ],
+						"rect" : [ 522.0, 180.0, 837.0, 624.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -475,7 +475,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 3,
-													"outlettype" : [ "", "", "initialized" ],
+													"outlettype" : [ "", "int", "initialized" ],
 													"patching_rect" : [ 50.0, 91.0, 439.0, 22.0 ],
 													"text" : "mvc.remote mcCascadeHelper/myFunkyMcCascade/channel.1/filter.1/filtermode"
 												}
@@ -674,7 +674,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 367.0, 507.5, 405.0, 22.0 ],
 									"text" : "mvc.remote mcCascadeHelper/myFunkyMcCascade/channel.1/filter.1/gain"
 								}
@@ -702,7 +702,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 367.0, 444.0, 435.0, 22.0 ],
 									"text" : "mvc.remote mcCascadeHelper/myFunkyMcCascade/channel.1/filter.1/frequency"
 								}
