@@ -2,5 +2,76 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"stereo thing" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "stereo thing",
+		"channelcount" : "Stereo",
+		"channel.1" : 		{
+			"nfilters" : 2,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 24.0,
+				"Q" : 10.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2144.226813989173934
+			}
+,
+			"filter.2" : 			{
+				"gain" : 24.0,
+				"Q" : 10.615161183138126,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1009.908923053209946
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 4.844346896243026,
+				"Q" : 2.639885501338902,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1471.698091188186709
+			}
+,
+			"filter.2" : 			{
+				"gain" : 22.928428907495789,
+				"Q" : 5.303106307192121,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 0,
+				"preset-name" : "none",
+				"frequency" : 1616.919651554276015
+			}
+,
+			"filter.3" : 			{
+				"gain" : -9.033235631638744,
+				"Q" : 2.641960606692156,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1616.919651554276015
+			}
+
+		}
+
+	}
 
 }
