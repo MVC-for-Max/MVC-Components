@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -42,10 +42,10 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 361.0, 27.5, 115.0, 22.0 ],
-					"text" : "aim.isloading #0"
+					"text" : "mvc.isloading #0"
 				}
 
 			}
@@ -106,10 +106,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "", "clear", "", "" ],
 					"patching_rect" : [ 156.0, 65.5, 396.0, 22.0 ],
-					"text" : "mvc.mb.LRcrossfilter~.model #0 #1 #2 @autoinit 1",
-					"varname" : "aim.biquad~.model"
+					"text" : "mvc.mb.LRcrossfilter~.model #0 #1 #2 @autoinit 1"
 				}
 
 			}
@@ -146,7 +145,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 36.0, 31.5, 30.0, 30.0 ]
 				}
 

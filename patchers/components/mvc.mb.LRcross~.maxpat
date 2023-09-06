@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 588.0, 263.0, 964.0, 613.0 ],
+		"rect" : [ 316.0, 257.0, 964.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -257,8 +257,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -507,8 +507,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -674,7 +674,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patching_rect" : [ 459.0, 12.0, 30.0, 30.0 ]
 				}
 
@@ -807,7 +807,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 136.0, 74.0, 30.0, 30.0 ]
 				}
 
@@ -832,7 +832,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "multichannelsignal", "", "" ],
 					"patching_rect" : [ 136.0, 359.0, 437.0, 22.0 ],
-					"text" : "mc.poly~ aim.LRcrossfilterbank~.p 1 @args #0"
+					"text" : "mc.poly~ mvc.LRcrossfilterbank~.p 1 @args #0"
 				}
 
 			}
