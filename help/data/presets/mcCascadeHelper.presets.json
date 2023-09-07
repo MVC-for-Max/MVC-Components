@@ -2,5 +2,92 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"Mon grand preset" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "Mon grand preset",
+		"myFunkyMcCascade" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Stereo",
+			"channel.1" : 			{
+				"nfilters" : 3,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "3 peaks",
+				"filter.1" : 				{
+					"gain" : 12.541412353490749,
+					"Q" : 4.63,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 114.507967699405881
+				}
+,
+				"filter.2" : 				{
+					"gain" : 16.773492560984245,
+					"Q" : 4.63,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 676.687947204397574
+				}
+,
+				"filter.3" : 				{
+					"gain" : 7.538804446762631,
+					"Q" : 4.63,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 4141.745112253843217
+				}
+
+			}
+,
+			"channel.2" : 			{
+				"nfilters" : 3,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "3 peaks",
+				"filter.1" : 				{
+					"gain" : 12.541412353490749,
+					"Q" : 4.63,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 114.507967699405881
+				}
+,
+				"filter.2" : 				{
+					"gain" : 19.851050389974201,
+					"Q" : 0.330943349818157,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 676.687947204397574
+				}
+,
+				"filter.3" : 				{
+					"gain" : 7.538804446762631,
+					"Q" : 4.63,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 4141.745112253843217
+				}
+
+			}
+
+		}
+
+	}
 
 }
