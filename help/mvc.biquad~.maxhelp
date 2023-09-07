@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 313.0, 379.0, 863.0, 541.0 ],
+		"rect" : [ 49.0, 433.0, 1044.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 175.0, 110.0, 22.0 ],
+					"patching_rect" : [ 285.0, 175.0, 112.0, 22.0 ],
 					"text" : "jsargs mvc.biquad~"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 145.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 150.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.biquad~"
 				}
 
@@ -104,15 +104,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 863.0, 515.0 ],
+						"rect" : [ 0.0, 26.0, 1044.0, 662.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -166,15 +166,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 313.0, 405.0, 863.0, 515.0 ],
+						"rect" : [ 49.0, 459.0, 1044.0, 662.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -205,6 +205,19 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 300.5, 353.0, 138.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "preset \"Reset to default\""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-38",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -213,8 +226,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -352,7 +365,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 3,
-													"outlettype" : [ "", "", "initialized" ],
+													"outlettype" : [ "", "int", "initialized" ],
 													"patching_rect" : [ 50.0, 91.0, 439.0, 22.0 ],
 													"text" : "mvc.remote biquadHelper/myFunkyBiquad/filtermode"
 												}
@@ -514,8 +527,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 501.949999999999989, 416.5, 259.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 501.949999999999989, 416.5, 261.0, 22.0 ],
 									"text" : "mvc.remote biquadHelper/myFunkyBiquad/gain"
 								}
 
@@ -542,8 +555,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 501.949999999999989, 353.0, 289.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 501.949999999999989, 353.0, 291.0, 22.0 ],
 									"text" : "mvc.remote biquadHelper/myFunkyBiquad/frequency"
 								}
 
@@ -558,8 +571,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -841,7 +854,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 579.5, 43.0, 58.0, 22.0 ],
+									"patching_rect" : [ 661.5, 40.0, 58.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -864,8 +877,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -1230,7 +1243,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 503.949999999999989, 43.0, 71.0, 22.0 ],
+									"patching_rect" : [ 585.950000000000045, 40.0, 71.0, 22.0 ],
 									"text" : "namespace"
 								}
 
@@ -1242,7 +1255,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.5, 43.0, 30.0, 22.0 ],
+									"patching_rect" : [ 549.5, 40.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -1315,7 +1328,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 467.5, 78.0, 207.0, 29.0 ],
+									"patching_rect" : [ 467.5, 78.0, 211.0, 29.0 ],
 									"text" : "mvc.device biquadHelper",
 									"varname" : "mvc.device"
 								}
@@ -1447,8 +1460,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 513.450000000000045, 72.0, 477.0, 72.0 ],
+									"destination" : [ "obj-3", 1 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"midpoints" : [ 595.450000000000045, 72.0, 669.0, 72.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -1491,8 +1511,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 589.0, 73.0, 477.0, 73.0 ],
+									"destination" : [ "obj-37", 1 ],
+									"midpoints" : [ 671.0, 73.0, 669.0, 73.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -1552,7 +1572,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1701,7 +1721,8 @@
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-51::obj-37::obj-27::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-16::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1713,8 +1734,8 @@
 					"parameter_longname" : "live.toggle[5]"
 				}
 ,
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
+				"obj-51::obj-37::obj-27::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[4]"
 				}
 ,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
