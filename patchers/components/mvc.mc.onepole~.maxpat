@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -60,8 +60,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -106,8 +106,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -145,12 +145,12 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"maxclass" : "message",
+													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 185.0, 86.0, 22.0 ],
-													"text" : "prepend name"
+													"patching_rect" : [ 50.0, 185.0, 77.0, 22.0 ],
+													"text" : "name $1, init"
 												}
 
 											}
@@ -528,9 +528,9 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.5, 68.0, 115.0, 22.0 ],
+					"patching_rect" : [ 172.5, 68.0, 118.0, 22.0 ],
 					"text" : "mvc.isloading #0"
 				}
 
@@ -554,7 +554,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 261.14285714285711, 193.0, 22.0 ],
+					"patching_rect" : [ 144.0, 261.14285714285711, 196.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -578,7 +578,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 28.0, 365.0, 135.0, 22.0 ],
+					"patching_rect" : [ 28.0, 365.0, 137.0, 22.0 ],
 					"text" : "mvc.bypass.multi #0"
 				}
 
@@ -655,7 +655,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "initialized" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 144.0, 139.0, 334.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 64"
 				}
