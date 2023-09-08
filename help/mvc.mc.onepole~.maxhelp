@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 477.0, 290.0, 863.0, 541.0 ],
+		"rect" : [ 103.0, 508.0, 863.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 171.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 176.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.mc.onepole~"
 				}
 
@@ -105,8 +105,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -167,15 +167,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 477.0, 316.0, 863.0, 515.0 ],
+						"rect" : [ 103.0, 534.0, 863.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -228,8 +228,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -511,7 +511,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 620.5, 183.5, 58.0, 22.0 ],
+									"patching_rect" : [ 738.5, 183.5, 58.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -534,15 +534,15 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 449.0, 377.0, 754.0, 380.0 ],
+										"rect" : [ 526.0, 171.0, 754.0, 380.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -602,8 +602,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 395.977072310405674, 188.957306582306558, 203.0, 22.0 ],
-													"text" : "name biquadHelper/myFunkyBiquad"
+													"patching_rect" : [ 395.977072310405674, 188.957306582306558, 250.0, 22.0 ],
+													"text" : "address MConepoleHelper/myFunkyOnePole"
 												}
 
 											}
@@ -645,7 +645,7 @@
 													"numoutlets" : 2,
 													"offset" : [ 0.0, 0.0 ],
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 395.977072310405674, 227.957306582306558, 139.0, 23.0 ],
+													"patching_rect" : [ 378.977072310405674, 237.957306582306558, 139.0, 23.0 ],
 													"viewvisibility" : 1
 												}
 
@@ -801,7 +801,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
+													"destination" : [ "obj-10", 1 ],
 													"order" : 1,
 													"source" : [ "obj-14", 0 ]
 												}
@@ -887,20 +887,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 706.5, 255.5, 32.0, 22.0 ],
+									"patching_rect" : [ 738.5, 258.0, 32.0, 22.0 ],
 									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 544.950000000000045, 183.5, 71.0, 22.0 ],
-									"text" : "namespace"
 								}
 
 							}
@@ -911,7 +899,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 508.5, 183.5, 30.0, 22.0 ],
+									"patching_rect" : [ 698.5, 183.5, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -969,7 +957,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 508.5, 218.5, 245.0, 29.0 ],
+									"patching_rect" : [ 508.5, 218.5, 249.0, 29.0 ],
 									"text" : "mvc.device MConepoleHelper",
 									"varname" : "mvc.device"
 								}
@@ -1057,7 +1045,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 357.5, 362.0, 382.0, 22.0 ],
 									"text" : "mvc.remote MConepoleHelper/myFunkyOnePole/channel.1/frequency"
 								}
@@ -1142,14 +1130,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 554.450000000000045, 212.5, 518.0, 212.5 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -1178,8 +1158,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"midpoints" : [ 630.0, 213.5, 518.0, 213.5 ],
+									"destination" : [ "obj-37", 1 ],
+									"midpoints" : [ 748.0, 213.5, 748.0, 213.5 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -1223,7 +1203,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1371,7 +1351,6 @@
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
