@@ -2,5 +2,26 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"testSté" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "testSté",
+		"channelcount" : "Stereo",
+		"channel.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "foo",
+			"frequency" : 755.0
+		}
+,
+		"channel.2" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1000.0
+		}
+
+	}
 
 }
