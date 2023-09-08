@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -48,8 +48,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -85,6 +85,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 89.0, 125.0, 34.0, 22.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-67",
 									"maxclass" : "newobj",
@@ -156,20 +168,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 89.0, 128.078584206491172, 89.0, 22.0 ],
+									"patching_rect" : [ 89.0, 97.0, 89.0, 22.0 ],
 									"text" : "route initialized"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 53.0, 102.0, 55.0, 22.0 ],
-									"text" : "zl slice 1"
 								}
 
 							}
@@ -194,7 +194,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 68.0, 30.0, 30.0 ]
+									"patching_rect" : [ 89.0, 59.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -229,7 +229,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 113.5, 53.0, 165.0, 60.0 ],
+									"patching_rect" : [ 189.5, 74.0, 165.0, 60.0 ],
 									"text" : "If channelcount increased, redump values when DSP is switched on, so that new MC channels do receive values."
 								}
 
@@ -284,6 +284,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-10", 0 ]
@@ -341,14 +348,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-21", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -377,7 +377,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
+									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -467,7 +467,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 527.0, 204.0, 141.0, 22.0 ],
-					"text" : "set setvalue $2 feedback"
+					"text" : "set setvalue $1 feedback"
 				}
 
 			}
@@ -491,7 +491,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 403.0, 149.5, 267.0, 49.0 ],
 					"text" : "mvc.parameter #1 feedback @type decimal @description \"Feedback gain\" @unit dB @default -24 @min -92 @max 0 @clip both"
 				}
@@ -505,7 +505,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 227.0, 204.0, 115.0, 22.0 ],
-					"text" : "set setvalue $2 time"
+					"text" : "set setvalue $1 time"
 				}
 
 			}
@@ -603,7 +603,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 103.0, 149.5, 266.0, 49.0 ],
 					"text" : "mvc.parameter #1 time @type decimal @description \"Delay time\" @unit ms @default 100 @min 0 @max 10000 @clip both"
 				}

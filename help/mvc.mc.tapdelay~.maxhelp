@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 145.0, 228.0, 723.0, 534.0 ],
+		"rect" : [ 100.0, 100.0, 825.0, 558.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 152.0, 138.0, 22.0 ],
+					"patching_rect" : [ 396.0, 152.0, 141.0, 22.0 ],
 					"text" : "jsargs mvc.mc.tapdelay~"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 274.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 280.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.mc.tapdelay~ @tags component"
 				}
 
@@ -104,15 +104,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 723.0, 508.0 ],
+						"rect" : [ 0.0, 26.0, 825.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -166,15 +166,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 145.0, 254.0, 723.0, 508.0 ],
+						"rect" : [ 100.0, 126.0, 825.0, 532.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -245,29 +245,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 667.5, 116.0, 35.0, 22.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 504.0, 54.0, 71.0, 22.0 ],
-									"text" : "namespace"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"contdata" : 1,
 									"ghostbar" : 70,
 									"id" : "obj-8",
@@ -289,8 +266,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 376.0, 402.489544235924768, 340.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 376.0, 402.489544235924768, 343.0, 22.0 ],
 									"text" : "mvc.remote mcTapDelayHelper/myMcTapDelay/channel.1/time"
 								}
 
@@ -302,7 +279,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 462.5, 54.0, 30.0, 22.0 ],
+									"patching_rect" : [ 699.5, 53.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -375,7 +352,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 462.5, 81.0, 252.0, 29.0 ],
+									"patching_rect" : [ 462.5, 81.0, 256.0, 29.0 ],
 									"text" : "mvc.device mcTapDelayHelper",
 									"varname" : "mvc.device"
 								}
@@ -482,7 +459,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 22.5, 301.5, 293.0, 22.0 ],
+									"patching_rect" : [ 22.5, 301.5, 296.0, 22.0 ],
 									"text" : "mvc.mc.tapdelay~ mcTapDelayHelper myMcTapDelay",
 									"varname" : "mvc.limiter~"
 								}
@@ -500,13 +477,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -557,14 +527,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"source" : [ "obj-37", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -702,7 +665,8 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-67::obj-12::obj-8::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -710,8 +674,8 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[9]"
+				"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-67::obj-12::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[3]"
 				}
 ,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
