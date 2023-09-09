@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -46,7 +46,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 164.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 170.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.mc.biquad~"
 				}
 
@@ -92,8 +92,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -154,8 +154,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -201,8 +201,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -337,10 +337,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-30",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 3,
-													"outlettype" : [ "", "", "initialized" ],
+													"outlettype" : [ "", "int", "initialized" ],
 													"patching_rect" : [ 50.0, 91.0, 360.0, 22.0 ],
 													"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/filtermode"
 												}
@@ -502,8 +503,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 358.5, 421.5, 330.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 358.5, 421.5, 333.0, 22.0 ],
 									"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/gain"
 								}
 
@@ -530,8 +531,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 358.5, 358.0, 360.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 358.5, 358.0, 363.0, 22.0 ],
 									"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/frequency"
 								}
 
@@ -550,35 +551,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 699.5, 99.0, 32.0, 22.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 527.0, 32.0, 71.0, 22.0 ],
-									"text" : "namespace"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 487.5, 32.0, 30.0, 22.0 ],
+									"patching_rect" : [ 703.5, 32.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -651,7 +629,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 487.5, 59.0, 231.0, 29.0 ],
+									"patching_rect" : [ 487.5, 59.0, 235.0, 29.0 ],
 									"text" : "mvc.device mcbiquadHelper",
 									"varname" : "mvc.device"
 								}
@@ -786,7 +764,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 22.5, 308.5, 274.0, 22.0 ],
+									"patching_rect" : [ 22.5, 308.5, 276.0, 22.0 ],
 									"text" : "mvc.mc.biquad~ mcbiquadHelper myFunkyBiquad",
 									"varname" : "mvc.mc.biquad~"
 								}
@@ -794,13 +772,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-12", 0 ]
@@ -883,13 +854,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-37", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"midpoints" : [ 370.0, 322.392615469724319, 350.0, 322.392615469724319, 350.0, 259.11392712775546, 370.0, 259.11392712775546 ],
 									"source" : [ "obj-38", 0 ]
@@ -898,7 +862,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1030,9 +994,6 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1040,14 +1001,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
-				"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[14]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

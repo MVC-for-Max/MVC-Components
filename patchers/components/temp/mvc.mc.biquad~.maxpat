@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -61,8 +61,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -301,7 +301,7 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 370.0, 43.0, 115.0, 22.0 ],
 					"text" : "mvc.isloading #0"
@@ -318,8 +318,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -374,7 +374,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.0, 18.0, 86.0, 22.0 ],
+									"patching_rect" : [ 123.0, 18.0, 89.0, 22.0 ],
 									"text" : "mvc.qlow 1200"
 								}
 
@@ -389,8 +389,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -649,8 +649,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -688,12 +688,12 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"maxclass" : "message",
+													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.0, 167.0, 86.0, 22.0 ],
-													"text" : "prepend name"
+													"patching_rect" : [ 150.0, 186.0, 77.0, 22.0 ],
+													"text" : "name $1, init"
 												}
 
 											}
@@ -766,7 +766,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 150.0, 195.0, 30.0, 30.0 ]
+													"patching_rect" : [ 150.0, 214.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -971,9 +971,9 @@
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 177.69078947368422, 183.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 177.0, 177.69078947368422, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -985,7 +985,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 282.0, 184.0, 22.0 ],
+					"patching_rect" : [ 177.0, 282.0, 187.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -1061,8 +1061,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 177.0, 141.0, 331.0, 35.0 ],
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 177.0, 141.0, 333.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 64"
 				}
 
