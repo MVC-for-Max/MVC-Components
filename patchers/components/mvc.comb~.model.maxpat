@@ -1138,7 +1138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 108.0, 257.0, 253.0, 49.0 ],
+					"patching_rect" : [ 108.0, 257.0, 254.0, 49.0 ],
 					"text" : "mvc.parameter #1 gain @description Gain @type decimal @default 1 @min 0. @max 1. @clip both"
 				}
 
@@ -1152,7 +1152,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 65.0, 760.5, 22.0 ],
-					"text" : "mvc.model #1 #2 #3 @type aim.comb~",
+					"text" : "mvc.model #1 #2 #3 @type mvc.comb~",
 					"varname" : "mvc.model"
 				}
 
@@ -1243,7 +1243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 622.083333333333371, 247.0, 351.5, 247.0 ],
+					"midpoints" : [ 622.083333333333371, 247.0, 352.5, 247.0 ],
 					"order" : 2,
 					"source" : [ "obj-17", 0 ]
 				}
