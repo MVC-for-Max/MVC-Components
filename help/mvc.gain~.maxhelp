@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 403.0, 323.0, 718.0, 507.0 ],
+		"rect" : [ 173.0, 321.0, 718.0, 507.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -105,8 +105,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -167,15 +167,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 403.0, 349.0, 718.0, 481.0 ],
+						"rect" : [ 173.0, 347.0, 718.0, 481.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -217,18 +217,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 529.0, 10.0, 71.0, 22.0 ],
-									"text" : "namespace"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"contdata" : 1,
 									"ghostbar" : 70,
 									"id" : "obj-8",
@@ -249,8 +237,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 383.5, 376.516890080428993, 201.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 383.5, 376.516890080428993, 203.0, 22.0 ],
 									"text" : "mvc.remote gainHelper/myGain/gain"
 								}
 
@@ -262,7 +250,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 487.5, 10.0, 30.0, 22.0 ],
+									"patching_rect" : [ 669.5, 10.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -486,13 +474,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
@@ -544,7 +525,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -673,8 +654,6 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -682,10 +661,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[1]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

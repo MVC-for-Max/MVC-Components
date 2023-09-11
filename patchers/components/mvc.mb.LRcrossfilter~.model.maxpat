@@ -2541,7 +2541,7 @@
 				"box" : 				{
 					"comment" : "bandcount",
 					"id" : "obj-26",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2991,7 +2991,7 @@
 				"box" : 				{
 					"comment" : "params input",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3004,7 +3004,7 @@
 				"box" : 				{
 					"comment" : "ON param",
 					"id" : "obj-18",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3016,7 +3016,7 @@
 				"box" : 				{
 					"comment" : "model dumpout",
 					"id" : "obj-4",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3028,7 +3028,7 @@
 				"box" : 				{
 					"comment" : "frequency",
 					"id" : "obj-90",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3040,7 +3040,7 @@
 				"box" : 				{
 					"comment" : "model input",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3058,7 +3058,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 133.5, 81.0, 608.0, 22.0 ],
-					"text" : "mvc.model #1 #2 #3 @type mb.LRcrossfilter~"
+					"text" : "mvc.model #1 #2 #3 @type mvc.mb.LRcrossfilter~"
 				}
 
 			}
@@ -3213,7 +3213,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

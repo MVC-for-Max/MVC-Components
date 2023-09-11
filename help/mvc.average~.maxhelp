@@ -285,64 +285,6 @@
 											}
 , 											{
 												"box" : 												{
-													"bubble" : 1,
-													"id" : "obj-26",
-													"linecount" : 2,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 415.977072310405674, 140.457306582306558, 198.0, 37.0 ],
-													"text" : "or use the dedicated GUI objects by providing them a path"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-24",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 395.977072310405674, 146.957306582306558, 24.0, 24.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-14",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 395.977072310405674, 188.957306582306558, 113.0, 22.0 ],
-													"text" : "name biquadHelper"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgmode" : 0,
-													"border" : 0,
-													"clickthrough" : 0,
-													"enablehscroll" : 0,
-													"enablevscroll" : 0,
-													"id" : "obj-10",
-													"lockeddragscroll" : 0,
-													"lockedsize" : 0,
-													"maxclass" : "bpatcher",
-													"name" : "mvc.GUI.presets.maxpat",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"offset" : [ 0.0, 0.0 ],
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 395.977072310405674, 218.985768860768843, 139.0, 23.0 ],
-													"viewvisibility" : 1
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-9",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -449,13 +391,6 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"source" : [ "obj-2", 0 ]
 												}
@@ -472,13 +407,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-20", 0 ],
 													"source" : [ "obj-23", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"source" : [ "obj-24", 0 ]
 												}
 
 											}
@@ -1200,7 +1128,6 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-16::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{

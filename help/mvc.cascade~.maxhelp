@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -93,8 +93,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -155,8 +155,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -225,8 +225,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -362,8 +362,8 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
+															"major" : 9,
+															"minor" : 0,
 															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -1095,7 +1095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 480.5, 32.0, 30.0, 22.0 ],
+									"patching_rect" : [ 685.5, 33.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -1169,7 +1169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 480.5, 59.0, 220.0, 29.0 ],
+									"patching_rect" : [ 480.5, 59.0, 224.0, 29.0 ],
 									"text" : "mvc.device cascadeHelper",
 									"varname" : "mvc.device"
 								}
@@ -1208,8 +1208,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
+											"major" : 9,
+											"minor" : 0,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -1271,10 +1271,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-30",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 3,
-													"outlettype" : [ "", "", "initialized" ],
+													"outlettype" : [ "", "int", "initialized" ],
 													"patching_rect" : [ 50.0, 126.0, 343.0, 22.0 ],
 													"text" : "mvc.remote cascadeHelper/myFunkyCascade/filter.1/filtermode"
 												}
@@ -1430,8 +1431,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 489.5, 348.5, 313.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 489.5, 348.5, 315.0, 22.0 ],
 									"text" : "mvc.remote cascadeHelper/myFunkyCascade/filter.1/gain"
 								}
 
@@ -1458,8 +1459,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 489.5, 291.489544235924654, 343.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 489.5, 291.489544235924654, 345.0, 22.0 ],
 									"text" : "mvc.remote cascadeHelper/myFunkyCascade/filter.1/frequency"
 								}
 
@@ -1533,7 +1534,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 22.5, 303.5, 266.0, 22.0 ],
+									"patching_rect" : [ 22.5, 303.5, 268.0, 22.0 ],
 									"text" : "mvc.cascade~ cascadeHelper myFunkyCascade",
 									"varname" : "mvc.cascade~"
 								}
@@ -1643,7 +1644,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1765,9 +1766,6 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-13::obj-5::obj-61::obj-20.1::obj-49::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-13::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1775,14 +1773,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-3::obj-13::obj-5::obj-61::obj-20.1::obj-49::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
-				"obj-51::obj-3::obj-13::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[1]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

@@ -894,18 +894,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-18",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 305.5, 313.0, 51.0, 22.0 ],
-									"text" : "chans 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1146,7 +1134,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "multichannelsignal", "", "" ],
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "" ],
 									"patching_rect" : [ 22.5, 308.5, 269.0, 35.0 ],
 									"text" : "mvc.LRcrossfilter~ LRcrossHelper myFunkyLRcross",
 									"varname" : "mvc.biquad~"
@@ -1179,13 +1167,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 1 ],
-									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -1308,7 +1289,6 @@
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-16::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1318,10 +1298,6 @@
 			"parameter_overrides" : 			{
 				"obj-51::obj-21::obj-12::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[5]"
-				}
-,
-				"obj-51::obj-3::obj-16::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[8]"
 				}
 ,
 				"obj-51::obj-7::obj-21::obj-6" : 				{

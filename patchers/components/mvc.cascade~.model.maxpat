@@ -2677,7 +2677,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 20.0, 487.0, 22.0 ],
-									"presentation_linecount" : 4,
 									"text" : "Format biquad model name according to the number of filters per chanel."
 								}
 
@@ -4593,7 +4592,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 35.0, 68.0, 723.0, 22.0 ],
-					"text" : "mvc.model #1 #2 #3 @type cascade~",
+					"text" : "mvc.model #1 #2 #3 @type mvc.cascade~",
 					"varname" : "mvc.model"
 				}
 

@@ -1221,7 +1221,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.0, 102.0, 760.5, 22.0 ],
-					"text" : "mvc.model #1 #2 #3 @type biquad~",
+					"text" : "mvc.model #1 #2 #3 @type mvc.biquad~",
 					"varname" : "mvc.model"
 				}
 

@@ -581,7 +581,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 89.0, 739.5, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type LRcrossfilter~"
+					"text" : "mvc.model #0 #1 #2 @type mvc.LRcrossfilter~"
 				}
 
 			}

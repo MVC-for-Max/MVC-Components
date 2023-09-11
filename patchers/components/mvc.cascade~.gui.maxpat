@@ -3485,6 +3485,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.0, 46.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -6954,7 +6958,6 @@
 , 																			{
 																				"box" : 																				{
 																					"id" : "obj-6",
-																					"linecount" : 2,
 																					"maxclass" : "message",
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
@@ -6979,7 +6982,6 @@
 , 																			{
 																				"box" : 																				{
 																					"id" : "obj-3",
-																					"linecount" : 2,
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 4,
@@ -9606,7 +9608,7 @@
 					"patching_rect" : [ 414.0, 357.5, 305.0, 121.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 56.0, 290.0, 125.0 ],
-					"setfilter" : [ 0, 5, 1, 0, 0, 112.792808532714844, 15.848932266235352, 1.0, 0.0, 0.0, 0.06309600174427, 15.848932266235352, 0.0, 0.0 ],
+					"setfilter" : [ 0, 5, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.06309600174427, 15.848932266235352, 0.0, 0.0 ],
 					"varname" : "filtergraph~[1]"
 				}
 
@@ -9778,7 +9780,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 471.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "44508-bgpanel"
+					"varname" : "8331-bgpanel"
 				}
 
 			}
@@ -10191,7 +10193,30 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-49::obj-8::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-49::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[3]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"autosave" : 0
 	}
 
 }

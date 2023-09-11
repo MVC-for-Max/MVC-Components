@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -72,15 +72,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 312.0, 113.0, 744.0, 603.0 ],
+						"rect" : [ 0.0, 26.0, 744.0, 603.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -632,8 +632,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -694,15 +694,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 744.0, 603.0 ],
+						"rect" : [ 312.0, 113.0, 744.0, 603.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -804,8 +804,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 347.5, 430.027345844504339, 264.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 347.5, 430.027345844504339, 267.0, 22.0 ],
 									"text" : "mvc.remote compHelper/myCompressor/release"
 								}
 
@@ -832,8 +832,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 347.5, 373.016890080428993, 274.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 347.5, 373.016890080428993, 277.0, 22.0 ],
 									"text" : "mvc.remote compHelper/myCompressor/threshold"
 								}
 
@@ -845,7 +845,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 343.5, 61.0, 30.0, 22.0 ],
+									"patching_rect" : [ 526.5, 58.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -880,14 +880,14 @@
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 1.0, 0.4, 0.0, 1.0 ],
+									"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 									"fontsize" : 18.0,
 									"id" : "obj-37",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 343.5, 88.0, 197.0, 29.0 ],
+									"patching_rect" : [ 343.5, 88.0, 201.0, 29.0 ],
 									"text" : "mvc.device compHelper",
 									"varname" : "mvc.device"
 								}
@@ -906,6 +906,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1016,6 +1017,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -1136,7 +1138,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1274,13 +1276,11 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"obj-57::obj-19" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-57::obj-8::obj-21::obj-6" : [ "live.tab[5]", "live.tab[1]", 0 ],
 			"obj-57::obj-8::obj-35" : [ "[6]", "Level", 0 ],
-			"obj-57::obj-9::obj-8::obj-5::obj-61::obj-20.1::obj-8::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1300,10 +1300,6 @@
 ,
 				"obj-57::obj-8::obj-35" : 				{
 					"parameter_longname" : "[6]"
-				}
-,
-				"obj-57::obj-9::obj-8::obj-5::obj-61::obj-20.1::obj-8::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
 				}
 
 			}

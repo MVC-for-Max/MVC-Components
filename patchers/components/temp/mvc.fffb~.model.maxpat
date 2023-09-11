@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -60,8 +60,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -214,7 +214,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 101.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -299,7 +299,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 481.0, 283.0, 251.0, 49.0 ],
 					"text" : "mvc.parameter #1 nfilters @description \"number of filters\" @unit none @type integer @default 1 @min 1 @max 128 @clip both"
 				}
@@ -339,8 +339,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -515,8 +515,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -669,7 +669,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 101.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -756,8 +756,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -886,7 +886,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 105.0, 71.0, 30.0, 30.0 ]
 								}
 
@@ -1016,8 +1016,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1170,7 +1170,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 88.0, 69.0, 30.0, 30.0 ]
 								}
 
@@ -1292,7 +1292,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 169.833333333333314, 150.0, 247.999999999999943, 62.0 ],
 					"text" : "mvc.parameter #1 frequencies @description \"filter frequencies\" @unit Hz @type vector @default 1000 @min 0.001 @max 20000 @clip both"
 				}
@@ -1307,7 +1307,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 83.0, 116.0, 760.5, 22.0 ],
-					"text" : "mvc.model #1 #2 #3 @type fffb",
+					"text" : "mvc.model #1 #2 #3 @type mvc.fffb~",
 					"varname" : "mvc.model"
 				}
 
@@ -1320,7 +1320,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 195.5, 283.0, 231.5, 62.0 ],
 					"text" : "mvc.parameter #1 Q @description \"filter resonances\" @unit none @type vector @default 1. @min 0.001 @max 100 @clip both"
 				}
@@ -1334,7 +1334,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 441.083333333333371, 151.0, 242.0, 49.0 ],
 					"text" : "mvc.parameter #1 gains @description \"filter gains\" @unit dB @type vector @default 0 @min -24 @max 24 @clip both"
 				}

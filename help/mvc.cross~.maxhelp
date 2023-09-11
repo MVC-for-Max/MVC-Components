@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 182.0, 102.0, 22.0 ],
+					"patching_rect" : [ 333.0, 182.0, 105.0, 22.0 ],
 					"text" : "jsargs mvc.cross~"
 				}
 
@@ -104,8 +104,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -333,24 +333,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 510.5, 48.0, 71.0, 22.0 ],
-									"text" : "namespace"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.5, 48.0, 30.0, 22.0 ],
+									"patching_rect" : [ 655.5, 46.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -511,8 +499,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 514.5, 350.489544235924768, 275.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 514.5, 350.489544235924768, 278.0, 22.0 ],
 									"text" : "mvc.remote crossHelper/myFunkyCross/frequency"
 								}
 
@@ -594,13 +582,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"source" : [ "obj-14", 0 ]
@@ -711,7 +692,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -859,8 +840,6 @@
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-22" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-40" : [ "mc.live.gain~[4]", "mc.live.gain~", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
@@ -869,10 +848,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

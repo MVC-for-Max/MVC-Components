@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 175.0, 116.0, 22.0 ],
+					"patching_rect" : [ 285.0, 175.0, 119.0, 22.0 ],
 					"text" : "jsargs mvc.freqshift~"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 152.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 157.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.freqshift~"
 				}
 
@@ -104,8 +104,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -240,8 +240,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 379.5, 404.500000000000114, 305.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 379.5, 404.500000000000114, 308.0, 22.0 ],
 									"text" : "mvc.remote freqshiftHelper/myFunkyFreqshifter/freqshift"
 								}
 
@@ -264,7 +264,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.5, 43.0, 30.0, 22.0 ],
+									"patching_rect" : [ 669.5, 48.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -322,7 +322,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 467.5, 78.0, 217.0, 29.0 ],
+									"patching_rect" : [ 467.5, 78.0, 221.0, 29.0 ],
 									"text" : "mvc.device freqshiftHelper",
 									"varname" : "mvc.device"
 								}
@@ -445,7 +445,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 22.5, 308.5, 272.0, 22.0 ],
+									"patching_rect" : [ 22.5, 308.5, 274.0, 22.0 ],
 									"text" : "mvc.freqshift~ freqshiftHelper myFunkyFreqshifter",
 									"varname" : "mvc.biquad~"
 								}
@@ -521,7 +521,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -654,8 +654,6 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -663,10 +661,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}
