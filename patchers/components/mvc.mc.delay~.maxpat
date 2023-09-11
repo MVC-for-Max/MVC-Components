@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -116,7 +116,7 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 478.0, 58.0, 115.0, 22.0 ],
 					"text" : "mvc.isloading #0"
@@ -130,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 286.406666666666638, 179.0, 22.0 ],
+					"patching_rect" : [ 482.0, 286.406666666666638, 181.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -140,9 +140,9 @@
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.5, 163.631666666666661, 183.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 129.5, 163.631666666666661, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -181,9 +181,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -220,12 +220,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"maxclass" : "message",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 166.0, 86.0, 22.0 ],
-									"text" : "prepend name"
+									"patching_rect" : [ 150.0, 166.0, 77.0, 22.0 ],
+									"text" : "name $1, init"
 								}
 
 							}
@@ -375,8 +375,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 129.5, 125.5, 331.0, 35.0 ],
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 129.5, 125.5, 334.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 128 @clip both"
 				}
 
@@ -424,12 +424,13 @@
 					"color" : [ 0.631372549019608, 0.203921568627451, 0.196078431372549, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.0, 91.5, 453.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mc.delay @autoinit 1",
+					"patching_rect" : [ 173.0, 91.5, 453.0, 40.0 ],
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.delay~ @autoinit 1",
 					"varname" : "mvc.model"
 				}
 

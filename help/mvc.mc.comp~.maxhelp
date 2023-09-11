@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -104,8 +104,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -289,7 +289,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 369.5, 436.000000000000114, 341.0, 22.0 ],
 									"text" : "mvc.remote MCcompHelper/myCompressor/channel.1/release"
 								}
@@ -317,8 +317,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 369.5, 378.989544235924768, 348.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 369.5, 378.989544235924768, 351.0, 22.0 ],
 									"text" : "mvc.remote MCcompHelper/myCompressor/channel.1/threshold"
 								}
 
@@ -330,7 +330,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 379.5, 61.0, 30.0, 22.0 ],
+									"patching_rect" : [ 589.5, 57.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -372,7 +372,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 379.5, 88.0, 225.0, 29.0 ],
+									"patching_rect" : [ 379.5, 88.0, 229.0, 29.0 ],
 									"text" : "mvc.device MCcompHelper",
 									"varname" : "mvc.device"
 								}
@@ -629,7 +629,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -767,7 +767,8 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-5::obj-8::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -775,6 +776,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[3]"
+				}
+,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

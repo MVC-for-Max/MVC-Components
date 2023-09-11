@@ -87,6 +87,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-67",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -438,18 +439,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.5, 200.0, 29.5, 22.0 ],
-					"text" : "$2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
 					"index" : 1,
@@ -530,7 +519,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 237.5, 143.5, 267.0, 49.0 ],
+					"patching_rect" : [ 237.5, 143.5, 283.0, 49.0 ],
 					"text" : "mvc.parameter #1 frequency @description \"Crossover frequency\" @unit Hz @type decimal @default 1000 @range 0.001 20000 @clip both"
 				}
 
@@ -581,13 +570,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"source" : [ "obj-4", 1 ]
 				}
@@ -618,15 +600,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-14", 1 ],
+					"source" : [ "obj-6", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-6", 1 ]
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
