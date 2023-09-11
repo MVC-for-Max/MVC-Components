@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 464.0, 278.0, 183.0, 22.0 ],
+					"patching_rect" : [ 464.0, 278.0, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 278.0, 183.0, 22.0 ],
+					"patching_rect" : [ 240.0, 278.0, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -96,9 +96,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -338,9 +338,9 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 75.5, 115.0, 22.0 ],
+					"patching_rect" : [ 460.0, 75.5, 118.0, 22.0 ],
 					"text" : "mvc.isloading #0"
 				}
 
@@ -367,9 +367,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -418,6 +418,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -715,9 +716,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -766,6 +767,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1102,8 +1104,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 102.0, 118.0, 510.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mixermatrix @autoinit 1",
+					"patching_rect" : [ 102.0, 118.0, 497.0, 22.0 ],
+					"text" : "mvc.model #0 #1 #2 @type mvc.mixermatrix~ @autoinit 1",
 					"varname" : "mvc.model"
 				}
 
@@ -1118,9 +1120,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1229,6 +1231,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1442,7 +1445,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 195.0, 154.5, 246.0, 49.0 ],
 					"text" : "mvc.parameter #0 matrixvalues @type list @description \"Matix state\" @unit none @default 0 0 1"
 				}
@@ -1456,8 +1459,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 464.0, 210.0, 193.0, 62.0 ],
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 464.0, 210.0, 195.0, 62.0 ],
 					"text" : "mvc.parameter #0 numoutputs @description \"Number of outputs\" @unit none @default Mono @range 1 64 @clip both"
 				}
 
@@ -1470,7 +1473,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 240.0, 210.0, 220.0, 62.0 ],
 					"text" : "mvc.parameter #0 numinputs @description \"Number of inputs\" @unit none @default Mono @range 1 64 @clip both"
 				}
