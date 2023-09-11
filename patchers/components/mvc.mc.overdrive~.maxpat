@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 3,
-			"revision" : 2,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -52,24 +52,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 47.0, 345.0, 82.0, 22.0 ],
-					"text" : "mc.separate~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 280.193507598784208, 200.0, 22.0 ],
+					"patching_rect" : [ 144.0, 280.193507598784208, 203.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -84,9 +72,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -122,18 +110,6 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 216.0, 76.0, 29.5, 22.0 ],
-									"text" : "2"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -147,12 +123,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"maxclass" : "message",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 167.0, 86.0, 22.0 ],
-									"text" : "prepend name"
+									"patching_rect" : [ 150.0, 167.0, 77.0, 22.0 ],
+									"text" : "name $1, init"
 								}
 
 							}
@@ -267,13 +243,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-5", 0 ]
 								}
@@ -348,9 +317,9 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.5, 68.0, 115.0, 22.0 ],
+					"patching_rect" : [ 172.5, 68.0, 117.0, 22.0 ],
 					"text" : "mvc.isloading #0"
 				}
 
@@ -360,9 +329,9 @@
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 177.142857142857139, 183.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 144.0, 177.142857142857139, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -386,7 +355,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 28.0, 380.0, 135.0, 22.0 ],
+					"patching_rect" : [ 28.0, 380.0, 136.0, 22.0 ],
 					"text" : "mvc.bypass.multi #0"
 				}
 
@@ -412,7 +381,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 172.5, 349.0, 348.0, 24.0 ],
+					"patching_rect" : [ 172.5, 349.0, 355.0, 24.0 ],
 					"text" : "mvc.overdrive~.model #0.overdrive #0 channel.1"
 				}
 
@@ -437,7 +406,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 144.0, 139.0, 331.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 64"
 				}
@@ -489,8 +458,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 128.0, 102.0, 483.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mc.overdrive @autoinit 1",
+					"patching_rect" : [ 64.0, 102.0, 549.0, 22.0 ],
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.overdrive~ @autoinit 1",
 					"varname" : "mvc.model"
 				}
 
