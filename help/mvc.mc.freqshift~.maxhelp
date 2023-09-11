@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 863.0, 541.0 ],
+		"rect" : [ 100.0, 99.0, 863.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 171.0, 22.0 ],
+					"patching_rect" : [ 38.5, 195.0, 176.0, 22.0 ],
 					"text" : "mvc.helpfiller mvc.mc.freqshift~"
 				}
 
@@ -105,8 +105,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -167,15 +167,15 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 100.0, 126.0, 863.0, 515.0 ],
+						"rect" : [ 100.0, 125.0, 863.0, 515.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -224,7 +224,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 592.5, 211.5, 32.0, 22.0 ],
+									"patching_rect" : [ 624.5, 212.0, 32.0, 22.0 ],
 									"text" : "print"
 								}
 
@@ -236,7 +236,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 394.5, 148.5, 30.0, 22.0 ],
+									"patching_rect" : [ 624.5, 147.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -294,7 +294,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 394.5, 174.5, 245.0, 29.0 ],
+									"patching_rect" : [ 394.5, 174.5, 249.0, 29.0 ],
 									"text" : "mvc.device MCfreqshiftHelper",
 									"varname" : "mvc.device"
 								}
@@ -302,7 +302,6 @@
 							}
 , 							{
 								"box" : 								{
-									"displaychan" : 2,
 									"id" : "obj-30",
 									"maxclass" : "spectroscope~",
 									"numinlets" : 2,
@@ -384,8 +383,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
-									"patching_rect" : [ 357.5, 412.0, 365.0, 22.0 ],
+									"outlettype" : [ "", "int", "initialized" ],
+									"patching_rect" : [ 357.5, 412.0, 367.0, 22.0 ],
 									"text" : "mvc.remote MCfreqshiftHelper/myFunkyfreqshift/channel.1/freqshift"
 								}
 
@@ -459,7 +458,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 21.5, 333.5, 295.0, 22.0 ],
+									"patching_rect" : [ 21.5, 333.5, 298.0, 22.0 ],
 									"text" : "mvc.mc.freqshift~ MCfreqshiftHelper myFunkyfreqshift",
 									"varname" : "mvc.biquad~"
 								}
@@ -526,7 +525,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -673,9 +672,6 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -683,14 +679,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[8]"
-				}
-,
-				"obj-51::obj-3::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[2]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

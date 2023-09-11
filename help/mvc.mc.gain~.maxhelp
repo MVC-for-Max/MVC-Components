@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -105,8 +105,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -167,8 +167,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -250,7 +250,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "initialized" ],
+									"outlettype" : [ "", "int", "initialized" ],
 									"patching_rect" : [ 342.5, 399.516890080428993, 277.0, 22.0 ],
 									"text" : "mvc.remote McGainHelper/myGain/channel.1/gain"
 								}
@@ -277,20 +277,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 649.5, 112.0, 35.0, 22.0 ],
+									"patching_rect" : [ 653.5, 112.0, 35.0, 22.0 ],
 									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 495.0, 50.0, 71.0, 22.0 ],
-									"text" : "namespace"
 								}
 
 							}
@@ -301,7 +289,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 453.5, 50.0, 30.0, 22.0 ],
+									"patching_rect" : [ 653.5, 46.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -359,7 +347,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 453.5, 77.0, 215.0, 29.0 ],
+									"patching_rect" : [ 453.5, 77.0, 219.0, 29.0 ],
 									"text" : "mvc.device McGainHelper",
 									"varname" : "mvc.device"
 								}
@@ -527,13 +515,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
@@ -586,7 +567,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -724,7 +705,6 @@
  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -732,10 +712,6 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-51::obj-37::obj-35::obj-30::obj-18::obj-7" : 				{
-					"parameter_longname" : "live.toggle[9]"
-				}
-,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}
