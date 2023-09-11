@@ -1042,7 +1042,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 537.5, 49.5, 30.0, 22.0 ],
+									"patching_rect" : [ 730.5, 53.0, 30.0, 22.0 ],
 									"text" : "GUI"
 								}
 
@@ -1373,7 +1373,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-37", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
