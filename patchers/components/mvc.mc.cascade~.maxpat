@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 525.0, 169.0, 705.0, 670.0 ],
+		"rect" : [ 180.0, 154.0, 705.0, 670.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -339,7 +339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 163.0, 260.0, 62.0, 22.0 ],
+					"patching_rect" : [ 274.0, 260.0, 62.0, 22.0 ],
 					"text" : "change -1"
 				}
 
@@ -646,7 +646,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -688,7 +688,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 135.5, 89.0, 457.0, 24.0 ],
+					"patching_rect" : [ 135.5, 89.0, 601.0, 24.0 ],
 					"text" : "mvc.model #0 #1 #2 @type mvc.mc.cascade~ @autoinit 1",
 					"varname" : "mvc.model"
 				}
@@ -723,7 +723,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -736,7 +736,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -748,11 +748,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 90.0, 55.0, 30.0, 30.0 ]
 				}
 
@@ -762,13 +762,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -788,7 +781,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -943,8 +936,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
