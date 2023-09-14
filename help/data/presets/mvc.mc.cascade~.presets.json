@@ -2,5 +2,7119 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"test" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test",
+		"channelcount" : "5.1 surround",
+		"channel.1" : 		{
+			"nfilters" : 1,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 19.081680270559879,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 798.0175070324442
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"nfilters" : 2,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 13.695679157260807,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3951.5264306465765
+			}
+,
+			"filter.2" : 			{
+				"gain" : 11.771869421289122,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 111.802403195158263
+			}
+
+		}
+,
+		"channel.3" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 16.773492560984245,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 74.327342957314528
+			}
+,
+			"filter.2" : 			{
+				"gain" : 14.465161746713626,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 560.388703932338217
+			}
+,
+			"filter.3" : 			{
+				"gain" : 24.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 4882.525573407318916
+			}
+
+		}
+,
+		"channel.4" : 		{
+			"nfilters" : 4,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 16.773492560984245,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 39.435359790612353
+			}
+,
+			"filter.2" : 			{
+				"gain" : 18.696990731598952,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 193.365504401063561
+			}
+,
+			"filter.3" : 			{
+				"gain" : 18.696990731598952,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1033.96627849454535
+			}
+,
+			"filter.4" : 			{
+				"gain" : 19.466366779589702,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 8582.658646591864454
+			}
+
+		}
+,
+		"channel.5" : 		{
+			"nfilters" : 5,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 24.0,
+				"Q" : 5.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 39.435359790612353
+			}
+,
+			"filter.2" : 			{
+				"gain" : 22.928428907495789,
+				"Q" : 5.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 167.676900455399021
+			}
+,
+			"filter.3" : 			{
+				"gain" : 22.928428907495789,
+				"Q" : 5.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 660.927359704025889
+			}
+,
+			"filter.4" : 			{
+				"gain" : 22.159097845953781,
+				"Q" : 3.49963058082904,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2843.286072513706586
+			}
+,
+			"filter.5" : 			{
+				"gain" : 21.774429172414401,
+				"Q" : 5.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 10357.924218902662687
+			}
+
+		}
+,
+		"channel.6" : 		{
+			"nfilters" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 35.718493671070249
+			}
+,
+			"filter.2" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 138.60124763882061
+			}
+,
+			"filter.3" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 366.435192270391781
+			}
+,
+			"filter.4" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 836.509288514111518
+			}
+,
+			"filter.5" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2527.909411720698699
+			}
+,
+			"filter.6" : 			{
+				"gain" : 20.5,
+				"Q" : 3.272,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 8995.69811362182736
+			}
+
+		}
+
+	}
+,
+	"64x10" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "64x10",
+		"channelcount" : 64,
+		"channel.1" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.3" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.4" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.5" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.6" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.7" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.8" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.9" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.10" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.11" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.12" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.13" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.14" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.15" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.16" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.17" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.18" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.19" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.20" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.21" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.22" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.23" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.24" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.25" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.26" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.27" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.28" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.29" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.30" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.31" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.32" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.33" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.34" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.35" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.36" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.37" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.38" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.39" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.40" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.41" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.42" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.43" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.44" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.45" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.46" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.47" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.48" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.49" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.50" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.51" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.52" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.53" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.54" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.55" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.56" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.57" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.58" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.59" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.60" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.61" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.62" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.63" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"channel.64" : 		{
+			"nfilters" : 10,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.2" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.4" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.5" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.6" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.7" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.8" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.9" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"filter.10" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+
+	}
 
 }

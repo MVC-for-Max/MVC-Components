@@ -2,5 +2,15 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"devil's notch" : 	{
+		"gain" : 6.0,
+		"Q" : 6.0,
+		"filtermode" : "peaknotch",
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "devil's notch",
+		"frequency" : 666.0
+	}
 
 }
