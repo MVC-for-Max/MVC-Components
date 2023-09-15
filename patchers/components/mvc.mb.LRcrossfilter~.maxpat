@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 477.0, 87.0, 614.0, 243.0 ],
+		"rect" : [ 461.0, 235.0, 614.0, 243.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,9 +89,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Dump out",
+					"comment" : "dumpout",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -114,9 +114,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Settings",
+					"comment" : "settings",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -127,9 +127,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio output",
+					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -139,13 +139,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio input",
+					"comment" : "signal in",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 31.5, 30.0, 30.0 ]
 				}
 
@@ -201,7 +201,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

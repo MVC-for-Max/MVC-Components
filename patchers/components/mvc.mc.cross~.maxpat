@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 841.0, 229.0, 674.0, 508.0 ],
+		"rect" : [ 253.0, 229.0, 650.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 92.0, 196.493421052631561, 62.0, 22.0 ],
-					"text" : "change -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -69,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 92.0, 145.69078947368422, 186.0, 22.0 ],
+					"patching_rect" : [ 92.0, 170.0, 186.0, 22.0 ],
 					"text" : "mvc.channellayout2channelcount"
 				}
 
@@ -94,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 171.09210526315789, 50.0, 22.0 ]
+					"patching_rect" : [ 92.0, 195.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -326,7 +314,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 92.0, 105.5, 334.0, 35.0 ],
+					"patching_rect" : [ 92.0, 130.0, 334.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 128 @clip both"
 				}
 
@@ -350,7 +338,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-11",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -362,7 +350,7 @@
 				"box" : 				{
 					"comment" : "Highpass filtered output",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -398,9 +386,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Settings ",
+					"comment" : "settings ",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -413,7 +401,7 @@
 				"box" : 				{
 					"comment" : "Lowpassed filtered output",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -423,13 +411,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Audio input (multichannel)",
+					"comment" : "Signal input (multichannel)",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 30.5, 30.0, 30.0 ]
 				}
 
@@ -456,13 +444,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -477,7 +458,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -589,7 +570,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

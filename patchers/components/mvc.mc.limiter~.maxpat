@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, 189.0, 712.0, 495.0 ],
+		"rect" : [ 671.0, 412.0, 712.0, 495.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -657,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 121.0, 229.493421052631561, 62.0, 22.0 ],
+					"patching_rect" : [ 210.0, 283.0, 62.0, 22.0 ],
 					"text" : "change -1"
 				}
 
@@ -669,7 +669,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 121.0, 254.89473684210526, 108.0, 22.0 ],
+					"patching_rect" : [ 121.0, 231.0, 108.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -693,7 +693,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 283.0, 187.0, 22.0 ],
+					"patching_rect" : [ 121.0, 259.0, 187.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -906,7 +906,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 121.0, 311.0, 87.0, 22.0 ],
+					"patching_rect" : [ 121.0, 287.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -927,7 +927,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 152.0, 366.5, 337.0, 24.0 ],
+					"patching_rect" : [ 222.0, 360.0, 337.0, 24.0 ],
 					"text" : "mvc.limiter~.model #0.submodel #0 channel.1"
 				}
 
@@ -936,7 +936,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -963,7 +963,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 25.0, 405.5, 60.0, 24.0 ],
+					"patching_rect" : [ 25.0, 403.0, 60.0, 24.0 ],
 					"text" : "mc.limi~"
 				}
 
@@ -972,7 +972,7 @@
 				"box" : 				{
 					"comment" : "settings",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -985,7 +985,7 @@
 				"box" : 				{
 					"comment" : "audio output",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -997,11 +997,11 @@
 				"box" : 				{
 					"comment" : "audio input",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 55.0, 30.0, 30.0 ]
 				}
 
@@ -1052,7 +1052,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1122,7 +1122,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1136,12 +1136,13 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

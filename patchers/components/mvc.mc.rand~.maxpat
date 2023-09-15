@@ -522,7 +522,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 144.0, 320.85714285714289, 87.0, 22.0 ],
+					"patching_rect" : [ 144.0, 295.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -541,7 +541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 144.0, 289.0, 115.0, 22.0 ],
+					"patching_rect" : [ 144.0, 263.0, 115.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -553,7 +553,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 144.0, 230.493421052631561, 62.0, 22.0 ],
+					"patching_rect" : [ 241.0, 292.0, 62.0, 22.0 ],
 					"text" : "change -1"
 				}
 
@@ -588,16 +588,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 261.14285714285711, 193.0, 22.0 ],
+					"patching_rect" : [ 144.0, 235.0, 193.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "dumpout",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -660,9 +660,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "settings input",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -673,9 +673,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -685,9 +685,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "dummy inlet",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -748,7 +748,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -769,7 +769,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -797,7 +797,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -825,7 +825,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

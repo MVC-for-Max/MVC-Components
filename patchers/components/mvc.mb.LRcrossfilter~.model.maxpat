@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 753.0, 213.0, 814.0, 492.0 ],
+		"rect" : [ 378.0, 360.0, 814.0, 492.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3014,7 +3014,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "model dumpout",
+					"comment" : "dumpout",
 					"id" : "obj-4",
 					"index" : 0,
 					"maxclass" : "outlet",
@@ -3038,7 +3038,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "model input",
+					"comment" : "settings",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",
