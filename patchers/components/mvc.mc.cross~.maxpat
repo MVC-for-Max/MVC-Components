@@ -329,8 +329,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 206.0, 310.0, 296.0, 24.0 ],
-					"text" : "mvc.cross~.model #0.Xfilter #0 channel.1",
-					"varname" : "mvc.model[1]"
+					"text" : "mvc.cross~.model #0.Xfilter #0 channel.1 @autoinit 0"
 				}
 
 			}

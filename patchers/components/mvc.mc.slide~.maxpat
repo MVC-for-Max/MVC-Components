@@ -351,7 +351,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 167.0, 355.0, 380.499999999999943, 24.0 ],
-					"text" : "mvc.slide~.model #0.slide #0 channel.1"
+					"text" : "mvc.slide~.model #0.slide #0 channel.1 @autoinit 0"
 				}
 
 			}

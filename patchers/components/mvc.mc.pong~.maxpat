@@ -759,7 +759,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 167.0, 355.0, 380.499999999999943, 24.0 ],
-					"text" : "mvc.pong~.model #0.pong #0 channel.1"
+					"text" : "mvc.pong~.model #0.pong #0 channel.1 @autoinit 0"
 				}
 
 			}

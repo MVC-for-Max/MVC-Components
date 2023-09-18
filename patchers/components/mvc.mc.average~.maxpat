@@ -156,7 +156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 190.0, 309.0, 340.0, 24.0 ],
-					"text" : "mvc.average~.model #0.average #0 channel.1"
+					"text" : "mvc.average~.model #0.average #0 channel.1 @autoinit 0"
 				}
 
 			}

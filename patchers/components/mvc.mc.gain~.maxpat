@@ -85,7 +85,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 263.0, 352.0, 244.0, 40.0 ],
-					"text" : "mvc.gain~.model #0.gain #0 channel.1"
+					"text" : "mvc.gain~.model #0.gain #0 channel.1 @autoinit 0"
 				}
 
 			}

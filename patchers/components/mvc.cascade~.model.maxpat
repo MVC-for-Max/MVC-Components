@@ -4140,12 +4140,11 @@
 					"color" : [ 0.843137254901961, 0.647058823529412, 0.611764705882353, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-12",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 57.0, 246.5, 393.0, 40.0 ],
+					"patching_rect" : [ 57.0, 246.5, 393.0, 24.0 ],
 					"text" : "mvc.biquad~.model  #1.filter #1 filter.1 @autoinit 0"
 				}
 

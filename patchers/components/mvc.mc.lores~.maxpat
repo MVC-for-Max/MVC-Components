@@ -661,7 +661,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 167.0, 355.0, 380.499999999999943, 24.0 ],
-					"text" : "mvc.lores~.model #0.lores #0 channel.1"
+					"text" : "mvc.lores~.model #0.lores #0 channel.1 @autoinit 0"
 				}
 
 			}

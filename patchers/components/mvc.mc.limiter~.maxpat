@@ -316,7 +316,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 222.0, 360.0, 337.0, 24.0 ],
-					"text" : "mvc.limiter~.model #0.submodel #0 channel.1"
+					"text" : "mvc.limiter~.model #0.submodel #0 channel.1 @autoinit 0"
 				}
 
 			}

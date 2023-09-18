@@ -144,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 144.0, 329.0, 288.0, 24.0 ],
-					"text" : "mvc.sah~.model #0.sah #0 channel.1"
+					"text" : "mvc.sah~.model #0.sah #0 channel.1 @autoinit 0"
 				}
 
 			}

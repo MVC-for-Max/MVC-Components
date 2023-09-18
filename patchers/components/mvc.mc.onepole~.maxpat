@@ -637,7 +637,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 172.5, 319.0, 348.0, 24.0 ],
-					"text" : "mvc.onepole~.model #0 channel.1"
+					"text" : "mvc.onepole~.model #0 channel.1 @autoinit 0"
 				}
 
 			}

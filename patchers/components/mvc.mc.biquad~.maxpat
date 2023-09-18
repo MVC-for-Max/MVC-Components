@@ -1025,7 +1025,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 190.0, 354.0, 323.0, 24.0 ],
-					"text" : "mvc.biquad~.model #0.biquad #0 channel.1"
+					"text" : "mvc.biquad~.model #0.biquad #0 channel.1 @autoinit 0"
 				}
 
 			}

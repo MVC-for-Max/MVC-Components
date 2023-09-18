@@ -2541,7 +2541,7 @@
 				"box" : 				{
 					"comment" : "bandcount",
 					"id" : "obj-26",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2570,8 +2570,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 74.583333333333371, 287.0, 311.0, 24.0 ],
-					"text" : "mvc.LRcrossfilter~.model #1 xover.1"
+					"patching_rect" : [ 74.583333333333371, 287.0, 309.0, 24.0 ],
+					"text" : "mvc.LRcrossfilter~.model #1 xover.1 @autoinit 0"
 				}
 
 			}
@@ -2991,7 +2991,7 @@
 				"box" : 				{
 					"comment" : "params input",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3004,7 +3004,7 @@
 				"box" : 				{
 					"comment" : "ON param",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3016,7 +3016,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3028,7 +3028,7 @@
 				"box" : 				{
 					"comment" : "frequency",
 					"id" : "obj-90",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3040,7 +3040,7 @@
 				"box" : 				{
 					"comment" : "settings",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3213,8 +3213,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

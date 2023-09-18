@@ -382,7 +382,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 172.5, 349.0, 355.0, 24.0 ],
-					"text" : "mvc.overdrive~.model #0.overdrive #0 channel.1"
+					"text" : "mvc.overdrive~.model #0.overdrive #0 channel.1 @autoinit 0"
 				}
 
 			}

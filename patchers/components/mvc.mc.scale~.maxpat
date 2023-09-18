@@ -131,7 +131,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 144.0, 329.0, 383.625, 24.0 ],
-					"text" : "mvc.scale~.model #0.scale #0 channel.1"
+					"text" : "mvc.scale~.model #0.scale #0 channel.1 @autoinit 0"
 				}
 
 			}

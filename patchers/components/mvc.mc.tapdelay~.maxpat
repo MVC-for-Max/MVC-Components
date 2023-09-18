@@ -521,7 +521,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 199.0, 360.0, 358.0, 24.0 ],
-					"text" : "mvc.tapdelay~.model #0.delay #0 channel.1"
+					"text" : "mvc.tapdelay~.model #0.delay #0 channel.1 @autoinit 0"
 				}
 
 			}

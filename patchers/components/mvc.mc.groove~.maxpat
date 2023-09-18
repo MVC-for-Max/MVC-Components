@@ -1371,7 +1371,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 58.0, 375.0, 382.0, 24.0 ],
-					"text" : "mvc.groove~.model #0.groove #0 channel.1"
+					"text" : "mvc.groove~.model #0.groove #0 channel.1 @autoinit 0"
 				}
 
 			}

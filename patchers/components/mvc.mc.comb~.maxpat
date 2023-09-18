@@ -790,7 +790,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 190.0, 353.0, 323.0, 24.0 ],
-					"text" : "mvc.comb~.model #0.comb #0 channel.1"
+					"text" : "mvc.comb~.model #0.comb #0 channel.1 @autoinit 0"
 				}
 
 			}

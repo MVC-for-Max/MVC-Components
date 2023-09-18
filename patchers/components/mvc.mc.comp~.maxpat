@@ -1451,7 +1451,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 158.0, 413.999999999999943, 308.0, 24.0 ],
-					"text" : "mvc.comp~.model #0.comp #0 channel.1"
+					"text" : "mvc.comp~.model #0.comp #0 channel.1 @autoinit 0"
 				}
 
 			}

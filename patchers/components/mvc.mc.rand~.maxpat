@@ -627,7 +627,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 172.5, 358.0, 348.0, 24.0 ],
-					"text" : "mvc.rand~.model #0.rand #0 channel.1"
+					"text" : "mvc.rand~.model #0.rand #0 channel.1 @autoinit 0"
 				}
 
 			}

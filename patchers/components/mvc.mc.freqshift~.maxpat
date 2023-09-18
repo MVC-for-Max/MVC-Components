@@ -618,7 +618,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 173.0, 290.0, 348.0, 24.0 ],
-					"text" : "mvc.freqshift~.model #0.freqshift #0 channel.1"
+					"text" : "mvc.freqshift~.model #0.freqshift #0 channel.1 @autoinit 0"
 				}
 
 			}

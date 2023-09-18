@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 163.0, 348.0, 338.0, 24.0 ],
-					"text" : "mvc.delay~.model #0.delay #0 channel.1"
+					"text" : "mvc.delay~.model #0.delay #0 channel.1 @autoinit 0"
 				}
 
 			}
