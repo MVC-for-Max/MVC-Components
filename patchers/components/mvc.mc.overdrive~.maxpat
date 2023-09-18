@@ -459,7 +459,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 64.0, 102.0, 549.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.overdrive~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.overdrive~",
 					"varname" : "mvc.model"
 				}
 

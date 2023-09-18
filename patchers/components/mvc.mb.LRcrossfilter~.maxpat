@@ -358,7 +358,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "clear", "", "" ],
 					"patching_rect" : [ 156.0, 65.5, 396.0, 22.0 ],
-					"text" : "mvc.mb.LRcrossfilter~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.mb.LRcrossfilter~.model #0 #1 #2",
 					"varname" : "mvc.mb.LRcrossfilter~.model"
 				}
 

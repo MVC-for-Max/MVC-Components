@@ -82,7 +82,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 162.0, 116.5, 386.0, 22.0 ],
-					"text" : "mvc.comb~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.comb~.model #0 #1 #2",
 					"varname" : "mvc.comb~.model"
 				}
 

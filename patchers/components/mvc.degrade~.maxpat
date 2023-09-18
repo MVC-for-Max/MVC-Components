@@ -47,7 +47,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 163.0, 114.0, 422.5, 22.0 ],
-					"text" : "mvc.degrade~.model #1 #2 @autoinit 1",
+					"text" : "mvc.degrade~.model #1 #2",
 					"varname" : "mvc.degrade.model"
 				}
 

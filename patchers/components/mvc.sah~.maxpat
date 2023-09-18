@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 133.0, 76.0, 389.0, 24.0 ],
-					"text" : "mvc.sah~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.sah~.model #0 #1 #2",
 					"varname" : "mvc.lores~.model"
 				}
 

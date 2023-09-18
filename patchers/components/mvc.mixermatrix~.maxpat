@@ -1105,7 +1105,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 102.0, 118.0, 497.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mixermatrix~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mixermatrix~",
 					"varname" : "mvc.model"
 				}
 

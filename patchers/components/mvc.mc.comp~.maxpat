@@ -1529,7 +1529,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 63.0, 116.0, 531.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.comp~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.comp~",
 					"varname" : "mvc.model"
 				}
 

@@ -344,7 +344,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 133.0, 76.0, 392.0, 40.0 ],
-					"text" : "mvc.rand~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.rand~.model #0 #1 #2",
 					"varname" : "mvc.lores~.model"
 				}
 

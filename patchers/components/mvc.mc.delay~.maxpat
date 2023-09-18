@@ -417,7 +417,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 56.0, 91.5, 570.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.delay~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.delay~",
 					"varname" : "mvc.model"
 				}
 

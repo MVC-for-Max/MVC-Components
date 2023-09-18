@@ -367,7 +367,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.5, 73.0, 510.5, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.cross~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.cross~",
 					"varname" : "mvc.model"
 				}
 

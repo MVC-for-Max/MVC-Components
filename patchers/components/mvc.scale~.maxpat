@@ -72,7 +72,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 133.0, 76.0, 391.0, 40.0 ],
-					"text" : "mvc.scale~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.scale~.model #0 #1 #2",
 					"varname" : "mvc.lores~.model"
 				}
 

@@ -439,7 +439,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 163.0, 80.0, 429.0, 24.0 ],
-					"text" : "mvc.pong~.model #0 #1 #2  @autoinit 1",
+					"text" : "mvc.pong~.model #0 #1 #2 ",
 					"varname" : "mvc.pong~.model"
 				}
 

@@ -332,7 +332,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "clear", "", "bang", "" ],
 					"patching_rect" : [ 110.999999999999986, 72.5, 304.000000000000057, 40.0 ],
-					"text" : "mvc.cascade~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.cascade~.model #0 #1 #2",
 					"varname" : "mvc.cascade~.model"
 				}
 

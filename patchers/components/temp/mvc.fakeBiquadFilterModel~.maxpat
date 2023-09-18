@@ -251,7 +251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.0, 77.0, 572.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type fakeBiquadFilterModel @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type fakeBiquadFilterModel",
 					"varname" : "mvc.model"
 				}
 

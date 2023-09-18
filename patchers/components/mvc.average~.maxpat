@@ -82,7 +82,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 81.5, 390.0, 22.0 ],
-					"text" : "mvc.average~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.average~.model #0 #1 #2",
 					"varname" : "mvc.biquad~.model"
 				}
 

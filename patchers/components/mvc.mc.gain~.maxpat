@@ -993,7 +993,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 108.0, 90.5, 484.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.gain~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.gain~",
 					"varname" : "mvc.model"
 				}
 

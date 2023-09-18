@@ -705,7 +705,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 128.0, 102.0, 483.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.rand~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.rand~",
 					"varname" : "mvc.model"
 				}
 

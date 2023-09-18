@@ -123,7 +123,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 155.0, 96.5, 549.0, 24.0 ],
-					"text" : "mvc.LRcrossfilter~.model #1 #2 @autoinit 1",
+					"text" : "mvc.LRcrossfilter~.model #1 #2",
 					"varname" : "mvc.biquad~.model"
 				}
 

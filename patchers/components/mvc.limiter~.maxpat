@@ -59,7 +59,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 100.0, 133.5, 312.0, 24.0 ],
-					"text" : "mvc.limiter~.model #0 #1 #2 @autoinit 1"
+					"text" : "mvc.limiter~.model #0 #1 #2"
 				}
 
 			}

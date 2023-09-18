@@ -738,7 +738,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 108.0, 102.0, 492.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.lores~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.lores~",
 					"varname" : "mvc.model"
 				}
 

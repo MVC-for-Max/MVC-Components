@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 180.0, 154.0, 890.0, 621.0 ],
+		"rect" : [ 472.0, 245.0, 823.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -581,7 +581,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 462.0, 325.0, 49.0, 22.0 ],
+					"patching_rect" : [ 462.0, 321.0, 49.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -598,12 +598,13 @@
 					"color" : [ 0.843137254901961, 0.647058823529412, 0.611764705882353, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "clear", "", "bang", "" ],
-					"patching_rect" : [ 137.0, 357.0, 344.0, 24.0 ],
-					"text" : "mvc.cascade~.model #0.channel #0 channel.1"
+					"patching_rect" : [ 137.0, 345.0, 344.0, 40.0 ],
+					"text" : "mvc.cascade~.model #0.channel #0 channel.1 @autoinit 0"
 				}
 
 			}
@@ -634,7 +635,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -677,7 +678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 96.0, 116.0, 601.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.cascade~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.cascade~ ",
 					"varname" : "mvc.model"
 				}
 
@@ -711,7 +712,7 @@
 				"box" : 				{
 					"comment" : "settings",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -724,7 +725,7 @@
 				"box" : 				{
 					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -736,11 +737,11 @@
 				"box" : 				{
 					"comment" : "signal in",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 50.0, 82.0, 30.0, 30.0 ]
 				}
 
@@ -924,8 +925,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

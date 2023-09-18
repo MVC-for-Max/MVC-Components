@@ -48,7 +48,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 81.0, 429.0, 24.0 ],
-					"text" : "mvc.cross~.model #0 #1 #2 @autoinit 1",
+					"text" : "mvc.cross~.model #0 #1 #2",
 					"varname" : "mvc.lores~.model"
 				}
 

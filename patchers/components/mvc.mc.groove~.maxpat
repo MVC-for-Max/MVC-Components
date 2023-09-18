@@ -1448,7 +1448,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 146.0, 147.5, 508.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.groove~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.groove~",
 					"varname" : "mvc.model"
 				}
 

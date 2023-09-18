@@ -195,7 +195,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 93.0, 106.0, 522.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @autoinit 1 @type mvc.mc.degrade~",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.degrade~",
 					"varname" : "mvc.model"
 				}
 

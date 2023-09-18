@@ -71,7 +71,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 155.0, 105.0, 429.0, 24.0 ],
-					"text" : "mvc.slide~.model #0 #1 #2  @autoinit 1",
+					"text" : "mvc.slide~.model #0 #1 #2 ",
 					"varname" : "mvc.slide~.model"
 				}
 

@@ -404,7 +404,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 47.0, 93.5, 532.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.limiter~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.limiter~",
 					"varname" : "mvc.model"
 				}
 

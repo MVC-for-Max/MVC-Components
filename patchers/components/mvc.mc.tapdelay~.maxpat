@@ -622,7 +622,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.0, 99.5, 575.0, 24.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.mc.tapdelay~ @autoinit 1",
+					"text" : "mvc.model #0 #1 #2 @type mvc.mc.tapdelay~",
 					"varname" : "mvc.model"
 				}
 

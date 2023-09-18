@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 168.0, 75.0, 391.0, 24.0 ],
-					"text" : "mvc.onepole~.model #1 #2 @autoinit 1",
+					"text" : "mvc.onepole~.model #1 #2",
 					"varname" : "mvc.onepole~.model"
 				}
 
