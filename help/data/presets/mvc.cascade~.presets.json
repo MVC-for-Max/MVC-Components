@@ -1,6 +1,2091 @@
 {
+	"5x5" : 	{
+		"nfilters" : 5,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "5x5",
+		"filter.1" : 		{
+			"gain" : 5.0,
+			"Q" : 5.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 555.0
+		}
+,
+		"filter.2" : 		{
+			"gain" : 5.0,
+			"Q" : 5.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 953.0
+		}
+,
+		"filter.3" : 		{
+			"gain" : 5.0,
+			"Q" : 5.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 1696.0
+		}
+,
+		"filter.4" : 		{
+			"gain" : 5.0,
+			"Q" : 5.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 2937.0
+		}
+,
+		"filter.5" : 		{
+			"gain" : 5.0,
+			"Q" : 5.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 5836.0
+		}
+
+	}
+,
+	"FLT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FLT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "Tweeter_lowcutoff",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 2990.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 1.0,
+			"gain" : 6.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 2060.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : 0.2
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 3725.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.7,
+			"gain" : -5.7
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 6498.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.4,
+			"gain" : -4.4
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 4612.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.5,
+			"gain" : -5.0
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 3070.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.3,
+			"gain" : -6.4
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 3763.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 1.0
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 10841.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 2.8
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"FLW" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FLW",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 52.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 4.1,
+			"gain" : 0.6
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 122.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 4.3
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 46.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.5,
+			"gain" : -8.800000000000001
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 83.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -2.8
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 61.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -1.0
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 142.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.9,
+			"gain" : -3.2
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 108.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -1.4
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"Targetcurve" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "Targetcurve",
+		"nfilters" : 7,
+		"filter.1" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 0.5,
+			"gain" : 12.000000531202396
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 2300.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.0,
+			"gain" : -3.999999717024358
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 3000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 0.699999988079071,
+			"gain" : -3.000000249301049
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 180.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.5,
+			"gain" : -6.000000490675784
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 0.699999988079071,
+			"gain" : -2.000000240417105
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 220.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.0,
+			"gain" : -3.000000249301049
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 670.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.0,
+			"gain" : -2.000000240417105
+		}
+
+	}
+,
+	"FRT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FRT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 3651.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 1.0,
+			"gain" : 6.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 2.4,
+			"gain" : 0.1
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 3457.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.1,
+			"gain" : -7.4
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 5121.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.2,
+			"gain" : -7.1
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 2632.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.1,
+			"gain" : -4.1
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 6695.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.1,
+			"gain" : -4.1
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 3635.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 3.5
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 3955.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.5,
+			"gain" : -4.9
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"FRW" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FRW",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 63.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 4.8,
+			"gain" : -0.1
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 52.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.3,
+			"gain" : -3.8
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 138.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.7,
+			"gain" : -3.4
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 44.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.3,
+			"gain" : -3.4
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 78.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -3.0
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 66.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 1.0
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -0.3
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"BLT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BLT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 3670.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.2,
+			"gain" : -3.9
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 6385.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -1.5
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 4680.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.3,
+			"gain" : -3.2
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 9416.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.5,
+			"gain" : 1.0
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 3566.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.3,
+			"gain" : 0.1
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 3566.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.3,
+			"gain" : 0.1
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 12000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"BLM" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BLM",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 213.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 5.0,
+			"gain" : 0.1
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 1542.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.3,
+			"gain" : -4.3
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 324.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 3.6
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 453.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 2.8
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 674.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.2,
+			"gain" : -2.4
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 2335.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.8,
+			"gain" : -1.7
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 270.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 2.3
+		}
+
+	}
+,
+	"BLW" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BLW",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 47.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.1,
+			"gain" : 2.6
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 60.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.0,
+			"gain" : 4.3
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 44.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.3,
+			"gain" : -3.1
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 4.3,
+			"gain" : -0.2
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 62.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 2.1,
+			"gain" : 5.2
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.5,
+			"gain" : 4.6
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 69.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 2.5
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 41.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : -13.199999999999999
+		}
+
+	}
+,
+	"BRT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BRT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 4960.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.7,
+			"gain" : -3.4
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 8883.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.2,
+			"gain" : 1.2
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 6901.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -0.7
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 12000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 1.8,
+			"gain" : -0.2
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 4046.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.0,
+			"gain" : -2.5
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.2,
+			"gain" : -3.1
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 4084.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 1.0
+		}
+
+	}
+,
+	"BRM" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BRM",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 1640.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.4,
+			"gain" : -4.7
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 966.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.4,
+			"gain" : -1.2
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 669.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -2.4
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 1511.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 1.7
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 327.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 4.3
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 3500.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 561.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 5.0,
+			"gain" : -0.2
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 215.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : -0.2
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 280.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.0,
+			"gain" : 2.5
+		}
+
+	}
+,
+	"BRW" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BRW",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 40.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 124.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.8,
+			"gain" : -2.9
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 53.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.9,
+			"gain" : 5.2
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 41.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : -16.100000000000001
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 47.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.2,
+			"gain" : 5.2
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 60.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.7,
+			"gain" : 6.0
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 57.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -2.3
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 52.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 1.8,
+			"gain" : 5.4
+		}
+
+	}
+,
+	"FLM" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FLM",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 435.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : 0.1
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 403.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : -4.7
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 1243.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.5,
+			"gain" : 5.8
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 1051.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -3.8
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 807.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -4.5
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 553.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.0,
+			"gain" : -5.5
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 674.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.5,
+			"gain" : 4.3
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"FRM" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "FRM",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 485.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 5.0,
+			"gain" : 0.1
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 200.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : 0.2
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 317.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.3,
+			"gain" : -5.9
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 1063.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : -7.3
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 986.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 4.8
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 573.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 4.7,
+			"gain" : -4.9
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 674.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 5.0,
+			"gain" : 3.4
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 822.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.9,
+			"gain" : -4.9
+		}
+
+	}
+,
+	"BLTwT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BLTwT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 3763.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.7,
+			"gain" : -3.4
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 3837.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 1.3,
+			"gain" : 6.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 2347.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : 0.2
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 4706.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.0,
+			"gain" : -8.9
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 8373.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.7,
+			"gain" : -5.6
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 6403.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.0,
+			"gain" : -10.300000000000001
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 6663.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 6.0
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 11057.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 3.7,
+			"gain" : -3.0
+		}
+
+	}
+,
+	"BRTwT" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "BRTwT",
+		"nfilters" : 10,
+		"filter.1" : 		{
+			"frequency" : 2000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highpass",
+			"Q" : 0.7,
+			"gain" : 0.0
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 2993.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.0,
+			"gain" : -3.4
+		}
+,
+		"filter.7" : 		{
+			"frequency" : 2278.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.3,
+			"gain" : 1.7
+		}
+,
+		"filter.8" : 		{
+			"frequency" : 10265.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.4,
+			"gain" : -2.7
+		}
+,
+		"filter.9" : 		{
+			"frequency" : 6763.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 2.9,
+			"gain" : -2.4
+		}
+,
+		"filter.10" : 		{
+			"frequency" : 1000.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 4115.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "highshelf",
+			"Q" : 1.2,
+			"gain" : 6.0
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 3338.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "lowshelf",
+			"Q" : 5.0,
+			"gain" : 0.1
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 4872.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.6,
+			"gain" : -8.699999999999999
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 7580.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "none",
+			"filtermode" : "peaknotch",
+			"Q" : 1.8,
+			"gain" : -2.7
+		}
+
+	}
+,
 	"_metadata" : 	{
 		"package-version" : 0.4
+	}
+,
+	"one" : 	{
+		"nfilters" : 1,
+		"filter.1" : 		{
+			"gain" : -16.393043030294901,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 104.056881477711286,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none"
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "one"
+	}
+,
+	"three" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : -17.170782229937195,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 1083.810422233478448
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "three",
+		"nfilters" : 1
+	}
+,
+	"four" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : -17.170782229937195,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 2843.286072513706586
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "four",
+		"nfilters" : 1
+	}
+,
+	"one+" : 	{
+		"nfilters" : 1,
+		"filter.1" : 		{
+			"gain" : 17.927602008728854,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 74.327342957314528,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none"
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "one+"
+	}
+,
+	"four+" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : 20.235731227308751,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 2843.286072513706586
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "four+",
+		"nfilters" : 1
+	}
+,
+	"mcCascadeHelper" : 	{
+		"myFunkyMcCascade" : 		{
+			"filter.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"gain" : -14.063945620741515,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"frequency" : 2527.909411720698699
+			}
+,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "mcCascadeHelper::myFunkyMcCascade",
+			"nfilters" : 1
+		}
+
+	}
+,
+	"yop" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"gain" : 16.388781732741535,
+			"Q" : 1.686351518558955,
+			"filtermode" : "peaknotch",
+			"frequency" : 54.237451198447729,
+			"preset-editflag" : 1
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "yop",
+		"nfilters" : 5,
+		"filter.2" : 		{
+			"gain" : 13.695679157260807,
+			"Q" : 1.066319307844428,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 120.11359406900084,
+			"preset-editflag" : 1
+		}
+,
+		"filter.3" : 		{
+			"gain" : 8.308538116233295,
+			"Q" : 1.379960951479947,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 275.914230314766542
+		}
+,
+		"filter.4" : 		{
+			"gain" : 11.771869421289122,
+			"Q" : 0.826352088177655,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 726.253728898119448
+		}
+,
+		"filter.5" : 		{
+			"gain" : 7.153920685882741,
+			"Q" : 1.491519838317321,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "5",
+			"frequency" : 2094.386831362621251
+		}
+,
+		"preset-editflag" : 0
+	}
+,
+	"test.1" : 	{
+		"nfilters" : 1,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.1",
+		"filter.1" : 		{
+			"gain" : 12.156644250559863,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 167.676900455399021,
+			"preset-editflag" : 1
+		}
+,
+		"preset-editflag" : 0
+	}
+,
+	"test.2" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : 5.614260403655868,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 156.128496550671116
+		}
+,
+		"filter.2" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : 7.538804446762631,
+			"Q" : 0.387490982370903,
+			"filtermode" : "peaknotch",
+			"frequency" : 856.444201167891379
+		}
+,
+		"filter.3" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : 5.999195395367186,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 4444.370149982041767
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.2",
+		"nfilters" : 3
+	}
+,
+	"test.3" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : -19.899657644642133,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 132.146945254462224,
+			"preset-editflag" : 1
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.3",
+		"nfilters" : 1,
+		"preset-editflag" : 0
+	}
+,
+	"test.4" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : -17.559946005087138,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 9652.815927902789554
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.4",
+		"nfilters" : 1
+	}
+,
+	"test.5" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : 14.849895190644819,
+			"Q" : 0.475461442409946,
+			"filtermode" : "peaknotch",
+			"frequency" : 1371.396513631132848
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.5",
+		"nfilters" : 1
+	}
+,
+	"test.6" : 	{
+		"filter.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"gain" : -23.999963203521769,
+			"Q" : 1.0,
+			"filtermode" : "peaknotch",
+			"frequency" : 986.410230922488154
+		}
+,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test.6",
+		"nfilters" : 1
 	}
 
 }
