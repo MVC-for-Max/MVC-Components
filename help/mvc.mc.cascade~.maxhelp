@@ -207,10 +207,11 @@
 								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 616.0, 356.0, 385.0, 22.0 ],
-									"text" : "mvc.view myCascadeView channel.{1..2} @parent myMcCascadeView"
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"outlettype" : [ "mvc.view", "myCascadeView", "channel.{1..2}", "@parent", "myMcCascadeView" ],
+									"patching_rect" : [ 616.0, 356.0, 392.0, 22.0 ],
+									"text" : "t mvc.view myCascadeView channel.{1..2} @parent myMcCascadeView"
 								}
 
 							}
@@ -309,7 +310,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 813.0, 729.0, 50.0, 35.0 ],
-									"text" : "initialized 1"
+									"text" : "hetero 0"
 								}
 
 							}
@@ -468,7 +469,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 												}
 
@@ -951,7 +952,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"outlettype" : [ "", "int", "" ],
 									"patching_rect" : [ 577.0, 661.5, 239.0, 22.0 ],
 									"text" : "mvc.remote.new @parent myCascadeView"
 								}
@@ -1354,10 +1355,11 @@
 								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 588.5, 307.0, 384.0, 22.0 ],
-									"text" : "mvc.view myMcCascadeView mcCascadeHelper/myFunkyMcCascade"
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "mvc.view", "myMcCascadeView", "mcCascadeHelper/myFunkyMcCascade" ],
+									"patching_rect" : [ 588.5, 307.0, 390.0, 22.0 ],
+									"text" : "t mvc.view myMcCascadeView mcCascadeHelper/myFunkyMcCascade"
 								}
 
 							}
@@ -3996,20 +3998,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 1 ],
-									"source" : [ "obj-77", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-27", 1 ],
-									"source" : [ "obj-79", 0 ]
 								}
 
 							}
