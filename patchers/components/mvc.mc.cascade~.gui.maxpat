@@ -856,7 +856,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 356.0, 284.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 36.0, 284.0, 22.0 ],
+					"presentation_rect" : [ 4.0, 36.0, 284.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1380,7 +1380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 47.0, 236.0, 128.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 137.0, 19.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 137.0, 19.0 ],
 					"text" : "Ctrl+click me to edit",
 					"textcolor" : [ 0.631372549019608, 0.203921568627451, 0.196078431372549, 1.0 ],
 					"texton" : "Ctrl+click me to edit",
@@ -1718,7 +1718,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 98.0, 269.0, 303.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 303.0, 22.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 303.0, 22.0 ],
 					"varname" : "mvc.model.gui",
 					"viewvisibility" : 1
 				}
@@ -1732,6 +1732,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.5, 36.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -2043,7 +2047,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 61.0, 556.0, 301.0, 473.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 99.0, 300.0, 471.0 ],
+					"presentation_rect" : [ -1.0, 99.0, 300.0, 471.0 ],
 					"varname" : "mvc.mb.limiter.gui",
 					"viewvisibility" : 1
 				}
@@ -2069,7 +2073,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 457.0, 290.0, 30.966667000000001 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 65.516666000000001, 299.0, 33.483333999999999 ],
+					"presentation_rect" : [ 0.0, 66.0, 299.0, 33.483333999999999 ],
 					"viewvisibility" : 1
 				}
 
@@ -2088,10 +2092,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 241.0, 299.0, 40.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 99.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 300.0, 99.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "15577-bgpanel"
+					"varname" : "17133-bgpanel"
 				}
 
 			}
@@ -2273,35 +2277,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-16::obj-8::obj-7" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"obj-5::obj-49::obj-8::obj-7" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-5::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-16::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[4]"
-				}
-,
-				"obj-5::obj-49::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[3]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"autosave" : 0
+ ]
 	}
 
 }
