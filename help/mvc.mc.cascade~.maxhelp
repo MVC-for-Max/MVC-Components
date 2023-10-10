@@ -205,13 +205,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 807.0, 137.0, 207.0, 22.0 ],
+									"text" : "mvc.message mcCascadeHelper test"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "mvc.view", "myCascadeView", "channel.{1..2}", "@parent", "myMcCascadeView" ],
-									"patching_rect" : [ 616.0, 356.0, 392.0, 22.0 ],
-									"text" : "t mvc.view myCascadeView channel.{1..2} @parent myMcCascadeView"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 616.0, 356.0, 385.0, 22.0 ],
+									"text" : "mvc.view myCascadeView channel.{1..2} @parent myMcCascadeView"
 								}
 
 							}
@@ -235,8 +247,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1024.0, 834.0, 169.0, 22.0 ],
-									"text" : "name filter.1/* filter.2/* filter.3/*"
+									"patching_rect" : [ 1024.0, 834.0, 181.0, 22.0 ],
+									"text" : "address filter.1/* filter.2/* filter.3/*"
 								}
 
 							}
@@ -310,7 +322,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 813.0, 729.0, 50.0, 35.0 ],
-									"text" : "hetero 0"
+									"text" : "initialized 1"
 								}
 
 							}
@@ -625,7 +637,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 106.0, 947.0, 480.0 ],
+										"rect" : [ 313.0, -748.0, 807.0, 598.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -654,6 +666,148 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 41.0, 312.0, 189.0, 20.0 ],
+													"presentation_linecount" : 2,
+													"text" : "Returned by brace concatenation."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-13",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 41.0, 211.0, 169.0, 20.0 ],
+													"text" : "Returned by brace expansion."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 222.0, 365.0, 376.0, 33.0 ],
+													"text" : "index = parent node address index\nvalue = list of this node's address value"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 41.0, 364.0, 129.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll #1.mvc.parentmap"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 222.0, 462.0, 468.0, 33.0 ],
+													"presentation_linecount" : 3,
+													"text" : "dictionary containing of this node's address as a tree, with the corresponding address index as values. Useful for address to local index mapping."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
+													"patching_rect" : [ 45.0, 463.0, 147.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"legacy" : 0,
+														"parameter_enable" : 0,
+														"parameter_mappable" : 0
+													}
+,
+													"text" : "dict #1.mvc.addresses.idx"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"linecount" : 3,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 222.0, 215.0, 376.0, 47.0 ],
+													"presentation_linecount" : 6,
+													"text" : "list of relatives addresses indexed by their position in the address list. \nUsed by models to provide concatenation for param, states and msg.\nUsed by param to provide addresses where to write values."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 222.0, 334.0, 568.0, 20.0 ],
+													"text" : "list of all absolute addresses for this node. Obtained after concatenation with parent node's addresses."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 41.0, 334.0, 127.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll #1.mvc.addresses"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 41.0, 227.0, 144.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"precision" : 6
+													}
+,
+													"text" : "coll #1.mvc.addresses.rel"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-2",
 													"linecount" : 7,
@@ -953,8 +1107,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "" ],
-									"patching_rect" : [ 577.0, 661.5, 239.0, 22.0 ],
-									"text" : "mvc.remote.new @parent myCascadeView"
+									"patching_rect" : [ 577.0, 661.5, 250.0, 22.0 ],
+									"text" : "mvc.remote.new f* @parent myCascadeView"
 								}
 
 							}
@@ -1355,11 +1509,11 @@
 								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "mvc.view", "myMcCascadeView", "mcCascadeHelper/myFunkyMcCascade" ],
-									"patching_rect" : [ 588.5, 307.0, 390.0, 22.0 ],
-									"text" : "t mvc.view myMcCascadeView mcCascadeHelper/myFunkyMcCascade"
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 588.5, 307.0, 384.0, 22.0 ],
+									"text" : "mvc.view myMcCascadeView mcCascadeHelper/myFunkyMcCascade"
 								}
 
 							}
@@ -3676,7 +3830,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"lastchannelcount" : 6,
+									"lastchannelcount" : 1,
 									"maxclass" : "mc.live.gain~",
 									"numinlets" : 1,
 									"numoutlets" : 4,

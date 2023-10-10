@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 729.0, 141.0, 819.0, 909.0 ],
+		"rect" : [ 150.0, 150.0, 300.0, 250.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2973,7 +2973,7 @@
 					"patching_rect" : [ 112.0, 506.0, 209.000000000000341, 64.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 120.0, 290.0, 125.0 ],
-					"setfilter" : [ 0, 5, 1, 0, 0, 1328.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 5, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -3396,6 +3396,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@parent", "#0.view" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3441,14 +3442,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 53.0, 152.0, 22.0 ],
-					"text" : "parent none, address none"
+					"patching_rect" : [ 386.0, 53.0, 81.0, 22.0 ],
+					"text" : "address none"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@parent", "#0.view" ],
+					"args" : [ "filtermode", "@parent", "#0.view" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3546,7 +3547,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3558,7 +3559,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.7072758, 0.7016625, 0.6952473, 0.4 ],
+					"bgcolor" : [ 0.63654822, 0.63149625, 0.62572257, 0.4 ],
 					"border" : 1,
 					"bordercolor" : [ 0.56078431372549, 0.619607843137255, 0.709803921568627, 1.0 ],
 					"id" : "obj-9",
@@ -3572,7 +3573,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 250.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "19892-bgpanel"
+					"varname" : "14680-bgpanel"
 				}
 
 			}
@@ -3588,13 +3589,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-12", 2 ]
 				}
 
 			}
@@ -3948,7 +3942,22 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"autosave" : 0
 	}
 
 }
