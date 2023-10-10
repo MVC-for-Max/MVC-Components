@@ -291,7 +291,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 370.0, 43.0, 115.0, 22.0 ],
+					"patching_rect" : [ 370.0, 43.0, 118.0, 22.0 ],
 					"text" : "mvc.isloading #0"
 				}
 
@@ -946,7 +946,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1024,7 +1024,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 190.0, 354.0, 323.0, 24.0 ],
+					"patching_rect" : [ 190.0, 354.0, 401.0, 24.0 ],
 					"text" : "mvc.biquad~.model #0.biquad #0 channel.1 @autoinit 0"
 				}
 
@@ -1059,7 +1059,7 @@
 				"box" : 				{
 					"comment" : "settings",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1072,7 +1072,7 @@
 				"box" : 				{
 					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1084,11 +1084,11 @@
 				"box" : 				{
 					"comment" : "signal in",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 28.0, 35.0, 30.0, 30.0 ]
 				}
 
@@ -1102,7 +1102,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.0, 78.0, 461.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mc.biquad",
+					"text" : "mvc.model #0 #1 #2 @type mc.biquad~ ",
 					"varname" : "mvc.model"
 				}
 
@@ -1190,7 +1190,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 236.5, 348.0, 503.5, 348.0 ],
+					"midpoints" : [ 236.5, 348.0, 581.5, 348.0 ],
 					"source" : [ "obj-29", 2 ]
 				}
 
@@ -1253,8 +1253,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
