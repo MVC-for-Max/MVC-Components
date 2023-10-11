@@ -284,7 +284,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1183.0, 661.5, 373.0, 22.0 ],
+									"patching_rect" : [ 948.0, 659.0, 373.0, 22.0 ],
 									"text" : "name mcCascadeHelper/myFunkyMcCascade/channel.1/filter.1/gain"
 								}
 
@@ -296,7 +296,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1212.0, 565.5, 88.0, 22.0 ],
+									"patching_rect" : [ 977.0, 563.0, 88.0, 22.0 ],
 									"text" : "parent myView"
 								}
 
@@ -308,7 +308,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1207.0, 592.5, 73.0, 22.0 ],
+									"patching_rect" : [ 972.0, 590.0, 73.0, 22.0 ],
 									"text" : "parent none"
 								}
 
@@ -333,7 +333,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.0, 632.5, 132.0, 22.0 ],
+									"patching_rect" : [ 918.0, 630.0, 132.0, 22.0 ],
 									"text" : "get activeaddresscount"
 								}
 
@@ -672,7 +672,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 41.0, 312.0, 189.0, 20.0 ],
-													"presentation_linecount" : 2,
 													"text" : "Returned by brace concatenation."
 												}
 
@@ -725,7 +724,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 222.0, 462.0, 468.0, 33.0 ],
-													"presentation_linecount" : 3,
 													"text" : "dictionary containing of this node's address as a tree, with the corresponding address index as values. Useful for address to local index mapping."
 												}
 
@@ -757,7 +755,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 222.0, 215.0, 376.0, 47.0 ],
-													"presentation_linecount" : 6,
 													"text" : "list of relatives addresses indexed by their position in the address list. \nUsed by models to provide concatenation for param, states and msg.\nUsed by param to provide addresses where to write values."
 												}
 
@@ -1535,7 +1532,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 169.0, -962.0, 537.0, 928.0 ],
+										"rect" : [ 147.0, 106.0, 1416.0, 928.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1564,6 +1561,261 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-62",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 0,
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 0,
+															"architecture" : "x64",
+															"modernui" : 1
+														}
+,
+														"classnamespace" : "box",
+														"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 1,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"lefttoolbarpinned" : 0,
+														"toptoolbarpinned" : 0,
+														"righttoolbarpinned" : 0,
+														"bottomtoolbarpinned" : 0,
+														"toolbars_unpinned_last_save" : 0,
+														"tallnewobj" : 0,
+														"boxanimatetime" : 200,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"style" : "",
+														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
+														"visible" : 1,
+														"boxes" : [ 															{
+																"box" : 																{
+																	"id" : "obj-47",
+																	"linecount" : 4,
+																	"maxclass" : "comment",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 61.0, 57.0, 263.0, 60.0 ],
+																	"text" : "format :\npreset preset-action args @address theAddress\n\n- address given as an argument"
+																}
+
+															}
+ ],
+														"lines" : [  ]
+													}
+,
+													"patching_rect" : [ 801.0, 610.0, 59.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"description" : "",
+														"digest" : "",
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p format2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-60",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 0,
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 0,
+															"architecture" : "x64",
+															"modernui" : 1
+														}
+,
+														"classnamespace" : "box",
+														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 1,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"lefttoolbarpinned" : 0,
+														"toptoolbarpinned" : 0,
+														"righttoolbarpinned" : 0,
+														"bottomtoolbarpinned" : 0,
+														"toolbars_unpinned_last_save" : 0,
+														"tallnewobj" : 0,
+														"boxanimatetime" : 200,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"style" : "",
+														"subpatcher_template" : "",
+														"assistshowspatchername" : 0,
+														"boxes" : [ 															{
+																"box" : 																{
+																	"id" : "obj-58",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 388.0, 311.0, 55.0, 22.0 ],
+																	"text" : "zl slice 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-57",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "zlclear" ],
+																	"patching_rect" : [ 50.0, 207.0, 429.0, 22.0 ],
+																	"text" : "t l zlclear"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-56",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 350.0, 359.0, 84.0, 22.0 ],
+																	"text" : "zl.reg address"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-54",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 350.0, 281.0, 55.0, 22.0 ],
+																	"text" : "zl slice 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-53",
+																	"maxclass" : "newobj",
+																	"numinlets" : 8,
+																	"numoutlets" : 8,
+																	"outlettype" : [ "", "", "", "", "", "", "", "" ],
+																	"patching_rect" : [ 50.0, 250.0, 319.0, 22.0 ],
+																	"text" : "route recall save saveas delete rename interpolate editdict"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-48",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 50.0, 175.0, 73.0, 22.0 ],
+																	"text" : "route preset"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-47",
+																	"linecount" : 4,
+																	"maxclass" : "comment",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 51.0, 100.0, 233.0, 60.0 ],
+																	"text" : "format :\npreset [address] preset-action args @attrs\n\n- address is always in the 2nd place"
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-57", 0 ],
+																	"source" : [ "obj-48", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-54", 0 ],
+																	"source" : [ "obj-53", 7 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-56", 0 ],
+																	"source" : [ "obj-54", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-53", 0 ],
+																	"source" : [ "obj-57", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-56", 0 ],
+																	"midpoints" : [ 469.5, 348.0, 359.5, 348.0 ],
+																	"source" : [ "obj-57", 1 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 801.0, 578.0, 59.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"description" : "",
+														"digest" : "",
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p format1"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-104",
 													"maxclass" : "message",
@@ -1606,7 +1858,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 712.0, 1130.0, 19.0, 22.0 ],
+													"patching_rect" : [ 712.0, 941.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1860,7 +2112,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 442.0, 931.0, 207.0, 22.0 ],
+													"patching_rect" : [ 418.0, 899.0, 207.0, 22.0 ],
 													"text" : "preset delete toto{1..4} channel.1"
 												}
 
@@ -1872,7 +2124,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 1136.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 948.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1884,7 +2136,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 418.0, 671.0, 184.0, 22.0 ],
+													"patching_rect" : [ 418.0, 681.0, 184.0, 22.0 ],
 													"text" : "preset rename \"demo preset\" bof"
 												}
 
@@ -2389,7 +2641,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 1170.0, 30.0, 30.0 ]
+													"patching_rect" : [ 50.0, 989.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -3310,7 +3562,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 296.0, 641.0, 51.0, 22.0 ],
+									"patching_rect" : [ 333.0, 479.0, 51.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3428,7 +3680,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 226.0, 497.0, 130.0, 97.0 ],
+									"patching_rect" : [ 170.0, 497.0, 130.0, 97.0 ],
 									"range" : [ 0.0, 0.100000001490116 ]
 								}
 
@@ -4035,7 +4287,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
-									"midpoints" : [ 39.5, 490.0, 235.5, 490.0 ],
+									"midpoints" : [ 39.5, 490.0, 179.5, 490.0 ],
 									"order" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
