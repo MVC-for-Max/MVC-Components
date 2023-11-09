@@ -2,5 +2,69 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"A-weighted" : 	{
+		"nfilters" : 3,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "A-weighted",
+		"filter.1" : 		{
+			"gain" : -0.161902506583177,
+			"Q" : 0.43,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 109.159667692490459
+		}
+,
+		"filter.2" : 		{
+			"gain" : 10.0,
+			"Q" : 1.26,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 3500.0
+		}
+,
+		"filter.3" : 		{
+			"gain" : 0.0,
+			"Q" : 0.27,
+			"filtermode" : "lowpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 20000.0
+		}
+
+	}
+,
+	"B-weighted" : 	{
+		"nfilters" : 2,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "B-weighted",
+		"filter.1" : 		{
+			"gain" : -0.161902506583177,
+			"Q" : 0.43,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 217.719625590819106
+		}
+,
+		"filter.2" : 		{
+			"gain" : 1.09,
+			"Q" : 0.41,
+			"filtermode" : "lowpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 15469.0
+		}
+
+	}
 
 }
