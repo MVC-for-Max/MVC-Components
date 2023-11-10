@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 338.0, 637.0, 619.0 ],
+		"rect" : [ 517.0, 309.0, 637.0, 619.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -411,8 +411,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 313.0, 41.0, 22.0 ],
-					"text" : "chans"
+					"patching_rect" : [ 258.0, 313.0, 57.0, 22.0 ],
+					"text" : "chans $1"
 				}
 
 			}
@@ -859,7 +859,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 28.0, 35.0, 30.0, 30.0 ]
 				}
 
