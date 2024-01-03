@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 150.0, 300.0, 250.0 ],
+		"rect" : [ 150.0, 150.0, 769.0, 532.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -41,13 +41,48 @@
 		"title" : "no target",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 516.0, 87.0, 43.0, 22.0 ],
-					"text" : "parent"
+					"outlettype" : [ "wclose" ],
+					"patching_rect" : [ 39.0, 421.0, 52.0, 22.0 ],
+					"text" : "t wclose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 39.0, 390.0, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 85.0, 472.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-13",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.0, 468.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -169,7 +204,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 370.0, 187.0, 41.0, 22.0 ],
+					"patching_rect" : [ 387.0, 126.0, 41.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -266,6 +301,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
@@ -644,7 +680,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 58.0, 390.0, 57.0, 22.0 ],
+					"patching_rect" : [ 75.0, 329.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -841,7 +877,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 351.0, 53.0, 72.0, 22.0 ],
+					"patching_rect" : [ 273.0, 39.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -860,20 +896,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 351.0, 29.0, 72.0, 22.0 ],
+					"patching_rect" : [ 273.0, 15.0, 72.0, 22.0 ],
 					"text" : "patcherargs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 510.0, 29.0, 63.0, 22.0 ],
-					"text" : "closebang"
 				}
 
 			}
@@ -884,7 +908,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 498.0, 50.0, 22.0 ],
+					"patching_rect" : [ 307.0, 437.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -897,7 +921,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 326.0, 369.0, 19.000000000000227, 19.000000000000227 ]
+					"patching_rect" : [ 343.0, 308.0, 19.000000000000227, 19.000000000000227 ]
 				}
 
 			}
@@ -1535,7 +1559,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 136.0, 390.0, 209.000000000000227, 22.0 ],
+					"patching_rect" : [ 153.0, 329.0, 209.000000000000227, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1558,7 +1582,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 107.0, 128.0, 22.0 ],
+					"patching_rect" : [ 27.0, 46.0, 128.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 137.0, 19.0 ],
 					"text" : "Ctrl+click me to edit",
@@ -1988,7 +2012,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 440.0, 405.0, 53.0, 22.0 ],
+					"patching_rect" : [ 457.0, 344.0, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2013,7 +2037,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 440.0, 434.0, 290.0, 125.0 ],
+					"patching_rect" : [ 457.0, 373.0, 290.0, 125.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 120.0, 290.0, 125.0 ]
 				}
@@ -2272,7 +2296,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 145.0, 44.0, 22.0 ],
+					"patching_rect" : [ 27.0, 84.0, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2298,7 +2322,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.0, 421.0, 209.000000000000341, 64.0 ],
+					"patching_rect" : [ 126.0, 360.0, 209.000000000000341, 64.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 120.0, 290.0, 125.0 ],
 					"setfilter" : [ 0, 5, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
@@ -2697,7 +2721,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 140.0, 498.0, 114.333333333333428, 22.0 ],
+					"patching_rect" : [ 157.0, 437.0, 114.333333333333428, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2716,7 +2740,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 65.0, 182.0, 67.0, 22.0 ],
+					"patching_rect" : [ 82.0, 121.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -2739,7 +2763,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 65.0, 145.0, 300.0, 24.0 ],
+					"patching_rect" : [ 82.0, 84.0, 300.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 24.0 ],
 					"varname" : "mvc.model.gui",
@@ -2754,24 +2778,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 53.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
+					"patching_rect" : [ 363.0, 39.0, 28.0, 22.0 ],
 					"text" : "in 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 53.0, 51.0, 22.0 ],
-					"text" : "address"
 				}
 
 			}
@@ -2792,7 +2800,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 238.0, 229.0, 17.5 ],
+					"patching_rect" : [ 153.0, 177.0, 229.0, 17.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 32.455128205128204, 229.0, 19.014382233638599 ],
 					"viewvisibility" : 1
@@ -2816,7 +2824,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 339.0, 229.0, 22.0 ],
+					"patching_rect" : [ 153.0, 278.0, 229.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 88.958751771301834, 229.0, 21.0 ],
 					"viewvisibility" : 1
@@ -2840,7 +2848,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 305.0, 229.0, 22.0 ],
+					"patching_rect" : [ 153.0, 244.0, 229.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 69.714131105034312, 229.0, 21.0 ],
 					"viewvisibility" : 1
@@ -2864,7 +2872,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 272.0, 229.0, 22.0 ],
+					"patching_rect" : [ 153.0, 211.0, 229.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.0, 51.469510438766804, 229.0, 21.0 ],
 					"viewvisibility" : 1
@@ -2875,12 +2883,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 45.0, 30.0, 30.0 ]
+					"patching_rect" : [ 395.0, 31.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2896,12 +2904,12 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 176.0, 37.0, 28.0 ],
+					"patching_rect" : [ 223.0, 115.0, 37.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 250.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "13229-bgpanel"
+					"varname" : "6221-bgpanel"
 				}
 
 			}
@@ -2910,13 +2918,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2938,7 +2939,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 355.5, 212.0, 67.5, 212.0 ],
+					"midpoints" : [ 372.5, 151.0, 84.5, 151.0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 2 ]
 				}
@@ -2953,6 +2954,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 1 ],
 					"order" : 1,
 					"source" : [ "obj-18", 1 ]
@@ -2962,7 +2986,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
-					"midpoints" : [ 145.5, 382.915351999999984, 193.000000000000057, 382.915351999999984 ],
+					"midpoints" : [ 162.5, 321.915351999999984, 210.000000000000057, 321.915351999999984 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2986,7 +3010,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 2 ],
-					"midpoints" : [ 145.5, 378.415351999999984, 240.500000000000114, 378.415351999999984 ],
+					"midpoints" : [ 162.5, 317.415351999999984, 257.500000000000114, 317.415351999999984 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3002,7 +3026,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 3 ],
-					"midpoints" : [ 145.5, 374.415351999999984, 288.000000000000171, 374.415351999999984 ],
+					"midpoints" : [ 162.5, 313.415351999999984, 305.000000000000171, 313.415351999999984 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -3010,7 +3034,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
-					"midpoints" : [ 355.5, 376.201578973076266, 374.166666999999961, 376.201578973076266, 374.166666999999961, 225.335520196660696, 355.5, 225.335520196660696 ],
+					"midpoints" : [ 372.5, 315.201578973076266, 391.666666999999961, 315.201578973076266, 391.666666999999961, 164.335520196660696, 372.5, 164.335520196660696 ],
 					"order" : 1,
 					"source" : [ "obj-20", 1 ]
 				}
@@ -3076,7 +3100,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-55", 3 ],
-					"midpoints" : [ 335.500000000000227, 493.165351999999984, 244.833333333333428, 493.165351999999984 ],
+					"midpoints" : [ 352.500000000000227, 432.165351999999984, 261.833333333333428, 432.165351999999984 ],
 					"source" : [ "obj-26", 8 ]
 				}
 
@@ -3156,7 +3180,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 149.5, 538.665351999999984, 402.916666999999961, 538.665351999999984, 402.916666999999961, 269.165351999999984, 145.5, 269.165351999999984 ],
+					"midpoints" : [ 166.5, 477.665351999999984, 420.416666999999961, 477.665351999999984, 420.416666999999961, 208.165351999999984, 162.5, 208.165351999999984 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -3164,7 +3188,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 197.166666666666714, 534.665351999999984, 396.666666999999961, 534.665351999999984, 396.666666999999961, 302.165351999999984, 145.5, 302.165351999999984 ],
+					"midpoints" : [ 214.166666666666714, 473.665351999999984, 414.166666999999961, 473.665351999999984, 414.166666999999961, 241.165351999999984, 162.5, 241.165351999999984 ],
 					"source" : [ "obj-55", 1 ]
 				}
 
@@ -3172,7 +3196,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 244.833333333333428, 529.665351999999984, 391.416666999999961, 529.665351999999984, 391.416666999999961, 331.165351999999984, 145.5, 331.165351999999984 ],
+					"midpoints" : [ 261.833333333333428, 468.665351999999984, 408.916666999999961, 468.665351999999984, 408.916666999999961, 270.165351999999984, 162.5, 270.165351999999984 ],
 					"source" : [ "obj-55", 2 ]
 				}
 
@@ -3198,205 +3222,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12::obj-8::obj-7" : [ "live.toggle[4]", "live.toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "mvc.GUI.activeToggle.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.number.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.preset.description.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.presets.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.tabbing.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.GUI.windowsettings.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.array.filter2d.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.core.remote.declare.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.core.remote.sender.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.core.view.declare.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.core.view.sender.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.dllb.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.dlllb.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.f.call.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.hatches.UI.js",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/javascript",
-				"patcherrelativepath" : "../../../MVC/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.locatePatcherWindow.js",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/javascript",
-				"patcherrelativepath" : "../../../MVC/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.model.gui.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/GUI",
-				"patcherrelativepath" : "../../../MVC/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.model.initialized.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.noblabang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.osc2dict.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.qlow.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.remote.attributes.autoget.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.remote.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.stripes10.purple.png",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/media",
-				"patcherrelativepath" : "../../../MVC/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
