@@ -90,5 +90,51 @@
 		}
 
 	}
+,
+	"C-stereo" : 	{
+		"channelcount" : "Stereo",
+		"preset-name" : "C-stereo",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 15000.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 0.2,
+				"gain" : 15.234623702036982
+			}
+		},
+		"channel.2" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 2,
+			"filter.1" : 			{
+				"frequency" : 67.480569658703331,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 14.619999999999999,
+				"gain" : 8.720000000000001
+			},
+			"filter.2" : 			{
+				"frequency" : 256.999069948608565,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 14.619999999999999,
+				"gain" : 8.720000000000001
+			}
+		}
 
+	}
 }
