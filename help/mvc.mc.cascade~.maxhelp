@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 226.0, 304.0, 959.0, 712.0 ],
+		"rect" : [ 464.0, 304.0, 959.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -174,7 +174,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 226.0, 330.0, 959.0, 686.0 ],
+						"rect" : [ 464.0, 330.0, 959.0, 686.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -912,7 +912,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 171.0, -921.0, 636.0, 798.0 ],
+										"rect" : [ 169.0, -962.0, 636.0, 798.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -943,6 +943,31 @@
 										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-70",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 486.0, 102.0, 123.0, 22.0 ],
+													"presentation_linecount" : 2,
+													"text" : "preset recall C-stereo"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-58",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 486.0, 36.0, 85.0, 22.0 ],
+													"text" : "preset recall A"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-71",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -960,7 +985,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 272.0, 270.0, 162.0, 22.0 ],
+													"patching_rect" : [ 363.0, 262.0, 162.0, 22.0 ],
 													"text" : "preset channel.1 recall test.1"
 												}
 
@@ -972,7 +997,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 272.0, 238.0, 162.0, 22.0 ],
+													"patching_rect" : [ 363.0, 230.0, 162.0, 22.0 ],
 													"text" : "preset channel.1 recall test.2"
 												}
 
@@ -1915,7 +1940,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 65.0, 96.0, 85.0, 22.0 ],
+													"patching_rect" : [ 486.0, 62.0, 85.0, 22.0 ],
 													"text" : "preset recall B"
 												}
 
@@ -2632,6 +2657,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-58", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-79", 0 ],
 													"source" : [ "obj-59", 0 ]
 												}
@@ -2690,6 +2722,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-17", 0 ],
 													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-70", 0 ]
 												}
 
 											}
@@ -3419,7 +3458,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"lastchannelcount" : 6,
+									"lastchannelcount" : 2,
 									"maxclass" : "mc.live.gain~",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -4280,6 +4319,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mvc.mc.qlim.p.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
+				"patcherrelativepath" : "../../MVC/patchers/core",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mvc.message.declare.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MVC/javascript",
 				"patcherrelativepath" : "../../MVC/javascript",
@@ -4337,13 +4383,6 @@
 			}
 , 			{
 				"name" : "mvc.noblabang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
-				"patcherrelativepath" : "../../MVC/patchers/core",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mvc.noblabla.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
 				"patcherrelativepath" : "../../MVC/patchers/core",
 				"type" : "JSON",
