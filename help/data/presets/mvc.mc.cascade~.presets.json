@@ -117,22 +117,22 @@
 			"preset-description" : "undefined",
 			"nfilters" : 2,
 			"filter.1" : 			{
-				"frequency" : 67.480569658703331,
+				"frequency" : 1111.1,
 				"preset-name" : "none",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 14.619999999999999,
-				"gain" : 8.720000000000001
+				"gain" : 23.0
 			},
 			"filter.2" : 			{
-				"frequency" : 256.999069948608565,
+				"frequency" : 3333.3,
 				"preset-name" : "none",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 14.619999999999999,
-				"gain" : 8.720000000000001
+				"gain" : 24.0
 			}
 		}
 
