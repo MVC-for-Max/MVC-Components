@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 857.0, 158.5, 112.0, 51.0 ],
+					"patching_rect" : [ 857.0, 158.5, 116.0, 51.0 ],
 					"text" : "get values when all voices have instanciated."
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 387.0, 54.0, 35.0 ],
+					"patching_rect" : [ 162.0, 387.0, 56.0, 35.0 ],
 					"text" : "prepend voices"
 				}
 
@@ -97,18 +97,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 268.0, 489.0, 29.5, 22.0 ],
 					"text" : "sel"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 542.0, 466.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1395,7 +1383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"midpoints" : [ 277.5, 531.0, 867.0, 531.0, 867.0, 162.0, 768.5, 162.0 ],
+					"midpoints" : [ 277.5, 531.0, 871.0, 531.0, 871.0, 162.0, 768.5, 162.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1561,15 +1549,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 4 ],
 					"midpoints" : [ 550.5, 435.25, 336.5, 435.25 ],
-					"order" : 1,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
