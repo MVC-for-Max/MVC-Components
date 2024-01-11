@@ -1918,5 +1918,72 @@
 		"preset-name" : "test.6",
 		"nfilters" : 1
 	}
+,
+	"EQ-channel 4" : 	{
+		"preset-name" : "EQ-channel 4",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"nfilters" : 6,
+		"filter.1" : 		{
+			"frequency" : 70.0,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "highpass",
+			"Q" : 1.953570505398311,
+			"gain" : -0.161902506583177
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 184.397247987604743,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.7,
+			"gain" : -7.102332194606266
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 432.0,
+			"preset-name" : "Golden frequency",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.618033988,
+			"gain" : 13.0
+		}
+,
+		"filter.4" : 		{
+			"frequency" : 1136.052750852210693,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 3.019146732915873,
+			"gain" : 7.153920685882741
+		}
+,
+		"filter.5" : 		{
+			"frequency" : 2247.489671124148117,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 2.344944899083637,
+			"gain" : -4.787272511506442
+		}
+,
+		"filter.6" : 		{
+			"frequency" : 4658.301353606034354,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "highshelf",
+			"Q" : 4.244566724271825,
+			"gain" : -5.944558102726018
+		}
+
+	}
 
 }

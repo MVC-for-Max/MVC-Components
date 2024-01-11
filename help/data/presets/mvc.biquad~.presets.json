@@ -143,5 +143,15 @@
 		"Q" : 1.0,
 		"gain" : 19.466366779589702
 	}
+,
+	"Golden frequency" : 	{
+		"frequency" : 432.0,
+		"preset-name" : "Golden frequency",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.618033988,
+		"gain" : 13.0
+	}
 
 }
