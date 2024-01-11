@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 464.0, 304.0, 959.0, 712.0 ],
+		"rect" : [ 95.0, 192.0, 959.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -174,7 +174,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 464.0, 330.0, 959.0, 686.0 ],
+						"rect" : [ 95.0, 218.0, 959.0, 686.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -912,7 +912,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 169.0, -962.0, 636.0, 798.0 ],
+										"rect" : [ 169.0, -962.0, 557.0, 928.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -943,13 +943,73 @@
 										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-86",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 390.0, 27.0, 154.0, 22.0 ],
+													"text" : "preset channel.6 recall BLT"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-85",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 363.0, -13.0, 157.0, 22.0 ],
+													"text" : "preset channel.6 recall BLM"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-84",
+													"linecount" : 8,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 582.0, -35.0, 176.0, 116.0 ],
+													"text" : "preset channel.1 recall test.1, preset channel.2 recall test.2, preset channel.3 recall test.3, preset channel.4 recall test.4, preset channel.5 recall test.5, preset channel.6 recall test.6, preset channel.7 recall BLM, preset channel.8 recall BLT,"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-76",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 42.0, 309.0, 22.0 ],
+													"text" : "preset channel.1 recall BLM, preset channel.2 recall BLT"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-74",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 221.0, 393.0, 411.0, 22.0 ],
+													"text" : "preset channel.1/filter.1 saveas test.1, preset channel.1/filter.2 saveas test.2"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-70",
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.0, 102.0, 123.0, 22.0 ],
-													"presentation_linecount" : 2,
+													"patching_rect" : [ 486.0, 134.0, 123.0, 22.0 ],
 													"text" : "preset recall C-stereo"
 												}
 
@@ -961,7 +1021,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.0, 36.0, 85.0, 22.0 ],
+													"patching_rect" : [ 486.0, 68.0, 85.0, 22.0 ],
 													"text" : "preset recall A"
 												}
 
@@ -973,7 +1033,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 789.0, 727.0, 73.0, 22.0 ],
+													"patching_rect" : [ 789.0, 759.0, 73.0, 22.0 ],
 													"text" : "route preset"
 												}
 
@@ -985,7 +1045,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 363.0, 262.0, 162.0, 22.0 ],
+													"patching_rect" : [ 363.0, 294.0, 162.0, 22.0 ],
 													"text" : "preset channel.1 recall test.1"
 												}
 
@@ -997,7 +1057,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 363.0, 230.0, 162.0, 22.0 ],
+													"patching_rect" : [ 363.0, 262.0, 162.0, 22.0 ],
 													"text" : "preset channel.1 recall test.2"
 												}
 
@@ -1009,7 +1069,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 214.0, 205.0, 22.0 ],
+													"patching_rect" : [ 110.0, 246.0, 205.0, 22.0 ],
 													"text" : "preset channel.{1..4} recall test.{1..4}"
 												}
 
@@ -1021,7 +1081,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 807.0, 661.0, 231.0, 22.0 ],
+													"patching_rect" : [ 807.0, 693.0, 231.0, 22.0 ],
 													"text" : "preset mySubmodel recall myOtherPreset"
 												}
 
@@ -1034,7 +1094,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 779.0, 857.0, 50.0, 49.0 ],
+													"patching_rect" : [ 779.0, 889.0, 50.0, 49.0 ],
 													"text" : "myOtherPreset"
 												}
 
@@ -1047,7 +1107,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 887.0, 847.0, 50.0, 35.0 ],
+													"patching_rect" : [ 887.0, 879.0, 50.0, 35.0 ],
 													"text" : "mySubmodel"
 												}
 
@@ -1059,7 +1119,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 789.0, 630.0, 128.0, 22.0 ],
+													"patching_rect" : [ 789.0, 662.0, 128.0, 22.0 ],
 													"text" : "preset recall myPreset"
 												}
 
@@ -1071,7 +1131,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 918.0, 801.0, 55.0, 22.0 ],
+													"patching_rect" : [ 918.0, 833.0, 55.0, 22.0 ],
 													"text" : "zl.slice 1"
 												}
 
@@ -1083,7 +1143,7 @@
 													"numinlets" : 4,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 789.0, 773.0, 148.0, 22.0 ],
+													"patching_rect" : [ 789.0, 805.0, 148.0, 22.0 ],
 													"text" : "route recall rename delete"
 												}
 
@@ -1095,7 +1155,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "none" ],
-													"patching_rect" : [ 789.0, 695.0, 222.0, 22.0 ],
+													"patching_rect" : [ 789.0, 727.0, 222.0, 22.0 ],
 													"text" : "t l none"
 												}
 
@@ -1107,7 +1167,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 846.0, 555.0, 410.0, 60.0 ],
+													"patching_rect" : [ 846.0, 587.0, 410.0, 60.0 ],
 													"text" : "[address] preset preset-action args \ne.g.\npreset recall toto\npreset myFilter.{1..3} recall toto"
 												}
 
@@ -1119,7 +1179,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 851.0, 450.0, 410.0, 74.0 ],
+													"patching_rect" : [ 851.0, 482.0, 410.0, 74.0 ],
 													"text" : "preset preset-action args @address theAddress\n\npreset [address] preset-action args @attrs\n\npreset preset-action [preset1] [preset2] [interp-value] @address theAddress"
 												}
 
@@ -1185,7 +1245,7 @@
 														"lines" : [  ]
 													}
 ,
-													"patching_rect" : [ 622.0, 427.0, 59.0, 22.0 ],
+													"patching_rect" : [ 622.0, 459.0, 59.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -1258,7 +1318,7 @@
 														"lines" : [  ]
 													}
 ,
-													"patching_rect" : [ 622.0, 398.0, 59.0, 22.0 ],
+													"patching_rect" : [ 622.0, 430.0, 59.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -1439,7 +1499,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 622.0, 366.0, 59.0, 22.0 ],
+													"patching_rect" : [ 622.0, 398.0, 59.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -1458,7 +1518,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 802.0, 404.0, 149.0, 22.0 ],
+													"patching_rect" : [ 802.0, 436.0, 149.0, 22.0 ],
 													"text" : "preset reset channel.{2..4}"
 												}
 
@@ -1470,7 +1530,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 712.0, 521.0, 19.0, 22.0 ],
+													"patching_rect" : [ 712.0, 553.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1482,7 +1542,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 782.0, 376.0, 72.0, 22.0 ],
+													"patching_rect" : [ 782.0, 408.0, 72.0, 22.0 ],
 													"text" : "preset reset"
 												}
 
@@ -1494,7 +1554,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 712.0, 941.0, 19.0, 22.0 ],
+													"patching_rect" : [ 712.0, 973.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1510,7 +1570,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 846.0, 260.0, 50.0, 22.0 ]
+													"patching_rect" : [ 846.0, 292.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1521,7 +1581,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 901.0, 260.062222222222204, 205.0, 22.0 ],
+													"patching_rect" : [ 901.0, 292.0, 205.0, 22.0 ],
 													"text" : "preset interpolate somewut chcha $1"
 												}
 
@@ -1537,7 +1597,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 840.0, 230.0, 50.0, 22.0 ]
+													"patching_rect" : [ 840.0, 262.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1548,7 +1608,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 895.0, 230.649777777777786, 377.0, 22.0 ],
+													"patching_rect" : [ 895.0, 263.0, 377.0, 22.0 ],
 													"text" : "preset interpolate castor.{1..4} polux.{1..4} channel.1/filter.{1..4} $1 $1"
 												}
 
@@ -1564,7 +1624,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 840.0, 200.0, 50.0, 22.0 ]
+													"patching_rect" : [ 840.0, 232.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1575,7 +1635,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 895.0, 201.237333333333311, 165.0, 22.0 ],
+													"patching_rect" : [ 895.0, 233.0, 165.0, 22.0 ],
 													"text" : "preset interpolate tutu toto $1"
 												}
 
@@ -1591,7 +1651,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 840.0, 170.0, 50.0, 22.0 ]
+													"patching_rect" : [ 840.0, 202.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1602,7 +1662,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 895.0, 171.824888888888893, 246.0, 22.0 ],
+													"patching_rect" : [ 895.0, 204.0, 246.0, 22.0 ],
 													"text" : "preset interpolate 5x5 yop channel.{1|3|5} $1"
 												}
 
@@ -1618,7 +1678,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 828.0, 140.0, 50.0, 22.0 ]
+													"patching_rect" : [ 828.0, 172.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1633,7 +1693,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 802.0, 113.0, 50.0, 22.0 ]
+													"patching_rect" : [ 802.0, 145.0, 50.0, 22.0 ]
 												}
 
 											}
@@ -1644,7 +1704,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 956.0, 52.0, 119.0, 24.0 ],
+													"patching_rect" : [ 956.0, 84.0, 119.0, 24.0 ],
 													"text" : "won't do anything"
 												}
 
@@ -1656,7 +1716,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 856.0, 113.0, 272.0, 22.0 ],
+													"patching_rect" : [ 856.0, 145.0, 272.0, 22.0 ],
 													"text" : "preset interpolate \"demo preset\" \"other preset\" $1"
 												}
 
@@ -1668,7 +1728,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 883.0, 142.412444444444446, 384.0, 22.0 ],
+													"patching_rect" : [ 883.0, 174.0, 384.0, 22.0 ],
 													"text" : "preset interpolate \"demo preset\" \"other preset\" channel.1/filter.{1..4} $1"
 												}
 
@@ -1680,7 +1740,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 712.0, 231.0, 19.0, 22.0 ],
+													"patching_rect" : [ 712.0, 263.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1702,7 +1762,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 752.0, 40.0, 101.0, 22.0 ],
+													"patching_rect" : [ 752.0, 72.0, 101.0, 22.0 ],
 													"text" : "preset interpolate"
 												}
 
@@ -1714,7 +1774,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 782.0, 86.0, 200.0, 22.0 ],
+													"patching_rect" : [ 782.0, 118.0, 200.0, 22.0 ],
 													"text" : "preset interpolate \"demo preset\" 0.5"
 												}
 
@@ -1736,7 +1796,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 767.0, 63.0, 180.0, 22.0 ],
+													"patching_rect" : [ 767.0, 95.0, 180.0, 22.0 ],
 													"text" : "preset interpolate \"demo preset\""
 												}
 
@@ -1748,7 +1808,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 418.0, 899.0, 207.0, 22.0 ],
+													"patching_rect" : [ 418.0, 931.0, 207.0, 22.0 ],
 													"text" : "preset delete toto{1..4} channel.1"
 												}
 
@@ -1760,7 +1820,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 948.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 980.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1772,7 +1832,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 418.0, 681.0, 184.0, 22.0 ],
+													"patching_rect" : [ 418.0, 713.0, 184.0, 22.0 ],
 													"text" : "preset rename \"demo preset\" bof"
 												}
 
@@ -1784,7 +1844,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 424.0, 704.0, 129.0, 22.0 ],
+													"patching_rect" : [ 424.0, 736.0, 129.0, 22.0 ],
 													"text" : "preset rename hop bof"
 												}
 
@@ -1796,7 +1856,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 286.0, 704.0, 129.0, 22.0 ],
+													"patching_rect" : [ 286.0, 736.0, 129.0, 22.0 ],
 													"text" : "preset rename bof hop"
 												}
 
@@ -1808,7 +1868,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 158.0, 872.0, 83.0, 22.0 ],
+													"patching_rect" : [ 158.0, 904.0, 83.0, 22.0 ],
 													"text" : "preset editdict"
 												}
 
@@ -1820,7 +1880,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 158.0, 899.0, 237.0, 22.0 ],
+													"patching_rect" : [ 158.0, 931.0, 237.0, 22.0 ],
 													"text" : "preset editdict {channel.1|channel.1/filter.1}"
 												}
 
@@ -1832,7 +1892,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 191.0, 653.0, 221.0, 22.0 ],
+													"patching_rect" : [ 191.0, 685.0, 221.0, 22.0 ],
 													"text" : "preset delete \"demo preset\" @confirm 0"
 												}
 
@@ -1844,7 +1904,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 220.5, 532.0, 228.0, 22.0 ],
+													"patching_rect" : [ 221.0, 564.0, 228.0, 22.0 ],
 													"text" : "preset delete {1..10} channel.1/filter.{1..2}"
 												}
 
@@ -1856,7 +1916,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 166.0, 500.0, 214.0, 22.0 ],
+													"patching_rect" : [ 166.0, 532.0, 214.0, 22.0 ],
 													"text" : "preset saveas test.{1..6} channel.{1..6}"
 												}
 
@@ -1868,7 +1928,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 266.0, 88.0, 125.0, 22.0 ],
+													"patching_rect" : [ 266.0, 120.0, 125.0, 22.0 ],
 													"text" : "preset recall somewut"
 												}
 
@@ -1880,7 +1940,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 182.0, 339.0, 22.0 ],
+													"patching_rect" : [ 110.0, 214.0, 339.0, 22.0 ],
 													"text" : "preset recall {biquad-preset|lores-preset} {myBiquad|myLores}"
 												}
 
@@ -1892,7 +1952,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 42.0, 295.0, 22.0 ],
+													"patching_rect" : [ 50.0, 74.0, 295.0, 22.0 ],
 													"text" : "preset recall \"tata yoyo.{1..5}\" @confirm 1 @whatever"
 												}
 
@@ -1904,7 +1964,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 198.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 230.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -1916,7 +1976,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.0, 145.0, 374.0, 22.0 ],
+													"patching_rect" : [ 95.0, 177.0, 374.0, 22.0 ],
 													"text" : "preset recall \"test preset ch{1..2}-filter{1..6}\" channel.{1..2}/filter.{1..6}"
 												}
 
@@ -1928,7 +1988,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 80.0, 119.0, 214.0, 22.0 ],
+													"patching_rect" : [ 80.0, 151.0, 214.0, 22.0 ],
 													"text" : "preset recall \"test preset on submodel\""
 												}
 
@@ -1940,7 +2000,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.0, 62.0, 85.0, 22.0 ],
+													"patching_rect" : [ 486.0, 94.0, 85.0, 22.0 ],
 													"text" : "preset recall B"
 												}
 
@@ -1952,7 +2012,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 73.0, 74.0, 22.0 ],
+													"patching_rect" : [ 50.0, 105.0, 74.0, 22.0 ],
 													"text" : "preset recall"
 												}
 
@@ -1964,7 +2024,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 191.0, 842.0, 505.0, 22.0 ],
+													"patching_rect" : [ 191.0, 874.0, 505.0, 22.0 ],
 													"text" : "preset rename \"renamed chan{1..2}-flt{1..6} test\" preset \"ch{1..2}-filter{1..6}  channel.1/filter.1\""
 												}
 
@@ -1976,7 +2036,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 184.0, 819.0, 501.0, 22.0 ],
+													"patching_rect" : [ 184.0, 851.0, 501.0, 22.0 ],
 													"text" : "preset rename \"test preset ch{1..2}-filter{1..6}\" \"renamed chan{1..2}-flt{1..6}\" channel.1/filter.1"
 												}
 
@@ -1988,7 +2048,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 154.0, 623.0, 335.0, 22.0 ],
+													"patching_rect" : [ 154.0, 655.0, 335.0, 22.0 ],
 													"text" : "preset delete \"test preset ch{1..2}-filter{1..6}\" channel.1/filter.1"
 												}
 
@@ -2000,8 +2060,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 158.0, 474.0, 383.0, 22.0 ],
-													"text" : "preset saveas \"test preset ch{1..2}-filter{1..6}\" channel.{1..2}/filter.{1..6}"
+													"patching_rect" : [ 158.0, 506.0, 383.0, 22.0 ],
+													"text" : "preset channel.{1..2}/filter.{1..6} saveas \"test preset ch{1..2}-filter{1..6}\""
 												}
 
 											}
@@ -2012,7 +2072,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 166.0, 796.0, 405.0, 22.0 ],
+													"patching_rect" : [ 166.0, 828.0, 405.0, 22.0 ],
 													"text" : "preset rename toto \"test preset on submodel\" channel.1/filter.1 @confirm 0"
 												}
 
@@ -2024,7 +2084,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 750.0, 337.0, 22.0 ],
+													"patching_rect" : [ 140.0, 782.0, 337.0, 22.0 ],
 													"text" : "preset rename \"test preset renamed\" \"test preset\" @confirm 0"
 												}
 
@@ -2036,7 +2096,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 154.0, 773.0, 405.0, 22.0 ],
+													"patching_rect" : [ 154.0, 805.0, 405.0, 22.0 ],
 													"text" : "preset rename \"test preset on submodel\" toto channel.1/filter.1 @confirm 0"
 												}
 
@@ -2048,7 +2108,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 872.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 904.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -2060,7 +2120,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 90.0, 681.0, 86.0, 22.0 ],
+													"patching_rect" : [ 90.0, 713.0, 86.0, 22.0 ],
 													"text" : "preset rename"
 												}
 
@@ -2072,7 +2132,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 727.0, 240.0, 22.0 ],
+													"patching_rect" : [ 120.0, 759.0, 240.0, 22.0 ],
 													"text" : "preset rename test.{1..3} ttt.{1..3} channel.1"
 												}
 
@@ -2084,7 +2144,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 105.0, 704.0, 109.0, 22.0 ],
+													"patching_rect" : [ 105.0, 736.0, 109.0, 22.0 ],
 													"text" : "preset rename hop"
 												}
 
@@ -2096,7 +2156,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 450.0, 379.0, 22.0 ],
+													"patching_rect" : [ 140.0, 482.0, 379.0, 22.0 ],
 													"text" : "preset saveas \"test preset on submodel\" channel.1/filter.1 @confirm 0"
 												}
 
@@ -2108,7 +2168,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 600.0, 373.0, 22.0 ],
+													"patching_rect" : [ 140.0, 632.0, 373.0, 22.0 ],
 													"text" : "preset delete \"test preset on submodel\" channel.1/filter.1 @confirm 0"
 												}
 
@@ -2120,7 +2180,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 657.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 689.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -2132,7 +2192,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 90.0, 532.0, 78.0, 22.0 ],
+													"patching_rect" : [ 90.0, 564.0, 78.0, 22.0 ],
 													"text" : "preset delete"
 												}
 
@@ -2144,7 +2204,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 578.0, 309.0, 22.0 ],
+													"patching_rect" : [ 120.0, 610.0, 309.0, 22.0 ],
 													"text" : "preset delete \"test preset on submodel\" channel.1/filter.2"
 												}
 
@@ -2156,8 +2216,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 105.0, 555.0, 146.0, 22.0 ],
-													"text" : "preset delete \"test preset\""
+													"patching_rect" : [ 105.0, 587.0, 177.0, 22.0 ],
+													"text" : "preset delete chuck @confirm 0"
 												}
 
 											}
@@ -2168,7 +2228,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 532.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 564.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -2180,7 +2240,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 376.0, 19.0, 22.0 ],
+													"patching_rect" : [ 50.0, 408.0, 19.0, 22.0 ],
 													"text" : "t l"
 												}
 
@@ -2192,7 +2252,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.0, 381.0, 83.0, 22.0 ],
+													"patching_rect" : [ 95.0, 413.0, 83.0, 22.0 ],
 													"text" : "preset saveas"
 												}
 
@@ -2204,8 +2264,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 125.0, 427.0, 314.0, 22.0 ],
-													"text" : "preset saveas \"test preset on submodel\" channel.1/filter.1"
+													"patching_rect" : [ 125.0, 459.0, 279.0, 22.0 ],
+													"text" : "preset channel.1/filter.{1..3} saveas mountain.{1..3}"
 												}
 
 											}
@@ -2216,8 +2276,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 404.0, 113.0, 22.0 ],
-													"text" : "preset saveas yeup"
+													"patching_rect" : [ 110.0, 436.0, 223.0, 22.0 ],
+													"text" : "preset saveas bbbbbbbbb"
 												}
 
 											}
@@ -2228,7 +2288,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 140.0, 322.0, 226.0, 22.0 ],
+													"patching_rect" : [ 140.0, 354.0, 226.0, 22.0 ],
 													"text" : "preset save channel.1/filter.1 @confirm 1"
 												}
 
@@ -2240,7 +2300,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 125.0, 300.0, 191.0, 22.0 ],
+													"patching_rect" : [ 125.0, 332.0, 191.0, 22.0 ],
 													"text" : "preset save channel.1 @confirm 0"
 												}
 
@@ -2252,7 +2312,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 110.0, 277.0, 135.0, 22.0 ],
+													"patching_rect" : [ 110.0, 309.0, 135.0, 22.0 ],
 													"text" : "preset save @confirm 0"
 												}
 
@@ -2264,7 +2324,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 95.0, 254.0, 71.0, 22.0 ],
+													"patching_rect" : [ 95.0, 286.0, 71.0, 22.0 ],
 													"text" : "preset save"
 												}
 
@@ -2277,7 +2337,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 989.0, 30.0, 30.0 ]
+													"patching_rect" : [ 50.0, 1021.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -2600,7 +2660,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-66", 1 ],
-													"midpoints" : [ 1001.5, 836.0, 927.5, 836.0 ],
+													"midpoints" : [ 1001.5, 868.0, 927.5, 868.0 ],
 													"source" : [ "obj-53", 1 ]
 												}
 
@@ -2636,7 +2696,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-54", 0 ],
-													"midpoints" : [ 963.5, 829.0, 987.0, 829.0, 987.0, 758.0, 798.5, 758.0 ],
+													"midpoints" : [ 963.5, 861.0, 987.0, 861.0, 987.0, 790.0, 798.5, 790.0 ],
 													"source" : [ "obj-56", 1 ]
 												}
 
@@ -2755,6 +2815,20 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-74", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-76", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-79", 0 ],
 													"source" : [ "obj-77", 0 ]
 												}
@@ -2806,6 +2880,27 @@
 												"patchline" : 												{
 													"destination" : [ "obj-17", 0 ],
 													"source" : [ "obj-83", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-84", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-85", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-86", 0 ]
 												}
 
 											}
@@ -3458,7 +3553,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"lastchannelcount" : 2,
+									"lastchannelcount" : 1,
 									"maxclass" : "mc.live.gain~",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -4165,6 +4260,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mvc.device.presets-manager.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
+				"patcherrelativepath" : "../../MVC/patchers/core",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mvc.dict.flatten.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MVC/javascript",
 				"patcherrelativepath" : "../../MVC/javascript",
@@ -4285,6 +4387,13 @@
 			}
 , 			{
 				"name" : "mvc.isloading.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
+				"patcherrelativepath" : "../../MVC/patchers/core",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mvc.list.iterasync.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
 				"patcherrelativepath" : "../../MVC/patchers/core",
 				"type" : "JSON",
@@ -4460,6 +4569,13 @@
 			}
 , 			{
 				"name" : "mvc.qlow.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
+				"patcherrelativepath" : "../../MVC/patchers/core",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mvc.queue.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MVC/patchers/core",
 				"patcherrelativepath" : "../../MVC/patchers/core",
 				"type" : "JSON",

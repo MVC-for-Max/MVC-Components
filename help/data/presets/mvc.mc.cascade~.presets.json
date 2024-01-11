@@ -110,23 +110,26 @@
 				"Q" : 0.2,
 				"gain" : 15.234623702036982
 			}
-		},
+
+		}
+,
 		"channel.2" : 		{
 			"preset-name" : "none",
 			"ON" : 1,
 			"preset-description" : "undefined",
 			"nfilters" : 2,
 			"filter.1" : 			{
-				"frequency" : 1111.1,
+				"frequency" : 1111.099999999999909,
 				"preset-name" : "none",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 14.619999999999999,
 				"gain" : 23.0
-			},
+			}
+,
 			"filter.2" : 			{
-				"frequency" : 3333.3,
+				"frequency" : 3333.300000000000182,
 				"preset-name" : "none",
 				"ON" : 1,
 				"preset-description" : "undefined",
@@ -134,7 +137,309 @@
 				"Q" : 14.619999999999999,
 				"gain" : 24.0
 			}
+
 		}
 
 	}
+,
+	"ouaip" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "ouaip",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 547.328833908041929,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.081680270559879
+			}
+
+		}
+
+	}
+,
+	"yeup" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "yeup",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 325.597168361530009,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.308538116233295
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 986.410230922488154,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.466366779589702
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2980.183238879828878,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.538804446762631
+			}
+
+		}
+
+	}
+,
+	"tralala" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "tralala",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 9209.611457739903926,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 21.389758276718215
+			}
+
+		}
+
+	}
+,
+	"truc" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "truc",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 9209.611457739903926,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 21.389758276718215
+			}
+
+		}
+
+	}
+,
+	"machin" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "machin",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 9209.611457739903926,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 21.389758276718215
+			}
+
+		}
+
+	}
+,
+	"hey" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "hey",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 9209.611457739903926,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 21.389758276718215
+			}
+
+		}
+
+	}
+,
+	"finger" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "finger",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 325.597168361530009,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.308538116233295
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 986.410230922488154,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.466366779589702
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2980.183238879828878,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.538804446762631
+			}
+
+		}
+
+	}
+,
+	"caca" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "caca",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 325.597168361530009,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.308538116233295
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 986.410230922488154,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.466366779589702
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2980.183238879828878,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.538804446762631
+			}
+
+		}
+
+	}
+,
+	"toto" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "toto",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 547.328833908041929,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.081680270559879
+			}
+
+		}
+
+	}
+,
+	"titi" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "titi",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 547.328833908041929,
+				"preset-name" : "test preset ch1-filter1",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 19.081680270559879
+			}
+
+		}
+
+	}
+
 }
