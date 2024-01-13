@@ -650,5 +650,4823 @@
 		}
 
 	}
+,
+	"Surround 10filter per chan" : 	{
+		"channelcount" : "5.1 surround",
+		"preset-name" : "Surround 10filter per chan",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "BLM",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 200.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 213.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "highshelf",
+				"Q" : 5.0,
+				"gain" : 0.1
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 3500.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 1000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 1542.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.3,
+				"gain" : -4.3
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 324.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 3.6
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 453.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 2.8
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 674.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 2.2,
+				"gain" : -2.4
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 2335.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 2.8,
+				"gain" : -1.7
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 270.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 2.3
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"preset-name" : "BLT",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 3500.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 1000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 1000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 3670.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 3.2,
+				"gain" : -3.9
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 6385.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : -1.5
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 4680.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 3.3,
+				"gain" : -3.2
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 9416.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.5,
+				"gain" : 1.0
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 3566.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.3,
+				"gain" : 0.1
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 3566.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.3,
+				"gain" : 0.1
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 12000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+
+		}
+,
+		"channel.3" : 		{
+			"preset-name" : "BLW",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 40.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 60.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 3.0,
+				"gain" : 4.3
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 44.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.3,
+				"gain" : -3.1
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 200.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 40.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "highshelf",
+				"Q" : 4.3,
+				"gain" : -0.2
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 62.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowshelf",
+				"Q" : 2.1,
+				"gain" : 5.2
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 40.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 2.5,
+				"gain" : 4.6
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 69.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 2.5
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 41.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -13.199999999999999
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 47.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.1,
+				"gain" : 2.6
+			}
+
+		}
+,
+		"channel.4" : 		{
+			"preset-name" : "BRM",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 200.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 1511.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 1.7
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 327.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 4.3
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 3500.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 561.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "highshelf",
+				"Q" : 5.0,
+				"gain" : -0.2
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 215.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowshelf",
+				"Q" : 5.0,
+				"gain" : -0.2
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 280.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.0,
+				"gain" : 2.5
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 1640.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.4,
+				"gain" : -4.7
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 966.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.4,
+				"gain" : -1.2
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 669.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : -2.4
+			}
+
+		}
+,
+		"channel.5" : 		{
+			"preset-name" : "BRT",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 3500.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 3500.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "highshelf",
+				"Q" : 1.8,
+				"gain" : -0.2
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 4046.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.0,
+				"gain" : -2.5
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 3500.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 4.2,
+				"gain" : -3.1
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 4084.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : 1.0
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 4960.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 2.7,
+				"gain" : -3.4
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 8883.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 3.2,
+				"gain" : 1.2
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 6901.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : -0.7
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 12000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 1000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+,
+		"channel.6" : 		{
+			"preset-name" : "BRW",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 10,
+			"filter.1" : 			{
+				"frequency" : 40.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 200.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowpass",
+				"Q" : 0.7,
+				"gain" : 0.0
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 52.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "lowshelf",
+				"Q" : 1.8,
+				"gain" : 5.4
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 124.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.8,
+				"gain" : -2.9
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 53.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 2.9,
+				"gain" : 5.2
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 41.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.100000000000001
+			}
+,
+			"filter.7" : 			{
+				"frequency" : 47.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.2,
+				"gain" : 5.2
+			}
+,
+			"filter.8" : 			{
+				"frequency" : 60.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 3.7,
+				"gain" : 6.0
+			}
+,
+			"filter.9" : 			{
+				"frequency" : 57.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 5.0,
+				"gain" : -2.3
+			}
+,
+			"filter.10" : 			{
+				"frequency" : 1000.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-name" : "none",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+
+	}
+,
+	"Surround EQ 2" : 	{
+		"channelcount" : "5.1 surround",
+		"preset-name" : "Surround EQ 2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 6,
+			"filter.1" : 			{
+				"frequency" : 70.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 193.365504401063561,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.7,
+				"gain" : 17.15819943678348
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 412.364054433814943,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.902559556365932,
+				"gain" : -15.616031519813253
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 761.292691357747799,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 3.019146732915873,
+				"gain" : 21.774429172414401
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 3197.97735766131018,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 3.532769192044664,
+				"gain" : -5.944558102726018
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 7631.119536284375499,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highshelf",
+				"Q" : 3.025210349056546,
+				"gain" : 8.693388996414113
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 1000.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+,
+		"channel.3" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 1000.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+,
+		"channel.4" : 		{
+			"preset-name" : "EQ-channel 4",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 6,
+			"filter.1" : 			{
+				"frequency" : 70.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highpass",
+				"Q" : 1.953570505398311,
+				"gain" : -0.161902506583177
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 184.397247987604743,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.7,
+				"gain" : -7.102332194606266
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 432.0,
+				"preset-name" : "Golden frequency",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.618033988,
+				"gain" : 13.0
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 1136.052750852210693,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 3.019146732915873,
+				"gain" : 7.153920685882741
+			}
+,
+			"filter.5" : 			{
+				"frequency" : 2247.489671124148117,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 2.344944899083637,
+				"gain" : -4.787272511506442
+			}
+,
+			"filter.6" : 			{
+				"frequency" : 4658.301353606034354,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "highshelf",
+				"Q" : 4.244566724271825,
+				"gain" : -5.944558102726018
+			}
+
+		}
+,
+		"channel.5" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 1000.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+,
+		"channel.6" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 1000.0,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.0
+			}
+
+		}
+
+	}
+,
+	"Nofinger" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "Nofinger",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 65.867082043088089,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.330425262628131
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 171.710838106747588,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.7818175091885
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 560.388703932338217,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.015989669604418
+			}
+
+		}
+
+	}
+,
+	"log.1" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.1",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 318.577436298869429,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.912890457345149
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 964.391328413954625,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 18.486686123136238
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2914.783386583951142,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.226512713887846
+			}
+
+		}
+
+	}
+,
+	"log.0" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.0",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 320.583074031058175,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.025932645598905
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 970.682443416392857,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 18.766594882122941
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2933.469058668487378,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.315738923280642
+			}
+
+		}
+
+	}
+,
+	"log.2" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 317.574617432775028,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.85636936321827
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 961.245770912735452,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 18.346731743642884
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2905.440550541682114,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.181899609191448
+			}
+
+		}
+
+	}
+,
+	"log.3" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.3",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 315.568979700586283,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.743327174964515
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 954.954655910297447,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 18.066822984656177
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2886.754878457145423,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.092673399798652
+			}
+
+		}
+
+	}
+,
+	"log.4" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.4",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 312.560523102303193,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 7.57376389258388
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 945.517983406640155,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 17.646959846176124
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2858.726370330340615,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 6.958834085709459
+			}
+
+		}
+
+	}
+,
+	"log.5" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.5",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 310.554885370114448,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.460721704330124
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 939.226868404202037,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 17.36705108718942
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2840.040698245804379,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.869607876316663
+			}
+
+		}
+
+	}
+,
+	"log.6" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.6",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 309.552066504020104,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.404200610203246
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 936.081310902982977,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 17.22709670769607
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2830.69786220353626,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.824994771620266
+			}
+
+		}
+
+	}
+,
+	"log.7" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.7",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 309.552066504020104,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.404200610203246
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 936.081310902982977,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 17.22709670769607
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2830.69786220353626,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.824994771620266
+			}
+
+		}
+
+	}
+,
+	"log.8" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.8",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 307.546428771831359,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.29115842194949
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 929.790195900544859,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 16.947187948709363
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2812.012190118999115,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.73576856222747
+			}
+
+		}
+
+	}
+,
+	"log.9" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.9",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 306.543609905737014,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 7.234637327822612
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 926.6446383993258,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 16.807233569216013
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2802.669354076731452,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 6.691155457531072
+			}
+
+		}
+
+	}
+,
+	"log.10" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.10",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 305.540791039642613,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.178116233695734
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 923.499080898106627,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 16.66727918972266
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2793.326518034462879,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.646542352834675
+			}
+
+		}
+
+	}
+,
+	"log.11" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.11",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 301.529515575265123,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.952031857188221
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 910.916850893230276,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 16.107461671749252
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2755.955173865389497,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.468089934049083
+			}
+
+		}
+
+	}
+,
+	"log.12" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.12",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 299.523877843076377,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.838989668934465
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 904.625735890792157,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 15.827552912762547
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2737.269501780852806,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.378863724656287
+			}
+
+		}
+
+	}
+,
+	"log.13" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.13",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 295.512602378698887,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.612905292426953
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 892.04350588591592,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 15.267735394789138
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2699.898157611779425,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.200411305870695
+			}
+
+		}
+
+	}
+,
+	"log.14" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.14",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 291.501326914321453,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.386820915919441
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 879.461275881039569,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 14.707917876815731
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2662.526813442706498,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.021958887085104
+			}
+
+		}
+
+	}
+,
+	"log.15" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.15",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 291.501326914321453,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.386820915919441
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 879.461275881039569,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 14.707917876815731
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2662.526813442706498,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.021958887085104
+			}
+
+		}
+
+	}
+,
+	"log.16" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.16",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 289.495689182132651,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.273778727665685
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 873.170160878601564,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 14.428009117829028
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2643.841141358170262,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.932732677692307
+			}
+
+		}
+
+	}
+,
+	"log.17" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.17",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 286.487232583849561,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.10421544528505
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 863.733488374944159,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 14.008145979348967
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2615.812633231364998,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.798893363603113
+			}
+
+		}
+
+	}
+,
+	"log.18" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.18",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 283.478775985566472,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.934652162904415
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 854.296815871286981,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 13.588282840868914
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2587.784125104560189,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.66505404951392
+			}
+
+		}
+
+	}
+,
+	"log.19" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.19",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 280.470319387283325,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.765088880523781
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 844.860143367629803,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 13.168419702388857
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2559.755616977755381,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.531214735424727
+			}
+
+		}
+
+	}
+,
+	"log.20" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.20",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 276.459043922905835,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.539004504016269
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 832.277913362753452,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 12.608602184415446
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2522.384272808681999,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.352762316639135
+			}
+
+		}
+
+	}
+,
+	"log.21" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.21",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 274.453406190717089,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.425962315762512
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 825.98679836031522,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 12.328693425428742
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2503.698600724144853,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.263536107246339
+			}
+
+		}
+
+	}
+,
+	"log.22" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.22",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 271.444949592434,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.256399033381879
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 816.550125856658042,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 11.908830286948687
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2475.670092597340499,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.129696793157145
+			}
+
+		}
+
+	}
+,
+	"log.23" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.23",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 267.433674128056566,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.030314656874366
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 803.967895851781805,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 11.349012768975278
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2438.298748428267118,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.951244374371554
+			}
+
+		}
+
+	}
+,
+	"log.24" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.24",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 263.422398663679019,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 4.804230280366855
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 791.385665846905567,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 10.789195251001871
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2400.927404259194191,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 4.772791955585963
+			}
+
+		}
+
+	}
+,
+	"log.25" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.25",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 263.422398663679019,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.804230280366855
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 791.385665846905567,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 10.789195251001871
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2400.927404259194191,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.772791955585963
+			}
+
+		}
+
+	}
+,
+	"log.26" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.26",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 262.419579797584674,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.747709186239977
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 788.240108345686394,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 10.649240871508518
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2391.584568216925618,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.728178850889566
+			}
+
+		}
+
+	}
+,
+	"log.27" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.27",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 258.408304333207241,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.521624809732464
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 775.657878340810157,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 10.089423353535111
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2354.213224047852691,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.549726432103975
+			}
+
+		}
+
+	}
+,
+	"log.28" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.28",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 255.399847734924094,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.352061527351828
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 766.221205837152866,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 9.669560215055053
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2326.184715921047427,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.41588711801478
+			}
+
+		}
+
+	}
+,
+	"log.29" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.29",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 253.394210002735349,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.239019339098072
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 759.930090834714633,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 9.38965145606835
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2307.499043836511191,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.326660908621984
+			}
+
+		}
+
+	}
+,
+	"log.30" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.30",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 252.391391136640976,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.182498244971194
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 756.784533333495688,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 9.249697076574996
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2298.156207794242619,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.282047803925587
+			}
+
+		}
+
+	}
+,
+	"log.31" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.31",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 248.380115672263457,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.956413868463681
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 744.202303328619223,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.689879558601586
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2260.784863625169237,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.103595385139994
+			}
+
+		}
+
+	}
+,
+	"log.32" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.32",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 246.37447794007474,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.843371680209925
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 737.911188326181218,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.409970799614882
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2242.099191540632546,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.014369175747198
+			}
+
+		}
+
+	}
+,
+	"log.33" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.33",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 245.371659073980368,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.786850586083047
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 734.765630824962045,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 8.270016420121529
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2232.756355498364428,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.969756071050801
+			}
+
+		}
+
+	}
+,
+	"log.34" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.34",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 242.363202475697278,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 3.617287303702413
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 725.328958321304867,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 7.850153281641475
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2204.727847371559619,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 3.835916756961607
+			}
+
+		}
+
+	}
+,
+	"log.35" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.35",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 240.357564743508533,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.504245115448657
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 719.037843318866635,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.57024452265477
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2186.042175287022928,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.746690547568812
+			}
+
+		}
+
+	}
+,
+	"log.36" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.36",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 240.357564743508533,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.504245115448657
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 719.037843318866635,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 7.57024452265477
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2186.042175287022928,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.746690547568812
+			}
+
+		}
+
+	}
+,
+	"log.37" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.37",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 236.346289279131042,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 3.278160738941145
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 706.455613313990398,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 7.010427004681363
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2148.670831117950001,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : 3.568238128783221
+			}
+
+		}
+
+	}
+,
+	"log.38" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.38",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 235.343470413036698,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.221639644814267
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 703.310055812771338,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.870472625188009
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2139.327995075681429,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.523625024086823
+			}
+
+		}
+
+	}
+,
+	"log.39" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.39",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 231.332194948659208,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.995555268306755
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 690.727825807895101,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.310655107214603
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2101.956650906608502,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.345172605301232
+			}
+
+		}
+
+	}
+,
+	"log.40" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.40",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 229.326557216470491,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.882513080052999
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 684.436710805456983,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.0307463482279
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2083.270978822071811,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.255946395908436
+			}
+
+		}
+
+	}
+,
+	"log.41" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.41",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 225.315281752092972,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.656428703545486
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 671.854480800580632,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.470928830254488
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2045.899634652998429,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.077493977122844
+			}
+
+		}
+
+	}
+,
+	"log.42" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.42",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 221.304006287715481,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.430344327037974
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 659.272250795704281,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.911111312281082
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 2008.528290483925502,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.899041558337253
+			}
+
+		}
+
+	}
+,
+	"log.43" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.43",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 219.298368555526736,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.317302138784217
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 652.981135793266048,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 4.631202553294374
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1989.842618399388584,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.809815348944456
+			}
+
+		}
+
+	}
+,
+	"log.44" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.44",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 213.2814553589605,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.978175574022949
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 634.107790785951693,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.791476276334263
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1933.785602145778967,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.542136720766068
+			}
+
+		}
+
+	}
+,
+	"log.45" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.45",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 210.272998760677439,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.808612291642314
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 624.671118282294401,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.371613137854207
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1905.75709401897393,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.408297406676875
+			}
+
+		}
+
+	}
+,
+	"log.46" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.46",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 209.270179894583038,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.752091197515437
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 621.525560781075342,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 3.231658758360854
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1896.414257976705812,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 2.363684301980477
+			}
+
+		}
+
+	}
+,
+	"log.47" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.47",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 200.244810099733741,
+				"preset-name" : "crottitsh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.243401350373535
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 593.215543270103808,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.972069342920689
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1812.328733596291158,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.962166359712898
+			}
+
+		}
+
+	}
+,
+	"log.48" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.48",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 192.222259170978759,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.791232597358509
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 568.051083260351106,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.852434306973869
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1737.586045258144622,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.605261522141714
+			}
+
+		}
+
+	}
+,
+	"log.49" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.49",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 190.216621438790014,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.678190409104753
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 561.759968257912988,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.572525547987167
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1718.900373173607932,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.516035312748918
+			}
+
+		}
+
+	}
+,
+	"log.50" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.50",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 185.202527108318179,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.395584938470362
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 546.032180751817577,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.127246349479599
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1672.186192962266432,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.292969789266928
+			}
+
+		}
+
+	}
+,
+	"log.51" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.51",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 182.194070510035061,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.226021656089728
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 536.595508248160399,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.547109487959652
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1644.157684835461396,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 1.159130475177735
+			}
+
+		}
+
+	}
+,
+	"log.52" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.52",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 178.182795045657599,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.000062720417784
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 524.013278243284049,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.106927005933061
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1606.786340666388242,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.980678056392144
+			}
+
+		}
+
+	}
+,
+	"log.53" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.53",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 170.160244116902618,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.452231473432809
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 498.848818233531404,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.226562041879879
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1532.043652328241706,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.62377321882096
+			}
+
+		}
+
+	}
+,
+	"log.54" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.54",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 167.1517875186195,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.621794755813443
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 489.412145729874226,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.646425180359935
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1504.015144201436897,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.489933904731767
+			}
+
+		}
+
+	}
+,
+	"log.55" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.55",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 163.140512054242038,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.847879132320955
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 476.829915724997932,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.206242698333343
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1466.643800032363743,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.311481485946176
+			}
+
+		}
+
+	}
+,
+	"log.56" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.56",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 159.129236589864519,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.073963508828469
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 464.247685720121581,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.766060216306752
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1429.272455863290361,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 0.133029067160583
+			}
+
+		}
+
+	}
+,
+	"log.57" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.57",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 156.120779991581401,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.243526791209103
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 454.811013216464403,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.18592335478681
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1401.243947736485552,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.00081024692861
+			}
+
+		}
+
+	}
+,
+	"log.58" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.58",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 153.112323393298311,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.413090073589737
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 445.374340712807111,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.605786493266865
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1373.215439609680743,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.134649561017803
+			}
+
+		}
+
+	}
+,
+	"log.59" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.59",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 146.092591330637731,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.808737732477883
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 423.355438204273696,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.585467149720327
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1307.815587313802553,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.446941293892588
+			}
+
+		}
+
+	}
+,
+	"log.60" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.60",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 143.084134732354585,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.978301014858519
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 413.918765700616405,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.005330288200388
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1279.787079186997516,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.580780607981783
+			}
+
+		}
+
+	}
+,
+	"log.61" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.61",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 139.072859267977122,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.20438539136603
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 401.33653569574011,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.565147806173794
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1242.415735017924362,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.759233026767374
+			}
+
+		}
+
+	}
+,
+	"log.62" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.62",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 135.06158380359966,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.430469767873542
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 388.754305690863816,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -7.124965324147202
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1205.044390848851208,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -0.937685445552965
+			}
+
+		}
+
+	}
+,
+	"log.63" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.63",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 133.055946071410915,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.543511956127298
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 382.463190688425698,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -7.404874083133905
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1186.358718764314744,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.02691165494576
+			}
+
+		}
+
+	}
+,
+	"log.64" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.64",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 129.044670607033424,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.769596332634812
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 369.88096068354929,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -7.964691601107317
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1148.987374595241135,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.205364073731353
+			}
+
+		}
+
+	}
+,
+	"log.65" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.65",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 128.041851740939023,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.82611742676169
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 366.735403182330231,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -8.104645980600669
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1139.644538552973017,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.24997717842775
+			}
+
+		}
+
+	}
+,
+	"log.66" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.66",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 121.022119678278472,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.221765085649836
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 344.716500673796759,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -9.084326637054131
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1074.244686257095054,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.562268911302535
+			}
+
+		}
+
+	}
+,
+	"log.67" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.67",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 120.019300812184099,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.278286179776714
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 341.570943172577699,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -9.224281016547483
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1064.901850214826709,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.606882015998933
+			}
+
+		}
+
+	}
+,
+	"log.68" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.68",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 116.008025347806594,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.504370556284227
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 328.988713167701349,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -9.784098534520895
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 1027.530506045753327,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.785334434784525
+			}
+
+		}
+
+	}
+,
+	"log.69" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.69",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 112.99956874952349,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.673933838664861
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 319.552040664044114,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -10.203961673000951
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 999.501997918948405,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -1.919173748873719
+			}
+
+		}
+
+	}
+,
+	"log.70" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.70",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 109.991112151240387,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.843497121045495
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 310.115368160386879,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -10.623824811481006
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 971.473489792143482,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.053013062962912
+			}
+
+		}
+
+	}
+,
+	"log.71" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.71",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 105.97983668686291,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.069581497553007
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 297.533138155510642,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -11.183642329454413
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 934.102145623070442,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.231465481748503
+			}
+
+		}
+
+	}
+,
+	"log.72" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.72",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 102.971380088579792,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.239144779933641
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 288.096465651853407,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -11.603505467934468
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 906.073637496265519,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.365304795837696
+			}
+
+		}
+
+	}
+,
+	"log.73" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.73",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 99.962923490296674,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.408708062314276
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 278.659793148196172,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -12.023368606414529
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 878.045129369460483,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.499144109926891
+			}
+
+		}
+
+	}
+,
+	"log.74" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.74",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 95.951648025919198,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.634792438821789
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 266.077563143319821,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -12.583186124387936
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 840.673785200387329,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.677596528712482
+			}
+
+		}
+
+	}
+,
+	"log.75" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.75",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 93.946010293730467,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.747834627075544
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 259.786448140881703,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -12.863094883374639
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 821.988113115850638,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.766822738105278
+			}
+
+		}
+
+	}
+,
+	"log.76" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.76",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 93.946010293730467,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.747834627075544
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 259.786448140881703,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -12.863094883374639
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 821.988113115850638,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.766822738105278
+			}
+
+		}
+
+	}
+,
+	"log.77" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.77",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 88.931915963258618,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.030440097709934
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 244.058660634786349,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -13.5628667808414
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 775.273932904509365,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -2.989888261587267
+			}
+
+		}
+
+	}
+,
+	"log.78" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.78",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 84.920640498881113,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.256524474217447
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 231.476430629909999,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -14.122684298814811
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 737.902588735435984,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.168340680372859
+			}
+
+		}
+
+	}
+,
+	"log.79" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.79",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 80.909365034503651,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.48260885072496
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 218.894200625033733,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -14.682501816788218
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 700.531244566362716,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.346793099158451
+			}
+
+		}
+
+	}
+,
+	"log.80" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.80",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 79.906546168409278,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.539129944851838
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 215.748643123814645,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -14.82245619628157
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 691.188408524094484,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.391406203854848
+			}
+
+		}
+
+	}
+,
+	"log.81" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.81",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 77.900908436220533,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.652172133105593
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 209.457528121376498,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -15.102364955268275
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 672.502736439557907,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.480632413247644
+			}
+
+		}
+
+	}
+,
+	"log.82" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.82",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 73.889632971843071,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -5.878256509613105
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 196.875298116500232,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -15.662182473241682
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 635.131392270484753,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.659084832033235
+			}
+
+		}
+
+	}
+,
+	"log.83" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.83",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 67.872719775276821,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.217383074374375
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 178.001953109185735,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.501908750201796
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 579.074376016874794,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.926763460211623
+			}
+
+		}
+
+	}
+,
+	"log.84" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.84",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 67.872719775276821,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.217383074374375
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 178.001953109185735,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.501908750201796
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 579.074376016874794,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -3.926763460211623
+			}
+
+		}
+
+	}
+,
+	"log.85" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.85",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 65.867082043088089,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.330425262628131
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 171.710838106747588,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.7818175091885
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 560.388703932338217,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.015989669604418
+			}
+
+		}
+
+	}
+,
+	"log.86" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.86",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 65.867082043088089,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.330425262628131
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 171.710838106747588,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.7818175091885
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 560.388703932338217,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.015989669604418
+			}
+
+		}
+
+	}
+,
+	"log.87" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.87",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 65.867082043088089,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : -6.330425262628131
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 171.710838106747588,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : -16.7818175091885
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 560.388703932338217,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1,
+				"gain" : -4.015989669604418
+			}
+
+		}
+
+	}
+,
+	"log.88" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "log.88",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 3,
+			"filter.1" : 			{
+				"frequency" : 65.867082043088089,
+				"preset-name" : "bluh",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -6.330425262628131
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 171.710838106747588,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -16.7818175091885
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 560.388703932338217,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : -4.015989669604418
+			}
+
+		}
+
+	}
 
 }

@@ -104,6 +104,26 @@
 		"gain" : 7.538804446762631
 	}
 ,
+	"test.2" : 	{
+		"frequency" : 986.410230922488154,
+		"preset-name" : "test.2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : 19.466366779589702
+	}
+,
+	"Golden frequency" : 	{
+		"frequency" : 432.0,
+		"preset-name" : "Golden frequency",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.618033988,
+		"gain" : 13.0
+	}
+,
 	"check.1" : 	{
 		"frequency" : 325.597168361530009,
 		"preset-name" : "check.1",
@@ -134,24 +154,14 @@
 		"gain" : 7.538804446762631
 	}
 ,
-	"test.2" : 	{
-		"frequency" : 986.410230922488154,
-		"preset-name" : "test.2",
+	"bluh" : 	{
+		"frequency" : 65.867082043088089,
+		"preset-name" : "bluh",
 		"ON" : 1,
 		"preset-description" : "undefined",
 		"filtermode" : "peaknotch",
 		"Q" : 1.0,
-		"gain" : 19.466366779589702
-	}
-,
-	"Golden frequency" : 	{
-		"frequency" : 432.0,
-		"preset-name" : "Golden frequency",
-		"ON" : 1,
-		"preset-description" : "undefined",
-		"filtermode" : "peaknotch",
-		"Q" : 1.618033988,
-		"gain" : 13.0
+		"gain" : -6.330425262628131
 	}
 
 }

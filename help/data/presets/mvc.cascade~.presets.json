@@ -1720,26 +1720,6 @@
 		"nfilters" : 1
 	}
 ,
-	"mcCascadeHelper" : 	{
-		"myFunkyMcCascade" : 		{
-			"filter.1" : 			{
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"gain" : -14.063945620741515,
-				"Q" : 1.0,
-				"filtermode" : "peaknotch",
-				"frequency" : 2527.909411720698699
-			}
-,
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "mcCascadeHelper::myFunkyMcCascade",
-			"nfilters" : 1
-		}
-
-	}
-,
 	"yop" : 	{
 		"filter.1" : 		{
 			"preset-description" : "undefined",
@@ -1795,128 +1775,6 @@
 			"frequency" : 2094.386831362621251
 		}
 
-	}
-,
-	"test.1" : 	{
-		"nfilters" : 1,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.1",
-		"filter.1" : 		{
-			"gain" : 12.156644250559863,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"frequency" : 167.676900455399021
-		}
-
-	}
-,
-	"test.2" : 	{
-		"filter.1" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : 5.614260403655868,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"frequency" : 156.128496550671116
-		}
-,
-		"filter.2" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : 7.538804446762631,
-			"Q" : 0.387490982370903,
-			"filtermode" : "peaknotch",
-			"frequency" : 856.444201167891379
-		}
-,
-		"filter.3" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : 5.999195395367186,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"frequency" : 4444.370149982041767
-		}
-,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.2",
-		"nfilters" : 3
-	}
-,
-	"test.3" : 	{
-		"filter.1" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : -19.899657644642133,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"frequency" : 132.146945254462224
-		}
-,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.3",
-		"nfilters" : 1
-	}
-,
-	"test.4" : 	{
-		"filter.1" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : -17.559946005087138,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"frequency" : 9652.815927902789554
-		}
-,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.4",
-		"nfilters" : 1
-	}
-,
-	"test.5" : 	{
-		"filter.1" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : 14.849895190644819,
-			"Q" : 0.475461442409946,
-			"filtermode" : "peaknotch",
-			"frequency" : 1371.396513631132848
-		}
-,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.5",
-		"nfilters" : 1
-	}
-,
-	"test.6" : 	{
-		"filter.1" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"gain" : -23.999963203521769,
-			"Q" : 1.0,
-			"filtermode" : "peaknotch",
-			"frequency" : 986.410230922488154
-		}
-,
-		"preset-description" : "undefined",
-		"ON" : 1,
-		"preset-name" : "test.6",
-		"nfilters" : 1
 	}
 ,
 	"EQ-channel 4" : 	{
@@ -1982,6 +1840,43 @@
 			"filtermode" : "highshelf",
 			"Q" : 4.244566724271825,
 			"gain" : -5.944558102726018
+		}
+
+	}
+,
+	"Mountain" : 	{
+		"preset-name" : "Mountain",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"nfilters" : 3,
+		"filter.1" : 		{
+			"frequency" : 325.597168361530009,
+			"preset-name" : "mountain.1",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 8.308538116233295
+		}
+,
+		"filter.2" : 		{
+			"frequency" : 986.410230922488154,
+			"preset-name" : "mountain.2",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 19.466366779589702
+		}
+,
+		"filter.3" : 		{
+			"frequency" : 2980.183238879828878,
+			"preset-name" : "mountain.3",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 7.538804446762631
 		}
 
 	}
