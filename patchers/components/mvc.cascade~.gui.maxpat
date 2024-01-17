@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 174.0, -848.0, 300.0, 483.0 ],
+		"rect" : [ 824.0, 53.0, 301.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,12 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "channel.1, channel.2",
+		"title" : "channel.1",
 		"boxes" : [ 			{
 				"box" : 				{
 					"border" : 0,
 					"filename" : "mvc.hatches.UI.js",
+					"hidden" : 1,
 					"id" : "obj-9",
 					"ignoreclick" : 1,
 					"jsarguments" : [ 0.8, 0.6, 0.8, 0.75 ],
@@ -74,7 +75,7 @@
 					"patching_rect" : [ 427.0, 401.0, 305.0, 121.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 56.0, 290.0, 125.0 ],
-					"setfilter" : [ 0, 5, 1, 0, 0, 1471.6981201171875, 10.275112152099609, 1.0, 0.0, 0.0, 0.06309600174427, 15.848932266235352, 0.0, 0.0 ],
+					"setfilter" : [ 0, 5, 1, 0, 0, 1000.0, 1.0, 1.0, 0.0, 0.0, 0.06309600174427, 15.848932266235352, 0.0, 0.0 ],
 					"varname" : "filtergraph~[1]"
 				}
 
@@ -86,13 +87,14 @@
 					"fgcolor" : [ 0.854901960784314, 0.980392156862745, 1.0, 0.56 ],
 					"id" : "obj-40",
 					"logfreq" : 1,
+					"markercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"maxclass" : "spectroscope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 127.0, 300.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -83.0, 56.0, 374.0, 144.0 ]
+					"presentation_rect" : [ -83.0, 56.0, 374.0, 124.0 ]
 				}
 
 			}
@@ -114,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 819.0, 87.0, 772.0, 686.0 ],
+						"rect" : [ 153.0, 330.0, 772.0, 686.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -327,7 +329,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
 									"patching_rect" : [ 318.0, 378.0, 58.0, 22.0 ],
-									"text" : "change 1"
+									"text" : "change 0"
 								}
 
 							}
@@ -363,7 +365,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 4.0, 269.0, 125.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "setvalue 1 set dummy"
 								}
 
@@ -2681,7 +2682,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 376.153931000000057, 90.0, 127.0, 23.0 ],
-									"text" : "150 150 450 620"
+									"text" : "150 150 450 499"
 								}
 
 							}
@@ -4907,7 +4908,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 876.0, 568.0, 85.0, 22.0 ],
-									"text" : "2 1"
+									"text" : "1"
 								}
 
 							}
@@ -8657,7 +8658,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.7072758, 0.7016625, 0.6952473, 0.4 ],
+					"bgcolor" : [ 0.9702, 0.9625, 0.9537, 0.4 ],
 					"border" : 1,
 					"bordercolor" : [ 0.56078431372549, 0.619607843137255, 0.709803921568627, 1.0 ],
 					"id" : "obj-26",
@@ -8671,7 +8672,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 471.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "12597-bgpanel"
+					"varname" : "14345-bgpanel"
 				}
 
 			}
