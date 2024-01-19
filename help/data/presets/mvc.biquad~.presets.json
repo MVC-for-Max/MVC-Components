@@ -163,5 +163,35 @@
 		"Q" : 1.0,
 		"gain" : -6.330425262628131
 	}
+,
+	"12dB peak @1kHz" : 	{
+		"frequency" : 1000.0,
+		"preset-name" : "12dB peak @1kHz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : 12.0
+	}
+,
+	"6dB peak @3kHz" : 	{
+		"frequency" : 3000.0,
+		"preset-name" : "6dB peak @3kHz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : 6.0
+	}
+,
+	"6dB peak at 333Hz" : 	{
+		"frequency" : 333.0,
+		"preset-name" : "6dB peak at 333Hz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : 6.0
+	}
 
 }

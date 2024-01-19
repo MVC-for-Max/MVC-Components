@@ -317,33 +317,33 @@
 			"preset-description" : "undefined",
 			"nfilters" : 3,
 			"filter.1" : 			{
-				"frequency" : 325.581386176461422,
-				"preset-name" : "crottitsh",
+				"frequency" : 333.0,
+				"preset-name" : "6dB peak at 333Hz",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 1.0,
-				"gain" : 8.307648597300267
+				"gain" : 6.0
 			}
 ,
 			"filter.2" : 			{
-				"frequency" : 986.360726697640985,
-				"preset-name" : "none",
+				"frequency" : 1000.0,
+				"preset-name" : "12dB peak @1kHz",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 1.0,
-				"gain" : 19.464164202441424
+				"gain" : 12.0
 			}
 ,
 			"filter.3" : 			{
-				"frequency" : 2980.036202986836997,
-				"preset-name" : "none",
+				"frequency" : 3000.0,
+				"preset-name" : "6dB peak @3kHz",
 				"ON" : 1,
 				"preset-description" : "undefined",
 				"filtermode" : "peaknotch",
 				"Q" : 1.0,
-				"gain" : 7.538102333650674
+				"gain" : 6.0
 			}
 
 		}
@@ -1665,6 +1665,60 @@
 				"filtermode" : "peaknotch",
 				"Q" : 1,
 				"gain" : -5.632218478717292
+			}
+
+		}
+
+	}
+,
+	"testing" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "testing",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"nfilters" : 4,
+			"filter.1" : 			{
+				"frequency" : 333.0,
+				"preset-name" : "6dB peak at 333Hz",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.0
+			}
+,
+			"filter.2" : 			{
+				"frequency" : 11378.81470477583207,
+				"preset-name" : "12dB peak @1kHz",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 5.614260403655868
+			}
+,
+			"filter.3" : 			{
+				"frequency" : 3000.0,
+				"preset-name" : "6dB peak @3kHz",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 6.0
+			}
+,
+			"filter.4" : 			{
+				"frequency" : 1109.624728911160446,
+				"preset-name" : "none",
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"filtermode" : "peaknotch",
+				"Q" : 1.0,
+				"gain" : 12.541412353490749
 			}
 
 		}
