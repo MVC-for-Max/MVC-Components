@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 824.0, 53.0, 301.0, 487.0 ],
+		"rect" : [ 150.0, 150.0, 300.0, 349.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,55 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "channel.1",
+		"title" : "no target",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "wclose" ],
+					"patching_rect" : [ 90.0, 587.0, 52.0, 22.0 ],
+					"text" : "t wclose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 90.0, 561.0, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.0, 619.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-11",
+					"index" : 1,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 90.0, 619.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"border" : 0,
 					"filename" : "mvc.hatches.UI.js",
@@ -61,9 +108,10 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"curvecolor" : [ 1.0, 1.0, 1.0, 0.5 ],
+					"curvecolor" : [ 0.5, 0.5, 0.5, 0.5 ],
 					"fontface" : 0,
 					"id" : "obj-71",
+					"ignoreclick" : 1,
 					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"maxclass" : "filtergraph~",
@@ -94,7 +142,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 127.0, 300.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -83.0, 56.0, 374.0, 124.0 ]
+					"presentation_rect" : [ -83.0, 56.0, 374.0, 144.0 ]
 				}
 
 			}
@@ -2850,7 +2898,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 67.0, 127.0, 69.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 150, 150, 450, 499, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -4548,10 +4596,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 316.0, 46.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -8295,12 +8339,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mvc.biquad~.gui.maxpat",
+					"name" : "mvc.biquad~.gui.small.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "wclose" ],
-					"patching_rect" : [ 90.0, 416.0, 300.0, 257.0 ],
+					"patching_rect" : [ 90.0, 416.0, 300.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 235.0, 300.0, 251.0 ],
 					"varname" : "mvc.biquad.gui",
@@ -8638,7 +8682,7 @@
 			}
 , 			{
 				"box" : 				{
-					"curvecolor" : [ 0.5, 1.0, 1.0, 1.0 ],
+					"curvecolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fontface" : 0,
 					"id" : "obj-39",
 					"ignoreclick" : 1,
@@ -8672,7 +8716,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 471.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "14345-bgpanel"
+					"varname" : "15677-bgpanel"
 				}
 
 			}
@@ -8737,6 +8781,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 5 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -8756,6 +8816,13 @@
 					"midpoints" : [ 454.5, 389.75, 436.5, 389.75 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
