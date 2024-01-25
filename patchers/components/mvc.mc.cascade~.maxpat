@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, 325.0, 755.0, 570.0 ],
+		"rect" : [ 870.0, 311.0, 755.0, 570.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -442,7 +442,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 96.0, 224.0, 414.0, 22.0 ],
+					"patching_rect" : [ 96.0, 224.0, 411.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -460,7 +460,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 447.0, 86.0, 22.0 ],
+					"patching_rect" : [ 82.0, 447.0, 86.0, 22.0 ],
 					"text" : "mvc.mc.send~"
 				}
 
@@ -483,7 +483,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1355.0, 176.0, 291.0, 382.0 ],
+						"rect" : [ 1088.0, 253.0, 354.0, 298.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -518,7 +518,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 101.75, 198.0, 91.0, 22.0 ],
+									"patching_rect" : [ 106.75, 199.428571428571388, 91.0, 22.0 ],
 									"text" : "set $2/audioout"
 								}
 
@@ -530,7 +530,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 51.0, 85.0, 34.0, 22.0 ],
+									"patching_rect" : [ 51.0, 77.142857142857139, 34.0, 22.0 ],
 									"text" : "sel 1"
 								}
 
@@ -542,7 +542,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 51.0, 114.0, 77.0, 22.0 ],
+									"patching_rect" : [ 51.0, 107.714285714285708, 77.0, 22.0 ],
 									"text" : "zl.reg get uid"
 								}
 
@@ -554,7 +554,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 101.75, 168.0, 60.0, 22.0 ],
+									"patching_rect" : [ 106.75, 168.857142857142833, 60.0, 22.0 ],
 									"text" : "zl change"
 								}
 
@@ -566,7 +566,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 5,
 									"outlettype" : [ "dictionary", "", "", "", "" ],
-									"patching_rect" : [ 51.0, 138.0, 242.0, 22.0 ],
+									"patching_rect" : [ 51.0, 138.285714285714278, 242.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"legacy" : 1,
@@ -585,7 +585,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.5, 56.0, 89.0, 22.0 ],
+									"patching_rect" : [ 50.5, 46.571428571428569, 89.0, 22.0 ],
 									"text" : "route initialized"
 								}
 
@@ -611,7 +611,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 101.75, 244.0, 30.0, 30.0 ]
+									"patching_rect" : [ 107.0, 229.999999999999943, 30.0, 30.0 ]
 								}
 
 							}
@@ -668,7 +668,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 491.0, 372.0, 69.0, 22.0 ],
+					"patching_rect" : [ 488.0, 372.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -865,7 +865,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 304.0, 318.0, 76.0, 22.0 ],
+					"patching_rect" : [ 358.5, 317.0, 76.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -896,8 +896,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "clear", "", "bang", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "clear", "", "" ],
 					"patching_rect" : [ 163.0, 267.0, 344.0, 24.0 ],
 					"text" : "mvc.cascade~.model #0.channel #0 channel.1"
 				}
@@ -975,7 +975,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 48.0, 477.0, 332.0, 22.0 ],
+					"patching_rect" : [ 48.0, 477.0, 387.0, 22.0 ],
 					"text" : "mc.*~ 1"
 				}
 
@@ -983,12 +983,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 48.0, 397.0, 216.333333333333314, 35.0 ],
+					"patching_rect" : [ 48.0, 397.0, 296.5, 22.0 ],
 					"text" : "mc.cascade~ @busymapname #0.busymap"
 				}
 
@@ -1026,7 +1025,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 66.0, 30.0, 30.0 ]
 				}
 
@@ -1073,7 +1072,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"order" : 1,
-					"source" : [ "obj-19", 3 ]
+					"source" : [ "obj-19", 2 ]
 				}
 
 			}
@@ -1081,7 +1080,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
-					"source" : [ "obj-19", 3 ]
+					"source" : [ "obj-19", 2 ]
 				}
 
 			}
@@ -1182,7 +1181,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 313.5, 386.5, 57.5, 386.5 ],
+					"midpoints" : [ 368.0, 386.5, 57.5, 386.5 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1190,7 +1189,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
-					"midpoints" : [ 370.5, 346.0, 88.5, 346.0 ],
+					"midpoints" : [ 425.0, 346.0, 88.5, 346.0 ],
 					"order" : 1,
 					"source" : [ "obj-45", 1 ]
 				}
@@ -1207,7 +1206,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 500.5, 439.5, 146.5, 439.5 ],
+					"midpoints" : [ 497.5, 439.5, 158.5, 439.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

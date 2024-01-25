@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -92,8 +92,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -154,8 +154,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -201,8 +201,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
+											"major" : 8,
+											"minor" : 6,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -341,7 +341,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 3,
-													"outlettype" : [ "", "int", "initialized" ],
+													"outlettype" : [ "", "int", "" ],
 													"patching_rect" : [ 50.0, 91.0, 360.0, 22.0 ],
 													"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/filtermode"
 												}
@@ -503,7 +503,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "initialized" ],
+									"outlettype" : [ "", "int", "" ],
 									"patching_rect" : [ 358.5, 421.5, 333.0, 22.0 ],
 									"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/gain"
 								}
@@ -531,7 +531,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "initialized" ],
+									"outlettype" : [ "", "int", "" ],
 									"patching_rect" : [ 358.5, 358.0, 363.0, 22.0 ],
 									"text" : "mvc.remote mcbiquadHelper/myFunkyBiquad/channel.1/frequency"
 								}
@@ -758,7 +758,6 @@
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -994,6 +993,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
+			"obj-51::obj-3::obj-5::obj-25::obj-61::obj-20.1::obj-19::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-5::obj-25::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[7]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1001,6 +1002,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-51::obj-3::obj-5::obj-25::obj-61::obj-20.1::obj-19::obj-8::obj-7" : 				{
+					"parameter_longname" : "live.toggle[1]"
+				}
+,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
 					"parameter_longname" : "live.tab[4]"
 				}

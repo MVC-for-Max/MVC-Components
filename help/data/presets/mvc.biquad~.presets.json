@@ -155,13 +155,13 @@
 	}
 ,
 	"bluh" : 	{
-		"frequency" : 65.867082043088089,
+		"frequency" : 96.838528826918818,
 		"preset-name" : "bluh",
 		"ON" : 1,
 		"preset-description" : "undefined",
-		"filtermode" : "peaknotch",
+		"filtermode" : "lowpass",
 		"Q" : 1.0,
-		"gain" : -6.330425262628131
+		"gain" : -1.70312503569235
 	}
 ,
 	"12dB peak @1kHz" : 	{
@@ -192,6 +192,36 @@
 		"filtermode" : "peaknotch",
 		"Q" : 1.0,
 		"gain" : 6.0
+	}
+,
+	"-6dB notch @70Hz" : 	{
+		"frequency" : 70.0,
+		"preset-name" : "-6dB notch @70Hz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : -6.0
+	}
+,
+	"-12dB notch @150Hz" : 	{
+		"frequency" : 150.0,
+		"preset-name" : "-12dB notch @150Hz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : -12.0
+	}
+,
+	"-6dB notch @400Hz" : 	{
+		"frequency" : 400.0,
+		"preset-name" : "-6dB notch @400Hz",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : -6.0
 	}
 
 }
