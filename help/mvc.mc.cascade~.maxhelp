@@ -205,6 +205,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -727,7 +728,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 739.0, 109.0, 856.0, 928.0 ],
+										"rect" : [ 739.0, 88.0, 856.0, 928.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -755,6 +756,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"format" : 6,
@@ -1116,333 +1118,6 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-45",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"classnamespace" : "box",
-														"rect" : [ 1142.0, 87.0, 494.0, 529.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
-														"boxes" : [ 															{
-																"box" : 																{
-																	"id" : "obj-47",
-																	"linecount" : 33,
-																	"maxclass" : "comment",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 35.0, 29.0, 443.0, 462.0 ],
-																	"text" : "format :\npreset preset-action [preset1] [preset2] [interp-value] @address theAddress\n\neg.\n\npreset recall \npreset recall toto\npreset recall \"demo preset\" @address channel.1\n\npreset save\npreset save @adress channel.{1..5} @confirm 0\n\npreset saveas\npreset saveas toto.{1..3} @adress channel.{1..3}\npreset saveas toto.{1..3} @adress channel.{1..3} @confirm 0\n\npreset saveas\npreset saveas toto.{1..3}\npreset saveas toto.{1..3} @adress channel.{1..3} @confirm 0\n\npreset delete\npreset delete toto.{1..3}\npreset delete toto.{1..3} @adress channel.{1..3} @confirm 0\n\npreset rename\npreset rename toto.{1..3}\npreset rename toto.{1..3} zozo.{1..3}\npreset rename toto.{1..3} zozo.{1..3} @adress channel.{1..3} @confirm 0\n\npreset interpolate\npreset interpolate toto.{1..3}\npreset interpolate toto.{1..3} zozo.{1..3}\npreset interpolate toto.{1..3} zozo.{1..3} @adress channel.{1..3} @confirm 0\n"
-																}
-
-															}
- ],
-														"lines" : [  ]
-													}
-,
-													"patching_rect" : [ 622.0, 459.0, 59.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p format3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-62",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"classnamespace" : "box",
-														"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
-														"boxes" : [ 															{
-																"box" : 																{
-																	"id" : "obj-47",
-																	"linecount" : 4,
-																	"maxclass" : "comment",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 61.0, 57.0, 263.0, 60.0 ],
-																	"text" : "format :\npreset preset-action args @address theAddress\n\n- address given as an argument"
-																}
-
-															}
- ],
-														"lines" : [  ]
-													}
-,
-													"patching_rect" : [ 622.0, 430.0, 59.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p format2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-60",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 0,
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 8,
-															"minor" : 6,
-															"revision" : 0,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"classnamespace" : "box",
-														"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
-														"boxes" : [ 															{
-																"box" : 																{
-																	"id" : "obj-58",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 388.0, 311.0, 55.0, 22.0 ],
-																	"text" : "zl slice 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-57",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "zlclear" ],
-																	"patching_rect" : [ 50.0, 207.0, 429.0, 22.0 ],
-																	"text" : "t l zlclear"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-56",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 350.0, 359.0, 84.0, 22.0 ],
-																	"text" : "zl.reg address"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-54",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 350.0, 281.0, 55.0, 22.0 ],
-																	"text" : "zl slice 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-53",
-																	"maxclass" : "newobj",
-																	"numinlets" : 8,
-																	"numoutlets" : 8,
-																	"outlettype" : [ "", "", "", "", "", "", "", "" ],
-																	"patching_rect" : [ 50.0, 250.0, 319.0, 22.0 ],
-																	"text" : "route recall save saveas delete rename interpolate editdict"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-48",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 175.0, 73.0, 22.0 ],
-																	"text" : "route preset"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-47",
-																	"linecount" : 4,
-																	"maxclass" : "comment",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 51.0, 100.0, 233.0, 60.0 ],
-																	"text" : "format :\npreset [address] preset-action args @attrs\n\n- address is always in the 2nd place"
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-57", 0 ],
-																	"source" : [ "obj-48", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-54", 0 ],
-																	"source" : [ "obj-53", 7 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-56", 0 ],
-																	"source" : [ "obj-54", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-53", 0 ],
-																	"source" : [ "obj-57", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-56", 0 ],
-																	"midpoints" : [ 469.5, 348.0, 359.5, 348.0 ],
-																	"source" : [ "obj-57", 1 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 622.0, 398.0, 59.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
-													}
-,
-													"text" : "p format1"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-104",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -1539,7 +1214,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 895.0, 263.0, 366.0, 35.0 ],
+													"patching_rect" : [ 895.0, 263.0, 367.0, 35.0 ],
 													"text" : "preset channel.1/filter.{1..3} interpolate check.{3..1} mountain.{1..3} $1"
 												}
 
