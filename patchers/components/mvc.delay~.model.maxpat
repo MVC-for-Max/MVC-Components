@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -48,8 +48,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -426,12 +426,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.0, 187.5, 89.0, 22.0 ],
-					"text" : "set setvalue $1"
+					"patching_rect" : [ 208.0, 187.5, 120.0, 22.0 ],
+					"text" : "prepend set setvalue"
 				}
 
 			}
@@ -531,7 +531,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 84.0, 128.5, 267.0, 49.0 ],
-					"text" : "mvc.parameter #1 time @type decimal @description \"Delay time\" @unit ms @default 100 @min 0 @max 10000"
+					"text" : "mvc.parameter #1 time @type decimal @description \"Delay time\" @unit ms @default 100 @range 0 10000 @clip both"
 				}
 
 			}
