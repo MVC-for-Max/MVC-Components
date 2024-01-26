@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -104,8 +104,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -227,8 +227,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
+											"major" : 8,
+											"minor" : 6,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -729,7 +729,8 @@
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 388.0, 351.483109919571007, 215.0, 16.0 ],
-									"setminmax" : [ 20.0, 20000.0 ]
+									"setminmax" : [ -2400.0, 2400.0 ],
+									"signed" : 1
 								}
 
 							}
@@ -739,7 +740,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "int", "initialized" ],
+									"outlettype" : [ "", "int", "" ],
 									"patching_rect" : [ 388.0, 374.0, 307.0, 22.0 ],
 									"text" : "mvc.remote pitchshiftHelper/myFunkypitchshift/pitchshift"
 								}
@@ -808,7 +809,6 @@
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -1037,7 +1037,7 @@
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-21::obj-12::obj-8::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-51::obj-3::obj-8::obj-5::obj-25::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[7]", "live.toggle", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],
 			"obj-51::obj-7::obj-35" : [ "[1]", "Level", 0 ],
 			"parameterbanks" : 			{
@@ -1047,10 +1047,6 @@
 			"parameter_overrides" : 			{
 				"obj-51::obj-21::obj-12::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[5]"
-				}
-,
-				"obj-51::obj-3::obj-8::obj-5::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[1]"
 				}
 ,
 				"obj-51::obj-7::obj-21::obj-6" : 				{
