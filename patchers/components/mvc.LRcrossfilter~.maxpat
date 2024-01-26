@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 384.0, 130.0, 55.0, 22.0 ],
+					"text" : "zl.slice 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 56.5, 115.0, 22.0 ],
+					"patching_rect" : [ 555.0, 56.5, 118.0, 22.0 ],
 					"text" : "mvc.isloading #0"
 				}
 
@@ -53,7 +65,7 @@
 				"box" : 				{
 					"comment" : "High band audio output",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -93,7 +105,7 @@
 				"box" : 				{
 					"comment" : "Dump out",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -108,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 35.0, 129.5, 139.0, 22.0 ],
+					"patching_rect" : [ 35.0, 129.5, 142.0, 22.0 ],
 					"text" : "mvc.bypass.mono #0"
 				}
 
@@ -132,7 +144,7 @@
 				"box" : 				{
 					"comment" : "Settings",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -145,7 +157,7 @@
 				"box" : 				{
 					"comment" : "Low band audio output",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -157,11 +169,11 @@
 				"box" : 				{
 					"comment" : "Audio input",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 35.0, 52.5, 30.0, 30.0 ]
 				}
 
@@ -183,15 +195,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
-					"source" : [ "obj-16", 1 ]
+					"destination" : [ "obj-55", 1 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 1 ],
-					"source" : [ "obj-16", 0 ]
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-16", 1 ]
 				}
 
 			}
@@ -237,8 +249,14 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+ ]
 	}
 
 }
