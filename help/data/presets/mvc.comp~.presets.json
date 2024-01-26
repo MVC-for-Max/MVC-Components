@@ -2,5 +2,25 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"Demo preset 1" : 	{
+		"ratio" : 2.411021814006888,
+		"release" : 269.0,
+		"threshold" : -38.0,
+		"preset-name" : "Demo preset 1",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"attack" : 9.0
+	}
+,
+	"Demo preset 2" : 	{
+		"ratio" : 99.999999999999915,
+		"release" : 500.0,
+		"threshold" : -36.0,
+		"preset-name" : "Demo preset 2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"attack" : 0.0
+	}
 
 }
