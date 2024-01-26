@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -58,8 +58,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -474,12 +474,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"maxclass" : "message",
+					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 301.0, 29.5, 22.0 ],
-					"text" : "$2"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 131.0, 301.0, 47.0, 22.0 ],
+					"text" : "zl.nth 2"
 				}
 
 			}
@@ -546,12 +546,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.5, 308.000000000000114, 89.0, 22.0 ],
-					"text" : "set setvalue $1"
+					"patching_rect" : [ 513.5, 308.000000000000114, 120.0, 22.0 ],
+					"text" : "prepend set setvalue"
 				}
 
 			}
@@ -644,12 +644,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 156.500000000000114, 89.0, 22.0 ],
-					"text" : "set setvalue $1"
+					"patching_rect" : [ 327.0, 156.500000000000114, 120.0, 22.0 ],
+					"text" : "prepend set setvalue"
 				}
 
 			}
@@ -753,18 +753,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 526.0, 59.0, 22.0 ],
-					"text" : "append 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -818,13 +806,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-11", 1 ]
@@ -1106,7 +1087,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
