@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 381.0, 855.0, 508.0 ],
+		"rect" : [ 595.0, 235.0, 841.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,40 +42,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 396.0, 183.0, 108.0, 22.0 ],
-					"text" : "jsargs mvc.limiter~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 38.5, 195.0, 265.0, 22.0 ],
-					"text" : "mvc.helpfiller mvc.limiter~ @tags component"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-55",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "mvc.limiter~" ],
+					"jsarguments" : [ "mvc.mc.mb.limiter~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 264.031982421875, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 415.44793701171875, 57.599853515625 ]
 				}
 
 			}
@@ -85,7 +62,7 @@
 					"filename" : "helpdetails.js",
 					"id" : "obj-53",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "mvc.limiter~" ],
+					"jsarguments" : [ "mvc.mc.mb.limiter~" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -112,7 +89,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 855.0, 482.0 ],
+						"rect" : [ 0.0, 26.0, 841.0, 530.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -145,7 +122,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 166.0, 146.5, 25.0, 22.0 ],
+					"patching_rect" : [ 91.0, 146.5, 25.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -174,7 +151,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 407.0, 855.0, 482.0 ],
+						"rect" : [ 595.0, 261.0, 841.0, 530.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -205,6 +182,161 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 483.5, 172.0, 176.0, 22.0 ],
+									"text" : "mvc.device mcmbLimiterHelper"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 637.5, 205.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 637.5, 137.0, 30.0, 22.0 ],
+									"text" : "GUI"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
+									"bubble" : 1,
+									"bubbleside" : 2,
+									"id" : "obj-9",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 472.0, 276.5, 111.0, 39.0 ],
+									"text" : "... or use a remote."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
+									"bubble" : 1,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 358.5, 204.0, 131.0, 37.0 ],
+									"text" : "... or with the \"param\" message..."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
+									"bubble" : 1,
+									"id" : "obj-2",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 306.5, 161.5, 150.0, 37.0 ],
+									"text" : "Control parmeters with the internal GUI..."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetails.js",
+									"id" : "obj-53",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "mvc.mc.mb.limiter~" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 10.0, 10.0, 561.0, 106.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"logfreq" : 1,
+									"maxclass" : "spectroscope~",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 173.5, 323.5, 149.0, 96.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 22.5, 239.5, 65.0, 22.0 ],
+									"text" : "mc.dup~ 6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-33",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 294.5, 211.5, 62.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 294.5, 243.5, 207.0, 22.0 ],
+									"text" : "param channel.1/band.1/threshold $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 277.5, 169.0, 30.0, 22.0 ],
+									"text" : "GUI"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"contdata" : 1,
 									"ghostbar" : 70,
 									"id" : "obj-12",
@@ -214,8 +346,8 @@
 									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 444.5, 382.500000000000114, 215.0, 16.0 ],
-									"setminmax" : [ 1.0, 5000.0 ]
+									"patching_rect" : [ 357.5, 391.5, 379.0, 16.0 ],
+									"setminmax" : [ 1.0, 20000.0 ]
 								}
 
 							}
@@ -226,8 +358,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "" ],
-									"patching_rect" : [ 444.5, 400.500000000000114, 240.0, 22.0 ],
-									"text" : "mvc.remote limiterHelper/myLimiter/release"
+									"patching_rect" : [ 357.5, 412.5, 379.0, 22.0 ],
+									"text" : "mvc.remote mcmbLimiterHelper/myLimiter/channel.1/band.1/release"
 								}
 
 							}
@@ -242,179 +374,35 @@
 									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 444.5, 320.972654155495775, 215.0, 16.0 ],
+									"patching_rect" : [ 357.5, 317.972654155495661, 379.0, 16.0 ],
 									"setminmax" : [ -72.0, 6.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "" ],
-									"patching_rect" : [ 444.5, 343.489544235924768, 250.0, 22.0 ],
-									"text" : "mvc.remote limiterHelper/myLimiter/threshold"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 673.5, 10.0, 30.0, 22.0 ],
-									"text" : "GUI"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
-									"bubble" : 1,
-									"bubbleside" : 2,
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 496.5, 283.0, 143.0, 39.0 ],
-									"text" : "... or send with a remote."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
-									"bubble" : 1,
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 358.5, 243.5, 131.0, 37.0 ],
-									"text" : "... or with the \"param\" message..."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 1.0, 0.933333333333333, 0.0, 0.33 ],
-									"bubble" : 1,
-									"id" : "obj-2",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 306.5, 191.5, 150.0, 37.0 ],
-									"text" : "Control parmeters with the internal GUI..."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"border" : 0,
-									"filename" : "helpdetails.js",
-									"id" : "obj-53",
-									"ignoreclick" : 1,
-									"jsarguments" : [ "mvc.limiter~" ],
-									"maxclass" : "jsui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 438.0, 108.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.0, 0.101960784313725, 0.447058823529412, 1.0 ],
-									"fontsize" : 18.0,
-									"id" : "obj-37",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 487.5, 37.0, 205.0, 29.0 ],
-									"text" : "mvc.device limiterHelper",
-									"varname" : "mvc.device"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-30",
-									"maxclass" : "spectroscope~",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 173.5, 353.5, 149.0, 96.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 22.5, 269.5, 65.0, 22.0 ],
-									"text" : "mc.dup~ 6"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"format" : 6,
-									"id" : "obj-33",
-									"maxclass" : "flonum",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 294.5, 251.0, 62.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-31",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 294.5, 283.0, 112.0, 22.0 ],
-									"text" : "param threshold $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 277.5, 199.0, 30.0, 22.0 ],
-									"text" : "GUI"
+									"patching_rect" : [ 357.5, 340.489544235924654, 382.0, 22.0 ],
+									"text" : "mvc.remote mcmbLimiterHelper/myLimiter/channel.1/band.1/threshold"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"lastchannelcount" : 6,
+									"lastchannelcount" : 1,
 									"maxclass" : "mc.live.gain~",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"orientation" : 1,
 									"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 22.5, 353.5, 136.0, 60.0 ],
+									"patching_rect" : [ 22.5, 323.5, 136.0, 30.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "mc.live.gain~[3]",
@@ -439,7 +427,7 @@
 									"maxclass" : "mc.ezdac~",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.5, 415.5, 45.0, 45.0 ]
+									"patching_rect" : [ 22.5, 389.5, 45.0, 45.0 ]
 								}
 
 							}
@@ -460,22 +448,21 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 22.5, 168.5, 225.0, 95.0 ],
+									"patching_rect" : [ 22.5, 122.5, 225.0, 95.0 ],
 									"viewvisibility" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 22.5, 308.5, 274.0, 22.0 ],
-									"text" : "mvc.limiter~ limiterHelper myLimiter",
-									"varname" : "mvc.limiter~"
+									"patching_rect" : [ 22.5, 278.5, 294.0, 22.0 ],
+									"text" : "mvc.mc.mb.LR-limiter~ mcmbLimiterHelper myLimiter"
 								}
 
 							}
@@ -490,6 +477,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
+									"midpoints" : [ 367.0, 444.5, 353.0, 444.5, 353.0, 380.5, 367.0, 380.5 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -505,6 +493,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-17", 1 ]
 								}
 
 							}
@@ -547,7 +542,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 1 ],
+									"destination" : [ "obj-17", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -555,6 +550,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
+									"midpoints" : [ 367.0, 372.489544235924654, 352.0, 372.489544235924654, 352.0, 306.972654155495661, 367.0, 306.972654155495661 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -573,82 +569,6 @@
 								}
 
 							}
- ],
-						"styles" : [ 							{
-								"name" : "AudioStatus_Menu",
-								"default" : 								{
-									"bgfillcolor" : 									{
-										"angle" : 270.0,
-										"autogradient" : 0,
-										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
-										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
-										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"proportion" : 0.39,
-										"type" : "color"
-									}
-
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "Jamoma_highlighted_orange",
-								"default" : 								{
-									"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "ksliderWhite",
-								"default" : 								{
-									"color" : [ 1, 1, 1, 1 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "newobjBlue-1",
-								"default" : 								{
-									"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "newobjGreen-1",
-								"default" : 								{
-									"accentcolor" : [ 0, 0.533333, 0.168627, 1 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "numberGold-1",
-								"default" : 								{
-									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
-, 							{
-								"name" : "tap-dark",
-								"default" : 								{
-									"editing_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"fontname" : [ "Ableton Sans Light Regular" ],
-									"locked_bgcolor" : [ 0.133333, 0.133333, 0.133333, 1.0 ],
-									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
-							}
  ]
 					}
 ,
@@ -666,23 +586,7 @@
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"parameters" : 		{
 			"obj-51::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
 			"obj-51::obj-7::obj-21::obj-6" : [ "live.tab[4]", "live.tab[1]", 0 ],

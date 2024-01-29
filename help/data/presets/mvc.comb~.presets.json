@@ -2,5 +2,25 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"Demo preset 1" : 	{
+		"gain" : 1.0,
+		"preset-name" : "Demo preset 1",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"delay" : 27.0,
+		"feedback" : 0.85,
+		"feedforward" : 0.0
+	}
+,
+	"Demo preset 2" : 	{
+		"gain" : -1.0,
+		"preset-name" : "Demo preset 2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"delay" : 0.5,
+		"feedback" : 0.0,
+		"feedforward" : 0.999
+	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 150.0, 769.0, 532.0 ],
+		"rect" : [ 150.0, 150.0, 300.0, 250.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "no target",
+		"title" : "myFunkyBiquad",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-17",
@@ -70,6 +70,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 85.0, 472.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -78,7 +82,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2310,10 +2314,9 @@
 			}
 , 			{
 				"box" : 				{
-					"curvecolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"curvecolor" : [ 0.5, 1.0, 1.0, 1.0 ],
 					"fontface" : 0,
 					"id" : "obj-54",
-					"ignoreclick" : 1,
 					"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"maxclass" : "filtergraph~",
@@ -2779,6 +2782,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 363.0, 39.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -2883,7 +2890,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2909,7 +2916,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 250.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2,
-					"varname" : "6221-bgpanel"
+					"varname" : "12796-bgpanel"
 				}
 
 			}

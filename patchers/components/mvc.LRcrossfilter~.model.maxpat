@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 480.0, 529.0, 852.0, 416.0 ],
+		"rect" : [ 707.0, 252.0, 852.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,8 +48,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -553,7 +553,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "init" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 753.5, 44.5, 30.0, 30.0 ]
 				}
 
@@ -581,7 +581,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 89.0, 739.5, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type mvc.LRcrossfilter~"
+					"text" : "mvc.model #0 #1 #2 @type mvc.LRcrossfilter~",
+					"varname" : "mvc.model"
 				}
 
 			}
