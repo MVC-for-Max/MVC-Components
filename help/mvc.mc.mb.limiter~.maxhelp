@@ -264,7 +264,7 @@
 									"filename" : "helpdetails.js",
 									"id" : "obj-53",
 									"ignoreclick" : 1,
-									"jsarguments" : [ "mvc.mc.mb.limiter~" ],
+									"jsarguments" : [ "mvc.mc.mb.LR-limiter~" ],
 									"maxclass" : "jsui",
 									"numinlets" : 1,
 									"numoutlets" : 1,

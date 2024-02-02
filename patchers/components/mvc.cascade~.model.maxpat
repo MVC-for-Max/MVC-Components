@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 695.0, 478.0, 805.0, 503.0 ],
+		"rect" : [ 551.0, 491.0, 805.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -220,11 +220,11 @@
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 51.0, 212.0, 261.0, 22.0 ],
-									"text" : "route chained-ON @parent #1"
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "int", "" ],
+									"patching_rect" : [ 51.0, 212.0, 263.0, 22.0 ],
+									"text" : "mvc.remote chained-ON @parent #1"
 								}
 
 							}
@@ -713,7 +713,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 239.0, 387.0, 329.0, 367.0 ],
+										"rect" : [ 65.0, 612.0, 423.0, 404.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -742,6 +742,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 100.0, 136.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-3",
 													"linecount" : 2,
@@ -963,6 +975,14 @@
 												"patchline" : 												{
 													"destination" : [ "obj-15", 0 ],
 													"source" : [ "obj-39", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"midpoints" : [ 138.0, 197.0 ],
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
@@ -4021,13 +4041,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-26", 0 ]
 				}
 
 			}

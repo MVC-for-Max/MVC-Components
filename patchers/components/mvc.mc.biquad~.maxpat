@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 286.0, 634.0, 513.0 ],
+		"rect" : [ 88.0, 147.0, 891.0, 499.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -888,7 +888,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 96.5, 122.0, 333.0, 35.0 ],
+					"patching_rect" : [ 96.5, 122.0, 334.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 64"
 				}
 

@@ -2,5 +2,103 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"bleg" : 	{
+		"channelcount" : "Stereo",
+		"preset-name" : "bleg",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"frequency" : 167.676900455399021,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 14.080423146782566
+		}
+,
+		"channel.2" : 		{
+			"frequency" : 2300.969555871642115,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 7.153920685882741
+		}
+
+	}
+,
+	"7968.view" : 	{
+		"channelcount" : "Stereo",
+		"preset-name" : "7968.view",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"frequency" : 167.676900455399021,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 14.080423146782566
+		}
+,
+		"channel.2" : 		{
+			"frequency" : 2300.969555871642115,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 7.153920685882741
+		}
+
+	}
+,
+	"blueh" : 	{
+		"channelcount" : "Mono",
+		"preset-name" : "blueh",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"frequency" : 1000.0,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : 0.0
+		}
+
+	}
+,
+	"hag" : 	{
+		"channelcount" : "Stereo",
+		"preset-name" : "hag",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"channel.1" : 		{
+			"frequency" : 163.736639474731135,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : -15.616031519813253
+		}
+,
+		"channel.2" : 		{
+			"frequency" : 2300.969555871642115,
+			"preset-name" : "none",
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"filtermode" : "peaknotch",
+			"Q" : 1.0,
+			"gain" : -20.681627635730685
+		}
+
+	}
 
 }
