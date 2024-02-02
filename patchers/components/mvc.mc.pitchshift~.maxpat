@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -96,8 +96,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -297,12 +297,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 299.0, 57.0, 22.0 ],
-					"text" : "chans $1"
+					"patching_rect" : [ 271.0, 299.0, 88.0, 22.0 ],
+					"text" : "prepend chans"
 				}
 
 			}
@@ -321,7 +321,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -364,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 167.0, 355.0, 380.499999999999943, 24.0 ],
+					"patching_rect" : [ 167.0, 355.0, 428.0, 24.0 ],
 					"text" : "mvc.pitchshift~.model #0.pitchshift #0 channel.1 @autoinit 0"
 				}
 
@@ -399,7 +399,7 @@
 				"box" : 				{
 					"comment" : "settings",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -412,7 +412,7 @@
 				"box" : 				{
 					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -424,7 +424,7 @@
 				"box" : 				{
 					"comment" : "signal in",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -582,8 +582,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
