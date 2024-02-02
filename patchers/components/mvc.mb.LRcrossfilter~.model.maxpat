@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 378.0, 360.0, 814.0, 492.0 ],
+		"rect" : [ 378.0, 377.0, 814.0, 475.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2570,8 +2570,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 74.583333333333371, 287.0, 397.0, 24.0 ],
-					"text" : "mvc.LRcrossfilter~.model #1 xover.1 @autoinit 0"
+					"patching_rect" : [ 74.583333333333371, 287.0, 258.0, 24.0 ],
+					"text" : "mvc.LRcrossfilter~.model #1 xover.1 "
 				}
 
 			}
@@ -2651,7 +2651,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-67",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,

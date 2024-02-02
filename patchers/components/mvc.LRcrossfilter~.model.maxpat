@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 707.0, 252.0, 852.0, 416.0 ],
+		"rect" : [ 232.0, -543.0, 836.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -541,7 +541,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.0, 185.0, 50.0, 22.0 ]
+					"patching_rect" : [ 164.0, 197.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -553,7 +553,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "init" ],
 					"patching_rect" : [ 753.5, 44.5, 30.0, 30.0 ]
 				}
 
@@ -562,13 +562,13 @@
 				"box" : 				{
 					"color" : [ 0.407843137254902, 0.529411764705882, 0.36078431372549, 1.0 ],
 					"id" : "obj-6",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 164.0, 117.0, 262.0, 62.0 ],
-					"text" : "mvc.parameter.decimal #0 frequency @description \"filter frequency\" @unit Hz @default function harmonic 1000 @range 30 20000 @clip both"
+					"patching_rect" : [ 164.0, 134.0, 262.0, 49.0 ],
+					"text" : "mvc.parameter.decimal #0 frequency @description \"filter frequency\" @unit Hz @default 1000 @range 30 20000 @clip both"
 				}
 
 			}
