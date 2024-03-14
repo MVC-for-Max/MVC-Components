@@ -14,7 +14,13 @@
 	}
 ,
 	"onenotch" : 	{
-		"preset-name" : "onenotch"
+		"frequency" : 5239.251118992995544,
+		"preset-name" : "onenotch",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.0,
+		"gain" : 16.388781732741535
 	}
 
 }

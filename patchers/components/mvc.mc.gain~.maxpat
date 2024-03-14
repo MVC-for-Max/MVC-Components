@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 114.0, 310.0, 723.0, 510.0 ],
+		"rect" : [ 1068.0, 281.0, 723.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 292.0, 190.0, 22.0 ],
+					"patching_rect" : [ 488.0, 292.0, 213.0, 22.0 ],
 					"text" : "mvc.DSPrefresh #1"
 				}
 
@@ -134,9 +134,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 0,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -703,7 +703,7 @@
 				"box" : 				{
 					"comment" : "settings output",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -714,12 +714,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 315.5, 57.0, 22.0 ],
-					"text" : "chans $1"
+					"patching_rect" : [ 144.0, 315.5, 88.0, 22.0 ],
+					"text" : "prepend chans"
 				}
 
 			}
@@ -745,9 +745,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 0,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -788,8 +788,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 166.0, 77.0, 22.0 ],
-									"text" : "name $1, init"
+									"patching_rect" : [ 150.0, 166.0, 55.0, 22.0 ],
+									"text" : "name $1"
 								}
 
 							}
@@ -949,7 +949,7 @@
 				"box" : 				{
 					"comment" : "settings input",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -962,7 +962,7 @@
 				"box" : 				{
 					"comment" : "signal out",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -974,11 +974,11 @@
 				"box" : 				{
 					"comment" : "signal in",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 64.0, 37.0, 30.0, 30.0 ]
 				}
 
@@ -1131,8 +1131,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

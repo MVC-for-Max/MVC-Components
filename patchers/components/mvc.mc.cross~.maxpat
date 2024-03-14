@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -89,12 +89,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 278.0, 57.0, 22.0 ],
-					"text" : "chans $1"
+					"patching_rect" : [ 181.0, 278.0, 88.0, 22.0 ],
+					"text" : "prepend chans"
 				}
 
 			}
@@ -108,9 +108,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 0,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -147,12 +147,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"maxclass" : "message",
-									"numinlets" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 167.0, 77.0, 22.0 ],
-									"text" : "name $1, init"
+									"patching_rect" : [ 150.0, 167.0, 86.0, 22.0 ],
+									"text" : "prepend name"
 								}
 
 							}
@@ -171,12 +171,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"maxclass" : "message",
+									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 59.0, 137.0, 61.0, 22.0 ],
-									"text" : "channel.1"
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 59.0, 137.0, 93.0, 22.0 ],
+									"text" : "zl.reg channel.1"
 								}
 
 							}
@@ -329,7 +329,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 206.0, 310.0, 296.0, 24.0 ],
-					"text" : "mvc.cross~.model #0.Xfilter #0 channel.1 @autoinit 0"
+					"text" : "mvc.cross~.model #0.Xfilter #0 channel.1 "
 				}
 
 			}
@@ -337,7 +337,7 @@
 				"box" : 				{
 					"comment" : "dumpout",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -349,7 +349,7 @@
 				"box" : 				{
 					"comment" : "Highpass filtered output",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -387,7 +387,7 @@
 				"box" : 				{
 					"comment" : "settings ",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -400,7 +400,7 @@
 				"box" : 				{
 					"comment" : "Lowpassed filtered output",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -412,11 +412,11 @@
 				"box" : 				{
 					"comment" : "Signal input (multichannel)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 35.0, 30.5, 30.0, 30.0 ]
 				}
 
@@ -569,8 +569,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
