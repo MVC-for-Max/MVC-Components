@@ -22,5 +22,35 @@
 		"Q" : 1.0,
 		"gain" : 16.388781732741535
 	}
+,
+	"check.1" : 	{
+		"frequency" : 77.999731849261721,
+		"preset-name" : "check.1",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "highpass",
+		"Q" : 1.397,
+		"gain" : 0.60853662738397
+	}
+,
+	"check.2" : 	{
+		"frequency" : 393.342666292262265,
+		"preset-name" : "check.2",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.397,
+		"gain" : 6.769024956259463
+	}
+,
+	"check.3" : 	{
+		"frequency" : 412.364054433814943,
+		"preset-name" : "check.3",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"filtermode" : "peaknotch",
+		"Q" : 1.397,
+		"gain" : 5.614260403655868
+	}
 
 }
