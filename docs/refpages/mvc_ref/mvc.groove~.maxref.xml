@@ -7,14 +7,14 @@
 <!-- <i> mvc.overview.maxpat </i> : references a patcher -->
 <!-- <at>default</at> : references an attribute -->
 
-<c74object name="mvc.groove~" module="aim" kind="patcher" category="component">
+<c74object name="mvc.groove~" module="mvc" kind="patcher" category="component">
 
 	<digest>
 		Variable-rate looping sample playback.
 	</digest>
 	
 	<description>
-		<o>mvc.groove~</o> provides an aim wrapper around the <o>groove~</o> object.
+		<o>mvc.groove~</o> provides an mvc wrapper around the <o>groove~</o> object.
 	</description>
 	
 	<!--METADATA-->
